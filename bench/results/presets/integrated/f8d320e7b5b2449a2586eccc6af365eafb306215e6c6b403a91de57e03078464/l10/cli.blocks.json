@@ -1,0 +1,67 @@
+[
+  {
+    "level": 10,
+    "file": "enwik8",
+    "archive_sha256": "991fc41d44d5581a31808c1e531549219ff43ffdba75a0dca79cd599b07a6815",
+    "cli_sha256": "650525ab340439b6a7fe7e112ae0eaaba357257363ba73b5c7c5921bd71e7313",
+    "original_bytes": 100000000,
+    "archive_bytes": 30566906,
+    "blocks": 4,
+    "layout_pieces": 0,
+    "framing_bytes": 36,
+    "embedded_dictionary_bytes": 0,
+    "row_strides_in_samples": {},
+    "representations": [
+      {
+        "tag": 13,
+        "name": "LZ with extended distances",
+        "blocks": 4,
+        "original_bytes": 100000000,
+        "payload_bytes": 30566870
+      }
+    ]
+  },
+  {
+    "level": 10,
+    "file": "mozilla",
+    "archive_sha256": "70f11d4eddf20e173dfcfd721d0038a3c0b9ab7e0c9ca1e096cfc2a951f394a6",
+    "cli_sha256": "650525ab340439b6a7fe7e112ae0eaaba357257363ba73b5c7c5921bd71e7313",
+    "original_bytes": 51220480,
+    "archive_bytes": 16571828,
+    "blocks": 319,
+    "layout_pieces": 2662,
+    "framing_bytes": 15448,
+    "embedded_dictionary_bytes": 0,
+    "row_strides_in_samples": {},
+    "representations": [
+      {
+        "tag": 1,
+        "name": "LZ",
+        "blocks": 110,
+        "original_bytes": 17595800,
+        "payload_bytes": 6101875
+      },
+      {
+        "tag": 4,
+        "name": "records",
+        "blocks": 5,
+        "original_bytes": 819200,
+        "payload_bytes": 296710
+      },
+      {
+        "tag": 9,
+        "name": "record columns",
+        "blocks": 56,
+        "original_bytes": 8575352,
+        "payload_bytes": 1369939
+      },
+      {
+        "tag": 12,
+        "name": "instruction banks",
+        "blocks": 148,
+        "original_bytes": 24230128,
+        "payload_bytes": 8787856
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+file,codec,round,order,raw_bytes,compressed_bytes,compress_seconds,decompress_seconds
+bench/data/squash-extra/plrabn12.txt,zstd,1,0,481861,220959,0.000928322,0.000277126
+bench/data/squash-extra/plrabn12.txt,btrcmpr,1,1,481861,219887,0.001099786,0.000310283
+bench/data/squash-extra/plrabn12.txt,btrcmpr,2,0,481861,219887,0.001041693,0.000303912
+bench/data/squash-extra/plrabn12.txt,zstd,2,1,481861,220959,0.001014730,0.000294050
+bench/data/squash-extra/plrabn12.txt,zstd,3,0,481861,220959,0.000808007,0.000532888
+bench/data/squash-extra/plrabn12.txt,btrcmpr,3,1,481861,219887,0.001195139,0.000328439
+bench/data/squash-extra/plrabn12.txt,btrcmpr,4,0,481861,219887,0.001032082,0.000425321
+bench/data/squash-extra/plrabn12.txt,zstd,4,1,481861,220959,0.001550216,0.000450255
+bench/data/squash-extra/plrabn12.txt,zstd,5,0,481861,220959,0.000839192,0.000322122
+bench/data/squash-extra/plrabn12.txt,btrcmpr,5,1,481861,219887,0.001117805,0.000329230

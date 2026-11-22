@@ -1,0 +1,10 @@
+{
+  "file": "xml",
+  "level": 22,
+  "archive_sha256": "4fdafc1d4141b3a5c4a875b1efb90bb2f87e4d4da8a8ce662984c0b1aeee6484",
+  "archive_bytes": 505369,
+  "raw_and_restored_sha256": "0e82e54e695c1938e4193448022543845b33020c8be6bf3bf3ead2224903e08c",
+  "trial_sha256": "6148a3ed54412bcbafc06b38a1bb50097e09f8992dc1afd089163c86afeb83a7",
+  "started_utc": "2026-11-22T19:07:05.005259+00:00",
+  "completed_utc": "2026-11-22T19:07:26.497585+00:00"
+}

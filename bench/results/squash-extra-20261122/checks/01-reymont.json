@@ -1,0 +1,10 @@
+{
+  "file": "reymont",
+  "level": 1,
+  "archive_sha256": "bd0748494c6f0990cc74582c23f2dc4a508c9e8c667876f257b22bdeb1cd9865",
+  "archive_bytes": 2238208,
+  "raw_and_restored_sha256": "0eac0114a3dfe6e2ee1f345a0f79d653cb26c3bc9f0ed79238af4933422b7578",
+  "trial_sha256": "19ab551d9cf8669c206bbf207993ce2c34b1559148df7ead043c10f4769dd9d5",
+  "started_utc": "2026-11-22T18:55:17.910890+00:00",
+  "completed_utc": "2026-11-22T18:55:18.534114+00:00"
+}

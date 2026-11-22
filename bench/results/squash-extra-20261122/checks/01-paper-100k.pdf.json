@@ -1,0 +1,10 @@
+{
+  "file": "paper-100k.pdf",
+  "level": 1,
+  "archive_sha256": "a69183c5909f18dafca445ea0995b7fd0364693c734c6fc1ae3878768bfbde6c",
+  "archive_bytes": 83107,
+  "raw_and_restored_sha256": "60f73a051b7ca35bfec44734b2eed7736cb5c0b7f728beb7b97ade6c5e44849b",
+  "trial_sha256": "d7624724bf30923627a459a16dc9f5994d3961600e4202c3e6800523b224c631",
+  "started_utc": "2026-11-22T18:55:17.772432+00:00",
+  "completed_utc": "2026-11-22T18:55:17.791561+00:00"
+}

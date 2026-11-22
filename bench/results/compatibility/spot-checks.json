@@ -1,0 +1,36 @@
+{
+  "checked_utc": "2026-11-22T19:32:58.437714+00:00",
+  "cli_sha256": "d70b78ebeaad8e6ec738795cd24ee6a487e1754124594dd3f30d14cdfbb3af01",
+  "comparator_sha256": "9053ff18dc2f37920268cf82699ba55079567c9d69e5602ec03b39a1fc12b7d4",
+  "libzstd_sha256": "1279c4edfbfb08878b5b7fb40d392c1bdc9b30100d9b7a019d4aefaf10d2046c",
+  "workers": 4,
+  "warmup": 1,
+  "rounds": 5,
+  "decodes_per_observation": 7,
+  "scope": [
+    [
+      "original",
+      1,
+      [
+        "enwik8",
+        "x-ray",
+        "mozilla"
+      ]
+    ],
+    [
+      "original",
+      10,
+      [
+        "enwik8"
+      ]
+    ],
+    [
+      "extra",
+      3,
+      [
+        "grammar.lsp",
+        "osdb"
+      ]
+    ]
+  ]
+}

@@ -1,0 +1,11 @@
+file,codec,round,order,raw_bytes,compressed_bytes,compress_seconds,decompress_seconds
+bench/data/squash-extra/geo.protodata,zstd,1,0,118588,20306,0.000623338,0.000094527
+bench/data/squash-extra/geo.protodata,btrcmpr,1,1,118588,21541,0.001356122,0.000210737
+bench/data/squash-extra/geo.protodata,btrcmpr,2,0,118588,21541,0.001711422,0.000650029
+bench/data/squash-extra/geo.protodata,zstd,2,1,118588,20306,0.000712691,0.000151390
+bench/data/squash-extra/geo.protodata,zstd,3,0,118588,20306,0.000862100,0.000144655
+bench/data/squash-extra/geo.protodata,btrcmpr,3,1,118588,21541,0.001546587,0.000199139
+bench/data/squash-extra/geo.protodata,btrcmpr,4,0,118588,21541,0.001256251,0.000189150
+bench/data/squash-extra/geo.protodata,zstd,4,1,118588,20306,0.000664228,0.000101056
+bench/data/squash-extra/geo.protodata,zstd,5,0,118588,20306,0.000548875,0.000104117
+bench/data/squash-extra/geo.protodata,btrcmpr,5,1,118588,21541,0.001359215,0.000183470

@@ -1,0 +1,12 @@
+{
+  "comparator": "f8d320e7b5b2449a2586eccc6af365eafb306215e6c6b403a91de57e03078464",
+  "cli": "650525ab340439b6a7fe7e112ae0eaaba357257363ba73b5c7c5921bd71e7313",
+  "profile": "5e65c0341e08cbb4179d44b28206fc5a51c2153e826fae2b0e89d4afbaedc375",
+  "settings": {
+    "lto": "thin",
+    "codegen_units": 1,
+    "target_cpu": "native"
+  },
+  "regional_scan": 7,
+  "profile_data_sha256": "cc810f4fbaed6cbab2a287b1818bad353ef51bda2895e1e43c7b4bdc80568672"
+}

@@ -1,0 +1,3 @@
+level,file,threads,rounds,btr_bytes,zstd_bytes,encode_speedup,decode_speedup,size_pass,encode_pass,decode_pass,all_pass
+7,enwik8,4,5,31999117,32031234,1.1952,1.0303,1,1,1,1
+7,mozilla,4,5,16884111,17077755,1.5391,1.1027,1,1,1,1

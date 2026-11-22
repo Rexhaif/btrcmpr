@@ -1,0 +1,11 @@
+file,codec,round,order,raw_bytes,compressed_bytes,compress_seconds,decompress_seconds
+bench/data/squash-extra/fields.c,zstd,1,0,11150,3844,0.001034265,0.000086683
+bench/data/squash-extra/fields.c,btrcmpr,1,1,11150,5033,0.002553330,0.000108704
+bench/data/squash-extra/fields.c,btrcmpr,2,0,11150,5033,0.002772628,0.000112572
+bench/data/squash-extra/fields.c,zstd,2,1,11150,3844,0.001136988,0.000148556
+bench/data/squash-extra/fields.c,zstd,3,0,11150,3844,0.002766387,0.000105990
+bench/data/squash-extra/fields.c,btrcmpr,3,1,11150,5033,0.002567700,0.000129154
+bench/data/squash-extra/fields.c,btrcmpr,4,0,11150,5033,0.003634540,0.000124374
+bench/data/squash-extra/fields.c,zstd,4,1,11150,3844,0.001676288,0.000119924
+bench/data/squash-extra/fields.c,zstd,5,0,11150,3844,0.001033784,0.000085945
+bench/data/squash-extra/fields.c,btrcmpr,5,1,11150,5033,0.002620626,0.000136622

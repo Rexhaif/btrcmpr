@@ -1,0 +1,10 @@
+{
+  "file": "ooffice",
+  "level": 10,
+  "archive_sha256": "e0d6f018f470f28b05f5fb5ac4b1fb871b6139beb3d5fc433438319ad1b934c5",
+  "archive_bytes": 2960477,
+  "raw_and_restored_sha256": "e7ee013880d34dd5208283d0d3d91b07f442e067454276095ded14f322a656eb",
+  "trial_sha256": "dd232271af6952dd36b1dafbdd2f0bb5854a6ed7a787dc7bbbf1f94631401274",
+  "started_utc": "2026-11-22T18:55:58.900735+00:00",
+  "completed_utc": "2026-11-22T18:56:08.814085+00:00"
+}

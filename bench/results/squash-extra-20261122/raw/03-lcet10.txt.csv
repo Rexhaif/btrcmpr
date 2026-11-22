@@ -1,0 +1,11 @@
+file,codec,round,order,raw_bytes,compressed_bytes,compress_seconds,decompress_seconds
+bench/data/squash-extra/lcet10.txt,zstd,1,0,426754,152932,0.001999054,0.000289153
+bench/data/squash-extra/lcet10.txt,btrcmpr,1,1,426754,151901,0.004831984,0.000259076
+bench/data/squash-extra/lcet10.txt,btrcmpr,2,0,426754,151901,0.004595205,0.000252277
+bench/data/squash-extra/lcet10.txt,zstd,2,1,426754,152932,0.002135758,0.000283833
+bench/data/squash-extra/lcet10.txt,zstd,3,0,426754,152932,0.004997782,0.000275849
+bench/data/squash-extra/lcet10.txt,btrcmpr,3,1,426754,151901,0.005006209,0.000532346
+bench/data/squash-extra/lcet10.txt,btrcmpr,4,0,426754,151901,0.004684743,0.000263574
+bench/data/squash-extra/lcet10.txt,zstd,4,1,426754,152932,0.002269649,0.000277338
+bench/data/squash-extra/lcet10.txt,zstd,5,0,426754,152932,0.002117554,0.000277296
+bench/data/squash-extra/lcet10.txt,btrcmpr,5,1,426754,151901,0.006495091,0.000352376

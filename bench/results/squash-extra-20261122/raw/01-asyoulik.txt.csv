@@ -1,0 +1,11 @@
+file,codec,round,order,raw_bytes,compressed_bytes,compress_seconds,decompress_seconds
+bench/data/squash-extra/asyoulik.txt,zstd,1,0,125179,56540,0.000326262,0.000160417
+bench/data/squash-extra/asyoulik.txt,btrcmpr,1,1,125179,58714,0.000394022,0.000138596
+bench/data/squash-extra/asyoulik.txt,btrcmpr,2,0,125179,58714,0.000651134,0.000194337
+bench/data/squash-extra/asyoulik.txt,zstd,2,1,125179,56540,0.000860100,0.000465900
+bench/data/squash-extra/asyoulik.txt,zstd,3,0,125179,56540,0.000299354,0.000129914
+bench/data/squash-extra/asyoulik.txt,btrcmpr,3,1,125179,58714,0.000397984,0.000127070
+bench/data/squash-extra/asyoulik.txt,btrcmpr,4,0,125179,58714,0.000397077,0.000163671
+bench/data/squash-extra/asyoulik.txt,zstd,4,1,125179,56540,0.000308039,0.000131210
+bench/data/squash-extra/asyoulik.txt,zstd,5,0,125179,56540,0.000288335,0.000132477
+bench/data/squash-extra/asyoulik.txt,btrcmpr,5,1,125179,58714,0.000639764,0.000126231

@@ -1,0 +1,11 @@
+file,codec,round,order,raw_bytes,compressed_bytes,compress_seconds,decompress_seconds
+bench/data/squash-extra/samba,zstd,1,0,21606400,4974899,0.148462809,0.019518218
+bench/data/squash-extra/samba,btrcmpr,1,1,21606400,5158627,0.165658782,0.012421827
+bench/data/squash-extra/samba,btrcmpr,2,0,21606400,5158627,0.131640929,0.012298138
+bench/data/squash-extra/samba,zstd,2,1,21606400,4974899,0.136208781,0.013184253
+bench/data/squash-extra/samba,zstd,3,0,21606400,4974899,0.135715480,0.013837108
+bench/data/squash-extra/samba,btrcmpr,3,1,21606400,5158627,0.128614127,0.012224198
+bench/data/squash-extra/samba,btrcmpr,4,0,21606400,5158627,0.127043778,0.012355016
+bench/data/squash-extra/samba,zstd,4,1,21606400,4974899,0.134392857,0.014283320
+bench/data/squash-extra/samba,zstd,5,0,21606400,4974899,0.133856297,0.013093438
+bench/data/squash-extra/samba,btrcmpr,5,1,21606400,5158627,0.139884939,0.012344815

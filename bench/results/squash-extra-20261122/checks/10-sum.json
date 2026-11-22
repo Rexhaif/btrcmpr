@@ -1,0 +1,10 @@
+{
+  "file": "sum",
+  "level": 10,
+  "archive_sha256": "226cdf149df2ada114922acddd897689740082a7dd654e791b2a563c0eb9372f",
+  "archive_bytes": 16567,
+  "raw_and_restored_sha256": "ee5733cd76ecc2f9d8ff156adc3c02a7a851051dcf43a2d56ff4ee4ff606bdb3",
+  "trial_sha256": "cadd5c3d1780811c79e1701a0459dea9b01b17724f672336806e37bf018d5b41",
+  "started_utc": "2026-11-22T18:56:58.282769+00:00",
+  "completed_utc": "2026-11-22T18:56:58.324409+00:00"
+}

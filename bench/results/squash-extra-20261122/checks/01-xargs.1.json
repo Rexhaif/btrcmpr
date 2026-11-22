@@ -1,0 +1,10 @@
+{
+  "file": "xargs.1",
+  "level": 1,
+  "archive_sha256": "e88765e81ff2542308b1201c7a1903649deeb66611e472b670386709d6314b5c",
+  "archive_bytes": 3014,
+  "raw_and_restored_sha256": "c58aeb5d2d1e12751d47e7412b45784405fc30a5671b03d480fa05776e183619",
+  "trial_sha256": "cb4c1e943d342a64fe612afb2065a5092e7bd696cef48c16d44ba334436f0531",
+  "started_utc": "2026-11-22T18:55:21.001282+00:00",
+  "completed_utc": "2026-11-22T18:55:21.020850+00:00"
+}

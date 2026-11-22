@@ -1,0 +1,10 @@
+{
+  "file": "plrabn12.txt",
+  "level": 22,
+  "archive_sha256": "e591f17ca7982c79639c403b14bc218a37c46708278128ccf7d920576683e75d",
+  "archive_bytes": 194198,
+  "raw_and_restored_sha256": "07e2e0b461af78c7c647cb53dab39de560198e16f799b4516eccf0fbd69f764c",
+  "trial_sha256": "302e5fa1fd2d120111344c5ff2898691c16538c65aa2a42deb966886c8c2e140",
+  "started_utc": "2026-11-22T19:02:06.670456+00:00",
+  "completed_utc": "2026-11-22T19:02:07.850707+00:00"
+}

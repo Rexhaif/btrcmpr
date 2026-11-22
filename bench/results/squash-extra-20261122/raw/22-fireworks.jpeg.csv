@@ -1,0 +1,11 @@
+file,codec,round,order,raw_bytes,compressed_bytes,compress_seconds,decompress_seconds
+bench/data/squash-extra/fireworks.jpeg,zstd,1,0,123093,122962,0.004664676,0.000118149
+bench/data/squash-extra/fireworks.jpeg,btrcmpr,1,1,123093,123103,0.007512378,0.000114384
+bench/data/squash-extra/fireworks.jpeg,btrcmpr,2,0,123093,123103,0.008593273,0.000159847
+bench/data/squash-extra/fireworks.jpeg,zstd,2,1,123093,122962,0.008724366,0.000117017
+bench/data/squash-extra/fireworks.jpeg,zstd,3,0,123093,122962,0.004623416,0.000126874
+bench/data/squash-extra/fireworks.jpeg,btrcmpr,3,1,123093,123103,0.007774639,0.000129421
+bench/data/squash-extra/fireworks.jpeg,btrcmpr,4,0,123093,123103,0.008741107,0.000158305
+bench/data/squash-extra/fireworks.jpeg,zstd,4,1,123093,122962,0.011613995,0.000109977
+bench/data/squash-extra/fireworks.jpeg,zstd,5,0,123093,122962,0.004643509,0.000124421
+bench/data/squash-extra/fireworks.jpeg,btrcmpr,5,1,123093,123103,0.008000196,0.000117980

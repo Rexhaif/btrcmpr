@@ -1,0 +1,10 @@
+{
+  "file": "lcet10.txt",
+  "level": 3,
+  "archive_sha256": "7f5d88c12441b22fa12a566fc971d5c2b4e351473d2b051f6cf525038b68d87b",
+  "archive_bytes": 151901,
+  "raw_and_restored_sha256": "5314ba1dbb03f471df88bec6cd120a938ef60d0fd3511c5c1dce61bf7463245f",
+  "trial_sha256": "221d73b20d2f891c932606e11ced690a861ce7f82647312a9557969a242c9c02",
+  "started_utc": "2026-11-22T18:54:34.185002+00:00",
+  "completed_utc": "2026-11-22T18:54:34.280058+00:00"
+}

@@ -1,0 +1,3 @@
+level,file,allow_decode_loss_pct,decode_delta_pct,all_pass_with_allowance
+19,enwik8,5,26.67386,1
+19,mozilla,5,0.98089,1

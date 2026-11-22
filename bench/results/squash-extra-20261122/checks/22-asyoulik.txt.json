@@ -1,0 +1,10 @@
+{
+  "file": "asyoulik.txt",
+  "level": 22,
+  "archive_sha256": "d83e637ea6797745b40a527c2d29698f42755de86c4f86df0cb0ed17cc7c15d0",
+  "archive_bytes": 53436,
+  "raw_and_restored_sha256": "eaa3526fe53859f34ecdf255712f9ecf0b2c903451d4755b2edaa2e2599cb0fc",
+  "trial_sha256": "c5479d9ccdeb36bda4bc32dac3452bf2e4021ecdef6a686ebba31a65c6d3db92",
+  "started_utc": "2026-11-22T18:57:40.418084+00:00",
+  "completed_utc": "2026-11-22T18:57:40.656695+00:00"
+}

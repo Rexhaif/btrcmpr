@@ -1,0 +1,10 @@
+{
+  "file": "cp.html",
+  "level": 10,
+  "archive_sha256": "ad660ae05c82d30cf9b45b6e7ffed16fccb1fe098be1a5a8cd22a3664eb6bb7a",
+  "archive_bytes": 10868,
+  "raw_and_restored_sha256": "e0cd21cef5b6c4069461e949be100080c3ce887de6f1dd8626c480528efaaf61",
+  "trial_sha256": "89e87eec683737f1214264c58734e3158ca71803c6fb18f705753440d5f006e9",
+  "started_utc": "2026-11-22T18:55:25.679761+00:00",
+  "completed_utc": "2026-11-22T18:55:25.740943+00:00"
+}

@@ -1,0 +1,11 @@
+file,codec,round,order,raw_bytes,compressed_bytes,compress_seconds,decompress_seconds
+bench/data/squash-extra/grammar.lsp,zstd,1,0,3721,1683,0.000167428,0.000091535
+bench/data/squash-extra/grammar.lsp,btrcmpr,1,1,3721,2283,0.000260947,0.000675233
+bench/data/squash-extra/grammar.lsp,btrcmpr,2,0,3721,2283,0.000325373,0.000091958
+bench/data/squash-extra/grammar.lsp,zstd,2,1,3721,1683,0.000103130,0.000078382
+bench/data/squash-extra/grammar.lsp,zstd,3,0,3721,1683,0.000089074,0.000077194
+bench/data/squash-extra/grammar.lsp,btrcmpr,3,1,3721,2283,0.000153020,0.000077424
+bench/data/squash-extra/grammar.lsp,btrcmpr,4,0,3721,2283,0.000139723,0.000123930
+bench/data/squash-extra/grammar.lsp,zstd,4,1,3721,1683,0.000114667,0.000076638
+bench/data/squash-extra/grammar.lsp,zstd,5,0,3721,1683,0.000083556,0.000079143
+bench/data/squash-extra/grammar.lsp,btrcmpr,5,1,3721,2283,0.000196631,0.000090874

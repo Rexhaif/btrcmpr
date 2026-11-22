@@ -1,0 +1,31 @@
+{
+  "comparator_sha256": "f8d320e7b5b2449a2586eccc6af365eafb306215e6c6b403a91de57e03078464",
+  "cli_sha256": "650525ab340439b6a7fe7e112ae0eaaba357257363ba73b5c7c5921bd71e7313",
+  "libzstd_sha256": "1279c4edfbfb08878b5b7fb40d392c1bdc9b30100d9b7a019d4aefaf10d2046c",
+  "rust_cli": "target/verified/all-22-f8d320e7b5b2/btrcmpr",
+  "zstd_version": "1.5.7",
+  "threads": 4,
+  "rounds": 5,
+  "warmup_pairs": 1,
+  "decodes_per_observation": 7,
+  "reference": "four independent frames in wide mode",
+  "kernel": "6.18.39+rpt-rpi-v8",
+  "cpu_affinity": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "started_utc": "2026-11-22T18:54:31.148853+00:00",
+  "roundtrip": "timed comparator asserts equality for both codecs; standalone CLI size and full restoration checked separately",
+  "timing": "in-memory median per codec; wall throughput based on original bytes; includes worker startup, excludes file I/O",
+  "criteria": "bytes strictly smaller; median encode time strictly lower; decode throughput >= 0.95 times zstd",
+  "requested_presets": [
+    1,
+    3,
+    10,
+    22
+  ],
+  "dataset_scope": "All 25 published Squash datasets other than the original enwik8, x-ray and mozilla",
+  "tolerance_unit": "per file and level, not the corpus aggregate"
+}

@@ -1,0 +1,10 @@
+{
+  "file": "geo.protodata",
+  "level": 3,
+  "archive_sha256": "936316800d8a9388155fb9401642daa5eb69de0fb49b82b9dc6db89adc02b548",
+  "archive_bytes": 21541,
+  "raw_and_restored_sha256": "7c2875cd6d06c954240ba644618d1e1f2a167e4541731f019de5b4c1f8080f24",
+  "trial_sha256": "4158e544de451055f5e9029800b8ef095ff06f1cdb039ccd91d1254c4c0da5d0",
+  "started_utc": "2026-11-22T18:54:33.973871+00:00",
+  "completed_utc": "2026-11-22T18:54:34.015703+00:00"
+}

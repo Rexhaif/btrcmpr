@@ -1,0 +1,67 @@
+[
+  {
+    "level": 22,
+    "file": "enwik8",
+    "archive_sha256": "cb9730f56714e94d8c4fddf2a6d13f961ead7d7f7959c8627f684c80cdb5a8c0",
+    "cli_sha256": "650525ab340439b6a7fe7e112ae0eaaba357257363ba73b5c7c5921bd71e7313",
+    "original_bytes": 100000000,
+    "archive_bytes": 26790565,
+    "blocks": 4,
+    "layout_pieces": 0,
+    "framing_bytes": 36,
+    "embedded_dictionary_bytes": 2435154,
+    "row_strides_in_samples": {},
+    "representations": [
+      {
+        "tag": 50,
+        "name": "shared phrase dictionary and first token stream",
+        "blocks": 1,
+        "original_bytes": 25000000,
+        "payload_bytes": 8535007
+      },
+      {
+        "tag": 51,
+        "name": "shared dictionary token stream",
+        "blocks": 3,
+        "original_bytes": 75000000,
+        "payload_bytes": 18255522
+      }
+    ]
+  },
+  {
+    "level": 22,
+    "file": "mozilla",
+    "archive_sha256": "0c87b8368738ef399f34b33fda47380166e56bfe8d6d5a8351e2ec839493af98",
+    "cli_sha256": "650525ab340439b6a7fe7e112ae0eaaba357257363ba73b5c7c5921bd71e7313",
+    "original_bytes": 51220480,
+    "archive_bytes": 15148357,
+    "blocks": 118,
+    "layout_pieces": 2662,
+    "framing_bytes": 14043,
+    "embedded_dictionary_bytes": 0,
+    "row_strides_in_samples": {},
+    "representations": [
+      {
+        "tag": 1,
+        "name": "LZ",
+        "blocks": 41,
+        "original_bytes": 17595800,
+        "payload_bytes": 5851493
+      },
+      {
+        "tag": 9,
+        "name": "record columns",
+        "blocks": 24,
+        "original_bytes": 9394552,
+        "payload_bytes": 1605785
+      },
+      {
+        "tag": 21,
+        "name": "adaptive instruction banks",
+        "blocks": 53,
+        "original_bytes": 24230128,
+        "payload_bytes": 7677036
+      }
+    ]
+  }
+]

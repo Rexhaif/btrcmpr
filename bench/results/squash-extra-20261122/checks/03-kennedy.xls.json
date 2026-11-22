@@ -1,0 +1,10 @@
+{
+  "file": "kennedy.xls",
+  "level": 3,
+  "archive_sha256": "9533ebb3ba8b8e0245859ad00dfef8f00f37c7b17df42c38fbea0d3ff4836cdf",
+  "archive_bytes": 142180,
+  "raw_and_restored_sha256": "9af47239ca29dfe20e633f80bbbb9a4cc9783d0803d7b2b5626f42e4c3790420",
+  "trial_sha256": "cc21ccc38935004fd0fb975883f9930538417cbd199d44b418dc8bdc3de1af13",
+  "started_utc": "2026-11-22T18:54:34.038833+00:00",
+  "completed_utc": "2026-11-22T18:54:34.183777+00:00"
+}

@@ -1,0 +1,134 @@
+file,level,archive_sha256,tag,representation,blocks,original_bytes,payload_bytes,evidence
+enwik8,1,3ddeb7aeba7bf01fb362831aadae68d9fc7669c0e7a4c5dd7c1492b5dacb3884,1,LZ,256,100000000,40512069,../../research/combined-rebuild/cli.blocks.json
+mozilla,1,f54ae7dea0b95b63833b429e83ed914fc3d6634771d539f8559afa8aacc4ef89,1,LZ,215,41825928,17859783,../../research/combined-rebuild/cli.blocks.json
+mozilla,1,f54ae7dea0b95b63833b429e83ed914fc3d6634771d539f8559afa8aacc4ef89,4,records,76,9394552,2056836,../../research/combined-rebuild/cli.blocks.json
+x-ray,1,f873ba0ba59afdcc73c61ea007f6c77eec75636cb60d6253bf551f83010cfd2d,6,adjacent 16-bit predictor,8,8474240,4330425,../../research/combined-rebuild/cli.blocks.json
+enwik8,2,6a41fd1a22a8562a01fb0dd27118e725a1eaaa3057e2b9288f0dc704f668e11a,1,LZ,112,100000000,37231700,independently recaptured with frozen standalone CLI
+mozilla,2,17e1c539d8ed6032a5b121dc41eccbc20453544181c4631953c0263d1da28aa5,1,LZ,235,41825928,16429691,independently recaptured with frozen standalone CLI
+mozilla,2,17e1c539d8ed6032a5b121dc41eccbc20453544181c4631953c0263d1da28aa5,4,records,76,9394552,2056836,independently recaptured with frozen standalone CLI
+x-ray,2,9d0529b4fa5e9124403d50e2820ad9d75969010578589dd9b2136c6209483ab7,63,learned 16-bit row predictor,20,8474240,3725306,independently recaptured with frozen standalone CLI
+enwik8,3,b813d0b31966fab60cedded3db4efef6247b0f982cdb51ca8550dae2aeaf40f1,1,LZ,48,100000000,35102871,../../../../local/verified/enwik8.btr
+mozilla,3,c44fef2c60bba53ad364ebc25837c3e3bc69f9f5c894095bd246176763a40f57,1,LZ,235,41825928,16190530,../../../../local/verified/mozilla.btr
+mozilla,3,c44fef2c60bba53ad364ebc25837c3e3bc69f9f5c894095bd246176763a40f57,4,records,76,9394552,2056836,../../../../local/verified/mozilla.btr
+x-ray,3,c804372f6e4d03bdfa7bf9f63930c5b7f54e66ccfdab7b3462ab6e853facd1d4,63,learned 16-bit row predictor,12,8474240,3705853,independently recaptured with frozen standalone CLI
+enwik8,4,bc98c3d7c880051563c18d4b8faeb50e0c1b3433b34b928f43f540e888bf0f5b,1,LZ,48,100000000,34581677,independently recaptured with frozen standalone CLI
+mozilla,4,f654016f5b8045cc0b99bc5e5e65b77325c742e0615d3fae81600e0972e320d0,1,LZ,136,17595800,6393617,independently recaptured with frozen standalone CLI
+mozilla,4,f654016f5b8045cc0b99bc5e5e65b77325c742e0615d3fae81600e0972e320d0,4,records,76,9394552,2056836,independently recaptured with frozen standalone CLI
+mozilla,4,f654016f5b8045cc0b99bc5e5e65b77325c742e0615d3fae81600e0972e320d0,12,instruction banks,185,24230128,9442032,independently recaptured with frozen standalone CLI
+x-ray,4,c804372f6e4d03bdfa7bf9f63930c5b7f54e66ccfdab7b3462ab6e853facd1d4,63,learned 16-bit row predictor,12,8474240,3705853,independently recaptured with frozen standalone CLI
+enwik8,5,5e6462391c89cf1efa7c249881dc0f499a0527970af8420e8bda2e49201260b1,13,LZ with extended distances,24,100000000,33696069,l05/cli.blocks.json
+mozilla,5,0c05c127132f36b90888b159470fee3cb54a05a501a5198424b16aa7924a1996,1,LZ,110,17595800,6357449,l05/cli.blocks.json
+mozilla,5,0c05c127132f36b90888b159470fee3cb54a05a501a5198424b16aa7924a1996,4,records,14,2252736,644253,l05/cli.blocks.json
+mozilla,5,0c05c127132f36b90888b159470fee3cb54a05a501a5198424b16aa7924a1996,9,record columns,47,7141816,1081694,l05/cli.blocks.json
+mozilla,5,0c05c127132f36b90888b159470fee3cb54a05a501a5198424b16aa7924a1996,12,instruction banks,148,24230128,9246751,l05/cli.blocks.json
+x-ray,5,eccdc4a31a67217e78d2e0776d90f0d9de7544b0f065c4ee3222372f3b0df179,63,learned 16-bit row predictor,8,8474240,3683840,independently recaptured with frozen standalone CLI
+enwik8,6,97f4fb556123c972ed0bd5230990b4e360f269bb1299db82071780da2a146638,13,LZ with extended distances,20,100000000,32646371,../../../../local/levels/far/short-5120.btr
+mozilla,6,0ba863919d6909bcc0a185a03303ad2b56f0f424a864625af21c476bb2cd2f62,1,LZ,156,17595800,6219444,../../../../local/levels/lanes/ahead-frames/mozilla-6.btr
+mozilla,6,0ba863919d6909bcc0a185a03303ad2b56f0f424a864625af21c476bb2cd2f62,4,records,15,1720320,519328,../../../../local/levels/lanes/ahead-frames/mozilla-6.btr
+mozilla,6,0ba863919d6909bcc0a185a03303ad2b56f0f424a864625af21c476bb2cd2f62,8,instruction streams,1,30960,13933,../../../../local/levels/lanes/ahead-frames/mozilla-6.btr
+mozilla,6,0ba863919d6909bcc0a185a03303ad2b56f0f424a864625af21c476bb2cd2f62,9,record columns,70,7674232,1187830,../../../../local/levels/lanes/ahead-frames/mozilla-6.btr
+mozilla,6,0ba863919d6909bcc0a185a03303ad2b56f0f424a864625af21c476bb2cd2f62,12,instruction banks,211,24199168,9250878,../../../../local/levels/lanes/ahead-frames/mozilla-6.btr
+x-ray,6,eccdc4a31a67217e78d2e0776d90f0d9de7544b0f065c4ee3222372f3b0df179,63,learned 16-bit row predictor,8,8474240,3683840,independently recaptured with frozen standalone CLI
+enwik8,7,d8c7ee584f01a0a66e693743b6e1c2a4869227a5bea84fc1fd62133c2a2dfa51,13,LZ with extended distances,8,100000000,31999065,../../../../local/levels/far/cli-7-enwik8.btr
+mozilla,7,1c93fddc998eb2539069478038c0ed3d52daf848c7ff48ea2992212e947b1364,1,LZ,136,17595800,6152555,../../../../local/levels/far/cli-7-mozilla.btr
+mozilla,7,1c93fddc998eb2539069478038c0ed3d52daf848c7ff48ea2992212e947b1364,4,records,14,1663624,536402,../../../../local/levels/far/cli-7-mozilla.btr
+mozilla,7,1c93fddc998eb2539069478038c0ed3d52daf848c7ff48ea2992212e947b1364,9,record columns,62,7730928,1154528,../../../../local/levels/far/cli-7-mozilla.btr
+mozilla,7,1c93fddc998eb2539069478038c0ed3d52daf848c7ff48ea2992212e947b1364,12,instruction banks,185,24230128,9024632,../../../../local/levels/far/cli-7-mozilla.btr
+x-ray,7,eccdc4a31a67217e78d2e0776d90f0d9de7544b0f065c4ee3222372f3b0df179,63,learned 16-bit row predictor,8,8474240,3683840,independently recaptured with frozen standalone CLI
+enwik8,8,b3c7857353f15bf4651ec312c4eda17fb6c6c13438ec047b008ad67074aa1aab,13,LZ with extended distances,4,100000000,31592514,independently recaptured with frozen standalone CLI
+mozilla,8,1c31a8b88cc991d3d2961ee9d4364ae4c8efc0f2d4fc52c9d9193c6f9596ca90,1,LZ,122,17595800,6134082,independently recaptured with frozen standalone CLI
+mozilla,8,1c31a8b88cc991d3d2961ee9d4364ae4c8efc0f2d4fc52c9d9193c6f9596ca90,4,records,10,1417152,474982,independently recaptured with frozen standalone CLI
+mozilla,8,1c31a8b88cc991d3d2961ee9d4364ae4c8efc0f2d4fc52c9d9193c6f9596ca90,8,instruction streams,1,47344,18952,independently recaptured with frozen standalone CLI
+mozilla,8,1c31a8b88cc991d3d2961ee9d4364ae4c8efc0f2d4fc52c9d9193c6f9596ca90,9,record columns,57,7977400,1213915,independently recaptured with frozen standalone CLI
+mozilla,8,1c31a8b88cc991d3d2961ee9d4364ae4c8efc0f2d4fc52c9d9193c6f9596ca90,12,instruction banks,164,24182784,8900024,independently recaptured with frozen standalone CLI
+x-ray,8,eccdc4a31a67217e78d2e0776d90f0d9de7544b0f065c4ee3222372f3b0df179,63,learned 16-bit row predictor,8,8474240,3683840,independently recaptured with frozen standalone CLI
+enwik8,9,b2674c9ff0fc5feed9a217fb3dbd5d791cbadac003d85d480ae88e28b634e939,41,paged LZ,4,100000000,31135082,../../../../local/levels/lanes/page-nine-131072-3.btr
+mozilla,9,c9b3abb3de58285d86812052a5773c1915423c806b8c64aa413c07948a364b7b,1,LZ,117,17595800,6110971,independently recaptured with frozen standalone CLI
+mozilla,9,c9b3abb3de58285d86812052a5773c1915423c806b8c64aa413c07948a364b7b,4,records,9,1245896,428251,independently recaptured with frozen standalone CLI
+mozilla,9,c9b3abb3de58285d86812052a5773c1915423c806b8c64aa413c07948a364b7b,9,record columns,56,8148656,1248939,independently recaptured with frozen standalone CLI
+mozilla,9,c9b3abb3de58285d86812052a5773c1915423c806b8c64aa413c07948a364b7b,12,instruction banks,156,24230128,8834128,independently recaptured with frozen standalone CLI
+x-ray,9,eccdc4a31a67217e78d2e0776d90f0d9de7544b0f065c4ee3222372f3b0df179,63,learned 16-bit row predictor,8,8474240,3683840,independently recaptured with frozen standalone CLI
+enwik8,10,991fc41d44d5581a31808c1e531549219ff43ffdba75a0dca79cd599b07a6815,13,LZ with extended distances,4,100000000,30566870,l10/cli.blocks.json
+mozilla,10,70f11d4eddf20e173dfcfd721d0038a3c0b9ab7e0c9ca1e096cfc2a951f394a6,1,LZ,110,17595800,6101875,l10/cli.blocks.json
+mozilla,10,70f11d4eddf20e173dfcfd721d0038a3c0b9ab7e0c9ca1e096cfc2a951f394a6,4,records,5,819200,296710,l10/cli.blocks.json
+mozilla,10,70f11d4eddf20e173dfcfd721d0038a3c0b9ab7e0c9ca1e096cfc2a951f394a6,9,record columns,56,8575352,1369939,l10/cli.blocks.json
+mozilla,10,70f11d4eddf20e173dfcfd721d0038a3c0b9ab7e0c9ca1e096cfc2a951f394a6,12,instruction banks,148,24230128,8787856,l10/cli.blocks.json
+x-ray,10,eccdc4a31a67217e78d2e0776d90f0d9de7544b0f065c4ee3222372f3b0df179,63,learned 16-bit row predictor,8,8474240,3683840,independently recaptured with frozen standalone CLI
+enwik8,11,f15883bb3b56a488bf411ae5cc479a3ff2975f828a189dc58be0d8d6cc6cc13c,13,LZ with extended distances,4,100000000,30514474,l11/cli.blocks.json
+mozilla,11,ac9a6739989290b08c038f3565d5f731b216c0bf8dce33796e4c91810932c32c,1,LZ,105,17595800,6096123,l11/cli.blocks.json
+mozilla,11,ac9a6739989290b08c038f3565d5f731b216c0bf8dce33796e4c91810932c32c,4,records,3,409536,142653,l11/cli.blocks.json
+mozilla,11,ac9a6739989290b08c038f3565d5f731b216c0bf8dce33796e4c91810932c32c,9,record columns,55,8985016,1524150,l11/cli.blocks.json
+mozilla,11,ac9a6739989290b08c038f3565d5f731b216c0bf8dce33796e4c91810932c32c,12,instruction banks,141,24230128,8754685,l11/cli.blocks.json
+x-ray,11,eccdc4a31a67217e78d2e0776d90f0d9de7544b0f065c4ee3222372f3b0df179,63,learned 16-bit row predictor,8,8474240,3683840,independently recaptured with frozen standalone CLI
+enwik8,12,0068f22951572a15c7942344b9d222878b25545a396b7f8d2c74f777d9ec4cc3,13,LZ with extended distances,4,100000000,30423085,l12/cli.blocks.json
+mozilla,12,d663646813a643fdd24a41003df58e7e17828c82c142a85640025479e6ca2f03,1,LZ,100,17595800,6078658,l12/cli.blocks.json
+mozilla,12,d663646813a643fdd24a41003df58e7e17828c82c142a85640025479e6ca2f03,4,records,5,901120,324597,l12/cli.blocks.json
+mozilla,12,d663646813a643fdd24a41003df58e7e17828c82c142a85640025479e6ca2f03,9,record columns,51,8493432,1339895,l12/cli.blocks.json
+mozilla,12,d663646813a643fdd24a41003df58e7e17828c82c142a85640025479e6ca2f03,12,instruction banks,135,24230128,8720345,l12/cli.blocks.json
+x-ray,12,4f73924a03627405b0c5b082eae5a4d89b73350660cc4360d5fed80c98501653,63,learned 16-bit row predictor,8,8474240,3681466,independently recaptured with frozen standalone CLI
+enwik8,13,46ea3737d39da8e46a606e47706144890d33bd492f98840b9b5d51507b26b607,48,local phrase dictionary,4,100000000,29841926,l13/cli.blocks.json
+mozilla,13,3c27885af49c4650f25d2aa5e63b1dd08ebc8247e8ababd9439500237bcf1194,1,LZ,97,17595800,6067406,l13/cli.blocks.json
+mozilla,13,3c27885af49c4650f25d2aa5e63b1dd08ebc8247e8ababd9439500237bcf1194,4,records,3,565248,214950,l13/cli.blocks.json
+mozilla,13,3c27885af49c4650f25d2aa5e63b1dd08ebc8247e8ababd9439500237bcf1194,9,record columns,51,8829304,1454530,l13/cli.blocks.json
+mozilla,13,3c27885af49c4650f25d2aa5e63b1dd08ebc8247e8ababd9439500237bcf1194,12,instruction banks,129,24230128,8691808,l13/cli.blocks.json
+x-ray,13,4f73924a03627405b0c5b082eae5a4d89b73350660cc4360d5fed80c98501653,63,learned 16-bit row predictor,8,8474240,3681466,independently recaptured with frozen standalone CLI
+enwik8,14,73177ef6c4fe1350b77e69e85bc1a121a578b0f03db2738acb3c5a4369565332,48,local phrase dictionary,4,100000000,29322485,l14/cli.blocks.json
+mozilla,14,e8f7280c532bc777e8bf39bb96ad506a119b47bafde6ca53ee29d1bba39e2bfa,1,LZ,92,17595800,6042105,l14/cli.blocks.json
+mozilla,14,e8f7280c532bc777e8bf39bb96ad506a119b47bafde6ca53ee29d1bba39e2bfa,4,records,3,589824,225851,l14/cli.blocks.json
+mozilla,14,e8f7280c532bc777e8bf39bb96ad506a119b47bafde6ca53ee29d1bba39e2bfa,8,instruction streams,1,47344,18931,l14/cli.blocks.json
+mozilla,14,e8f7280c532bc777e8bf39bb96ad506a119b47bafde6ca53ee29d1bba39e2bfa,9,record columns,49,8804728,1439957,l14/cli.blocks.json
+mozilla,14,e8f7280c532bc777e8bf39bb96ad506a119b47bafde6ca53ee29d1bba39e2bfa,12,instruction banks,123,24182784,8633909,l14/cli.blocks.json
+x-ray,14,4f73924a03627405b0c5b082eae5a4d89b73350660cc4360d5fed80c98501653,63,learned 16-bit row predictor,8,8474240,3681466,independently recaptured with frozen standalone CLI
+enwik8,15,9009be90e4d38f12c0da8dbad1dd7e0cd0cae43fd5ef65979a9efa0126319b1c,48,local phrase dictionary,4,100000000,28999133,l15/cli.blocks.json
+mozilla,15,289a34278ee08cb4d5ec7a1e047e8b8e61982d7b1877eec47d1e07511477e4cf,1,LZ,89,17595800,6052986,l15/cli.blocks.json
+mozilla,15,289a34278ee08cb4d5ec7a1e047e8b8e61982d7b1877eec47d1e07511477e4cf,4,records,5,1024000,371434,l15/cli.blocks.json
+mozilla,15,289a34278ee08cb4d5ec7a1e047e8b8e61982d7b1877eec47d1e07511477e4cf,8,instruction streams,1,63728,26758,l15/cli.blocks.json
+mozilla,15,289a34278ee08cb4d5ec7a1e047e8b8e61982d7b1877eec47d1e07511477e4cf,9,record columns,44,8370552,1291428,l15/cli.blocks.json
+mozilla,15,289a34278ee08cb4d5ec7a1e047e8b8e61982d7b1877eec47d1e07511477e4cf,12,instruction banks,118,24166400,8580407,l15/cli.blocks.json
+x-ray,15,4f73924a03627405b0c5b082eae5a4d89b73350660cc4360d5fed80c98501653,63,learned 16-bit row predictor,8,8474240,3681466,independently recaptured with frozen standalone CLI
+enwik8,16,771bf57196d5e06c550c6ad03a6e8ea6a32429309c2cbf23a7e35249f9033250,50,shared phrase dictionary and first token stream,2,50000000,15949854,l16/cli.blocks.json
+enwik8,16,771bf57196d5e06c550c6ad03a6e8ea6a32429309c2cbf23a7e35249f9033250,51,shared dictionary token stream,2,50000000,12357694,l16/cli.blocks.json
+mozilla,16,e2cc51e9ccb5d1cc9fa088079d8a00de86ff4c34f6c9834f1403b6853b979c33,1,LZ,67,17595800,6018766,l16/cli.blocks.json
+mozilla,16,e2cc51e9ccb5d1cc9fa088079d8a00de86ff4c34f6c9834f1403b6853b979c33,4,records,1,278528,134020,l16/cli.blocks.json
+mozilla,16,e2cc51e9ccb5d1cc9fa088079d8a00de86ff4c34f6c9834f1403b6853b979c33,9,record columns,35,9116024,1506533,l16/cli.blocks.json
+mozilla,16,e2cc51e9ccb5d1cc9fa088079d8a00de86ff4c34f6c9834f1403b6853b979c33,12,instruction banks,87,24230128,8405712,l16/cli.blocks.json
+x-ray,16,4f73924a03627405b0c5b082eae5a4d89b73350660cc4360d5fed80c98501653,63,learned 16-bit row predictor,8,8474240,3681466,independently recaptured with frozen standalone CLI
+enwik8,17,e8cefb19fc347a5b3391b73ed00fb39a8c7bedfb2a4b25dd3d08a94ba60312fb,50,shared phrase dictionary and first token stream,1,25000000,9038771,l17/cli.blocks.json
+enwik8,17,e8cefb19fc347a5b3391b73ed00fb39a8c7bedfb2a4b25dd3d08a94ba60312fb,51,shared dictionary token stream,3,75000000,18724297,l17/cli.blocks.json
+mozilla,17,c26819216402f3fe68a95adc57711d7c991d32b772c9b0d646fc06a358113b5c,1,LZ,36,17595800,5886069,l17/cli.blocks.json
+mozilla,17,c26819216402f3fe68a95adc57711d7c991d32b772c9b0d646fc06a358113b5c,4,records,6,656072,236111,l17/cli.blocks.json
+mozilla,17,c26819216402f3fe68a95adc57711d7c991d32b772c9b0d646fc06a358113b5c,9,record columns,70,8738480,1438032,l17/cli.blocks.json
+mozilla,17,c26819216402f3fe68a95adc57711d7c991d32b772c9b0d646fc06a358113b5c,21,adaptive instruction banks,68,24230128,8134460,l17/cli.blocks.json
+x-ray,17,4f73924a03627405b0c5b082eae5a4d89b73350660cc4360d5fed80c98501653,63,learned 16-bit row predictor,8,8474240,3681466,independently recaptured with frozen standalone CLI
+enwik8,18,77be336ee0b7b1d797bb846de55d4e9c6be8922ce61da5c594ca95b9b7df8104,50,shared phrase dictionary and first token stream,1,25000000,9082425,l18/cli.blocks.json
+enwik8,18,77be336ee0b7b1d797bb846de55d4e9c6be8922ce61da5c594ca95b9b7df8104,51,shared dictionary token stream,3,75000000,18337430,l18/cli.blocks.json
+mozilla,18,2b792f42476dccf5d651a5b74cf0ba18955ec7a4a25a8cb9c5606251c9c90fdc,1,LZ,29,17595800,5856820,l18/cli.blocks.json
+mozilla,18,2b792f42476dccf5d651a5b74cf0ba18955ec7a4a25a8cb9c5606251c9c90fdc,9,record columns,17,9394552,1612160,l18/cli.blocks.json
+mozilla,18,2b792f42476dccf5d651a5b74cf0ba18955ec7a4a25a8cb9c5606251c9c90fdc,21,adaptive instruction banks,37,24230128,7754881,l18/cli.blocks.json
+x-ray,18,4f73924a03627405b0c5b082eae5a4d89b73350660cc4360d5fed80c98501653,63,learned 16-bit row predictor,8,8474240,3681466,independently recaptured with frozen standalone CLI
+enwik8,19,a058d854c4e641e1a8fe7e986f00770672d41e94ca33e662588dfa0a885036bc,50,shared phrase dictionary and first token stream,1,25000000,8995055,l19/cli.blocks.json
+enwik8,19,a058d854c4e641e1a8fe7e986f00770672d41e94ca33e662588dfa0a885036bc,51,shared dictionary token stream,3,75000000,18255522,l19/cli.blocks.json
+mozilla,19,5c92bd6ee0a88d8a9063b142ff6859816ec544ae9557eec51fc3e3cf0a9d2184,1,LZ,29,17595800,5854319,l19/cli.blocks.json
+mozilla,19,5c92bd6ee0a88d8a9063b142ff6859816ec544ae9557eec51fc3e3cf0a9d2184,8,instruction streams,1,47344,18904,l19/cli.blocks.json
+mozilla,19,5c92bd6ee0a88d8a9063b142ff6859816ec544ae9557eec51fc3e3cf0a9d2184,9,record columns,17,9394552,1614275,l19/cli.blocks.json
+mozilla,19,5c92bd6ee0a88d8a9063b142ff6859816ec544ae9557eec51fc3e3cf0a9d2184,21,adaptive instruction banks,36,24182784,7688864,l19/cli.blocks.json
+x-ray,19,4f73924a03627405b0c5b082eae5a4d89b73350660cc4360d5fed80c98501653,63,learned 16-bit row predictor,8,8474240,3681466,independently recaptured with frozen standalone CLI
+enwik8,20,6b7afe95ff1465c228f6fe85c056f820a2f54585dfb54a5597a6e11e0d596d75,50,shared phrase dictionary and first token stream,1,25000000,8551264,l20/cli.blocks.json
+enwik8,20,6b7afe95ff1465c228f6fe85c056f820a2f54585dfb54a5597a6e11e0d596d75,51,shared dictionary token stream,3,75000000,18261644,l20/cli.blocks.json
+mozilla,20,4800491c1387e7db8a40ec187130be1bfe2b87af1d295356f90bc1b1460738d4,1,LZ,28,17595800,5850095,l20/cli.blocks.json
+mozilla,20,4800491c1387e7db8a40ec187130be1bfe2b87af1d295356f90bc1b1460738d4,8,instruction streams,1,47344,18904,l20/cli.blocks.json
+mozilla,20,4800491c1387e7db8a40ec187130be1bfe2b87af1d295356f90bc1b1460738d4,9,record columns,17,9394552,1613236,l20/cli.blocks.json
+mozilla,20,4800491c1387e7db8a40ec187130be1bfe2b87af1d295356f90bc1b1460738d4,21,adaptive instruction banks,36,24182784,7688864,l20/cli.blocks.json
+x-ray,20,4f73924a03627405b0c5b082eae5a4d89b73350660cc4360d5fed80c98501653,63,learned 16-bit row predictor,8,8474240,3681466,independently recaptured with frozen standalone CLI
+enwik8,21,4f0ec2457f277d0d778000dd1d0fe621b4d3ae9463e85fd4f335023feece0940,50,shared phrase dictionary and first token stream,1,25000000,8548863,l21/cli.blocks.json
+enwik8,21,4f0ec2457f277d0d778000dd1d0fe621b4d3ae9463e85fd4f335023feece0940,51,shared dictionary token stream,3,75000000,18255522,l21/cli.blocks.json
+mozilla,21,8264ec7a8188f2f4f087d4c15f5bebab379786a5e6eed811df6055cd48876ea8,1,LZ,28,17595800,5844048,l21/cli.blocks.json
+mozilla,21,8264ec7a8188f2f4f087d4c15f5bebab379786a5e6eed811df6055cd48876ea8,9,record columns,17,9394552,1611636,l21/cli.blocks.json
+mozilla,21,8264ec7a8188f2f4f087d4c15f5bebab379786a5e6eed811df6055cd48876ea8,21,adaptive instruction banks,34,24230128,7688245,l21/cli.blocks.json
+x-ray,21,4f73924a03627405b0c5b082eae5a4d89b73350660cc4360d5fed80c98501653,63,learned 16-bit row predictor,8,8474240,3681466,independently recaptured with frozen standalone CLI
+enwik8,22,cb9730f56714e94d8c4fddf2a6d13f961ead7d7f7959c8627f684c80cdb5a8c0,50,shared phrase dictionary and first token stream,1,25000000,8535007,l22/cli.blocks.json
+enwik8,22,cb9730f56714e94d8c4fddf2a6d13f961ead7d7f7959c8627f684c80cdb5a8c0,51,shared dictionary token stream,3,75000000,18255522,l22/cli.blocks.json
+mozilla,22,0c87b8368738ef399f34b33fda47380166e56bfe8d6d5a8351e2ec839493af98,1,LZ,41,17595800,5851493,l22/cli.blocks.json
+mozilla,22,0c87b8368738ef399f34b33fda47380166e56bfe8d6d5a8351e2ec839493af98,9,record columns,24,9394552,1605785,l22/cli.blocks.json
+mozilla,22,0c87b8368738ef399f34b33fda47380166e56bfe8d6d5a8351e2ec839493af98,21,adaptive instruction banks,53,24230128,7677036,l22/cli.blocks.json
+x-ray,22,4f73924a03627405b0c5b082eae5a4d89b73350660cc4360d5fed80c98501653,63,learned 16-bit row predictor,8,8474240,3681466,independently recaptured with frozen standalone CLI

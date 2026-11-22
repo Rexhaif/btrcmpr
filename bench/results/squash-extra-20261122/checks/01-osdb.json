@@ -1,0 +1,10 @@
+{
+  "file": "osdb",
+  "level": 1,
+  "archive_sha256": "d48ffa76fb2ee62ef2ec887c0cff506cbfb76598b33ecded518cc7d00f954977",
+  "archive_bytes": 3722591,
+  "raw_and_restored_sha256": "60f027179302ca3ad87c58ac90b6be72ec23588aaa7a3b7fe8ecc0f11def3fa3",
+  "trial_sha256": "6a1100d34d32c5add175c97b2ddc74d01402f453b4262cd5ee43e5af450c5b0e",
+  "started_utc": "2026-11-22T18:55:16.921055+00:00",
+  "completed_utc": "2026-11-22T18:55:17.769400+00:00"
+}

@@ -1,0 +1,11 @@
+file,codec,round,order,raw_bytes,compressed_bytes,compress_seconds,decompress_seconds
+bench/data/squash-extra/kennedy.xls,zstd,1,0,1029744,110827,0.003942977,0.000506388
+bench/data/squash-extra/kennedy.xls,btrcmpr,1,1,1029744,142180,0.006071643,0.000481866
+bench/data/squash-extra/kennedy.xls,btrcmpr,2,0,1029744,142180,0.008714202,0.000654524
+bench/data/squash-extra/kennedy.xls,zstd,2,1,1029744,110827,0.004051330,0.000498568
+bench/data/squash-extra/kennedy.xls,zstd,3,0,1029744,110827,0.003962329,0.000500962
+bench/data/squash-extra/kennedy.xls,btrcmpr,3,1,1029744,142180,0.005918513,0.000468583
+bench/data/squash-extra/kennedy.xls,btrcmpr,4,0,1029744,142180,0.010200141,0.000550737
+bench/data/squash-extra/kennedy.xls,zstd,4,1,1029744,110827,0.004019570,0.000497195
+bench/data/squash-extra/kennedy.xls,zstd,5,0,1029744,110827,0.003927903,0.000539060
+bench/data/squash-extra/kennedy.xls,btrcmpr,5,1,1029744,142180,0.009380930,0.000552354

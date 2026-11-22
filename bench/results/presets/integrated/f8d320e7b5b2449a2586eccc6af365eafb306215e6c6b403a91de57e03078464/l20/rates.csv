@@ -1,0 +1,3 @@
+level,file,rounds,btr_bytes,zstd_bytes,btr_ratio,zstd_ratio,btr_encode_MBps,zstd_encode_MBps,btr_decode_MBps,zstd_decode_MBps,all_pass
+20,enwik8,5,26812944,26824786,3.7295,3.7279,6.47,2.62,841.90,669.15,1
+20,mozilla,5,15184890,15233791,3.3731,3.3623,22.15,5.92,1093.78,1085.41,1

@@ -1,0 +1,11 @@
+file,codec,round,order,raw_bytes,compressed_bytes,compress_seconds,decompress_seconds
+bench/data/squash-extra/dickens,zstd,1,0,10192446,3022379,3.153461862,0.012778505
+bench/data/squash-extra/dickens,btrcmpr,1,1,10192446,2772666,2.117293775,0.014028742
+bench/data/squash-extra/dickens,btrcmpr,2,0,10192446,2772666,2.135406232,0.014620063
+bench/data/squash-extra/dickens,zstd,2,1,10192446,3022379,3.090970945,0.012349985
+bench/data/squash-extra/dickens,zstd,3,0,10192446,3022379,3.062562720,0.013036664
+bench/data/squash-extra/dickens,btrcmpr,3,1,10192446,2772666,2.158880153,0.015725624
+bench/data/squash-extra/dickens,btrcmpr,4,0,10192446,2772666,2.146216514,0.014327327
+bench/data/squash-extra/dickens,zstd,4,1,10192446,3022379,3.099176841,0.012571390
+bench/data/squash-extra/dickens,zstd,5,0,10192446,3022379,3.186367441,0.012006146
+bench/data/squash-extra/dickens,btrcmpr,5,1,10192446,2772666,2.127927202,0.013670669

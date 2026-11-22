@@ -1,0 +1,10 @@
+{
+  "file": "samba",
+  "level": 10,
+  "archive_sha256": "d1879ed299d56be75831c5ba55ae153ea7d3a87449875b92be4bcf7a98d894b0",
+  "archive_bytes": 4888680,
+  "raw_and_restored_sha256": "93ba07bc44d8267789c1d911992f40b089ffa2140b4a160fac11ccae9a40e7b2",
+  "trial_sha256": "2b0f35a8f02a3e9f5f0becb1aad69fbb328de9344823fe3d8213b536b34cdfbb",
+  "started_utc": "2026-11-22T18:56:27.064907+00:00",
+  "completed_utc": "2026-11-22T18:56:41.553159+00:00"
+}

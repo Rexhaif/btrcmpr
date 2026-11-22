@@ -1,0 +1,10 @@
+{
+  "file": "sao",
+  "level": 22,
+  "archive_sha256": "2707bf425e064287b545214ab23c1c080d390d882fbc461b4a80cdb2b0a27273",
+  "archive_bytes": 5122170,
+  "raw_and_restored_sha256": "c2d0ea2cc59d4c21b7fe43a71499342a00cbe530a1d5548770e91ecd6214adcc",
+  "trial_sha256": "13f92b83ac88fafa15fc74c62322250d18f066f7804b1765ffefe728c67708bc",
+  "started_utc": "2026-11-22T19:04:14.093201+00:00",
+  "completed_utc": "2026-11-22T19:04:58.380722+00:00"
+}

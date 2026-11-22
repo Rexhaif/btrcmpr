@@ -1,0 +1,74 @@
+[
+  {
+    "level": 15,
+    "file": "enwik8",
+    "archive_sha256": "9009be90e4d38f12c0da8dbad1dd7e0cd0cae43fd5ef65979a9efa0126319b1c",
+    "cli_sha256": "650525ab340439b6a7fe7e112ae0eaaba357257363ba73b5c7c5921bd71e7313",
+    "original_bytes": 100000000,
+    "archive_bytes": 28999169,
+    "blocks": 4,
+    "layout_pieces": 0,
+    "framing_bytes": 36,
+    "embedded_dictionary_bytes": 0,
+    "row_strides_in_samples": {},
+    "representations": [
+      {
+        "tag": 48,
+        "name": "local phrase dictionary",
+        "blocks": 4,
+        "original_bytes": 100000000,
+        "payload_bytes": 28999133
+      }
+    ]
+  },
+  {
+    "level": 15,
+    "file": "mozilla",
+    "archive_sha256": "289a34278ee08cb4d5ec7a1e047e8b8e61982d7b1877eec47d1e07511477e4cf",
+    "cli_sha256": "650525ab340439b6a7fe7e112ae0eaaba357257363ba73b5c7c5921bd71e7313",
+    "original_bytes": 51220480,
+    "archive_bytes": 16338029,
+    "blocks": 257,
+    "layout_pieces": 2662,
+    "framing_bytes": 15016,
+    "embedded_dictionary_bytes": 0,
+    "row_strides_in_samples": {},
+    "representations": [
+      {
+        "tag": 1,
+        "name": "LZ",
+        "blocks": 89,
+        "original_bytes": 17595800,
+        "payload_bytes": 6052986
+      },
+      {
+        "tag": 4,
+        "name": "records",
+        "blocks": 5,
+        "original_bytes": 1024000,
+        "payload_bytes": 371434
+      },
+      {
+        "tag": 8,
+        "name": "instruction streams",
+        "blocks": 1,
+        "original_bytes": 63728,
+        "payload_bytes": 26758
+      },
+      {
+        "tag": 9,
+        "name": "record columns",
+        "blocks": 44,
+        "original_bytes": 8370552,
+        "payload_bytes": 1291428
+      },
+      {
+        "tag": 12,
+        "name": "instruction banks",
+        "blocks": 118,
+        "original_bytes": 24166400,
+        "payload_bytes": 8580407
+      }
+    ]
+  }
+]

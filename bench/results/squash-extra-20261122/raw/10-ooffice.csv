@@ -1,0 +1,11 @@
+file,codec,round,order,raw_bytes,compressed_bytes,compress_seconds,decompress_seconds
+bench/data/squash-extra/ooffice,zstd,1,0,6152192,2925602,0.403013785,0.005702965
+bench/data/squash-extra/ooffice,btrcmpr,1,1,6152192,2960477,0.943215671,0.006088010
+bench/data/squash-extra/ooffice,btrcmpr,2,0,6152192,2960477,0.983044913,0.006549249
+bench/data/squash-extra/ooffice,zstd,2,1,6152192,2925602,0.383623522,0.006013951
+bench/data/squash-extra/ooffice,zstd,3,0,6152192,2925602,0.393519555,0.006129052
+bench/data/squash-extra/ooffice,btrcmpr,3,1,6152192,2960477,0.956873462,0.006245720
+bench/data/squash-extra/ooffice,btrcmpr,4,0,6152192,2960477,0.958949188,0.006240132
+bench/data/squash-extra/ooffice,zstd,4,1,6152192,2925602,0.395957580,0.006012162
+bench/data/squash-extra/ooffice,zstd,5,0,6152192,2925602,0.387147514,0.005842878
+bench/data/squash-extra/ooffice,btrcmpr,5,1,6152192,2960477,1.099906479,0.006533248

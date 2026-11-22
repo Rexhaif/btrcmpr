@@ -1,0 +1,11 @@
+file,codec,round,order,raw_bytes,compressed_bytes,compress_seconds,decompress_seconds
+bench/data/squash-extra/paper-100k.pdf,zstd,1,0,102400,81196,0.025879130,0.000103416
+bench/data/squash-extra/paper-100k.pdf,btrcmpr,1,1,102400,82457,0.005820877,0.000118768
+bench/data/squash-extra/paper-100k.pdf,btrcmpr,2,0,102400,82457,0.006298953,0.000126016
+bench/data/squash-extra/paper-100k.pdf,zstd,2,1,102400,81196,0.026747911,0.000103921
+bench/data/squash-extra/paper-100k.pdf,zstd,3,0,102400,81196,0.025896871,0.000108202
+bench/data/squash-extra/paper-100k.pdf,btrcmpr,3,1,102400,82457,0.005977988,0.000124387
+bench/data/squash-extra/paper-100k.pdf,btrcmpr,4,0,102400,82457,0.006422176,0.000121884
+bench/data/squash-extra/paper-100k.pdf,zstd,4,1,102400,81196,0.026436022,0.000113075
+bench/data/squash-extra/paper-100k.pdf,zstd,5,0,102400,81196,0.025750537,0.000215803
+bench/data/squash-extra/paper-100k.pdf,btrcmpr,5,1,102400,82457,0.007302439,0.000199580

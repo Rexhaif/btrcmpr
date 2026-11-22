@@ -1,0 +1,10 @@
+{
+  "file": "fields.c",
+  "level": 1,
+  "archive_sha256": "7515df80968188e6639bc208b820af882e1cfad8826909e1cae0d4ef6b3ae865",
+  "archive_bytes": 5364,
+  "raw_and_restored_sha256": "85d73e354cc50cec76cb5a50537cf8dc035f8cbb8480f9e1cbe2f7d6c23393c7",
+  "trial_sha256": "146ad82a5383f66bcdc44be5ebfc1e9a7391454de8cf93654ebf362bf0452669",
+  "started_utc": "2026-11-22T18:55:12.956541+00:00",
+  "completed_utc": "2026-11-22T18:55:12.973018+00:00"
+}

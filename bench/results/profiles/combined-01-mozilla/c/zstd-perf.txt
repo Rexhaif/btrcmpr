@@ -1,0 +1,12 @@
+Events disabled
+zstd version 10507
+level=1 threads=4 archive_bytes=19963738
+Events enabled
+Events disabled
+730.72 MB/s
+3666398703;;instructions:u;722880760;100.00;2.23;insn per cycle
+1645402410;;cycles:u;722880760;100.00;;
+398425025;;branches:u;722880760;100.00;;
+10933995;;branch-misses:u;722880760;100.00;2.74;of all branches
+56970379;;r03:u;722880760;100.00;;
+6145047;;r17:u;722880760;100.00;;

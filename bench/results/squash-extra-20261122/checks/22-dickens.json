@@ -1,0 +1,10 @@
+{
+  "file": "dickens",
+  "level": 22,
+  "archive_sha256": "48da27d82f371236615c9e041b08908867cc5b705a5c41a3ed7dfe2940ce5c7c",
+  "archive_bytes": 2772666,
+  "raw_and_restored_sha256": "b24c37886142e11d0ee687db6ab06f936207aa7f2ea1fd1d9a36763c7a507e6a",
+  "trial_sha256": "7eb29ec6968a36b889afb04f2d9cb6ef0d0da2f59d2638883f5af56341032dff",
+  "started_utc": "2026-11-22T18:57:40.727324+00:00",
+  "completed_utc": "2026-11-22T18:58:15.704116+00:00"
+}

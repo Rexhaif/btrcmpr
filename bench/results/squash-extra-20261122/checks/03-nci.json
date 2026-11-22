@@ -1,0 +1,10 @@
+{
+  "file": "nci",
+  "level": 3,
+  "archive_sha256": "586bc62da3cd303567bcb9d6d2c36b12432fba2f8808a1e80f43faf142721ae0",
+  "archive_bytes": 2998972,
+  "raw_and_restored_sha256": "fc63a31770947b8c2062d3b19ca94c00485a232bb91b502021948fee983e1635",
+  "trial_sha256": "bbcfc8ad1eab74306598d93e6944f6f8d84dd6aa0e39a19987a80cd744f13a79",
+  "started_utc": "2026-11-22T18:54:36.653783+00:00",
+  "completed_utc": "2026-11-22T18:54:39.598215+00:00"
+}

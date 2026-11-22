@@ -1,0 +1,11 @@
+file,codec,round,order,raw_bytes,compressed_bytes,compress_seconds,decompress_seconds
+bench/data/squash-extra/reymont,zstd,1,0,6627202,1954030,0.051244625,0.006633168
+bench/data/squash-extra/reymont,btrcmpr,1,1,6627202,1900738,0.060211217,0.005014425
+bench/data/squash-extra/reymont,btrcmpr,2,0,6627202,1900738,0.087690645,0.005210913
+bench/data/squash-extra/reymont,zstd,2,1,6627202,1954030,0.052365448,0.006255774
+bench/data/squash-extra/reymont,zstd,3,0,6627202,1954030,0.053626977,0.006378410
+bench/data/squash-extra/reymont,btrcmpr,3,1,6627202,1900738,0.063832598,0.005116576
+bench/data/squash-extra/reymont,btrcmpr,4,0,6627202,1900738,0.059504137,0.005051740
+bench/data/squash-extra/reymont,zstd,4,1,6627202,1954030,0.052887823,0.006041735
+bench/data/squash-extra/reymont,zstd,5,0,6627202,1954030,0.056724058,0.006138826
+bench/data/squash-extra/reymont,btrcmpr,5,1,6627202,1900738,0.063248223,0.005396184

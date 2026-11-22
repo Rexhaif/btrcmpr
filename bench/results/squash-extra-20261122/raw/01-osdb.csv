@@ -1,0 +1,11 @@
+file,codec,round,order,raw_bytes,compressed_bytes,compress_seconds,decompress_seconds
+bench/data/squash-extra/osdb,zstd,1,0,10085684,3742988,0.015602251,0.005618099
+bench/data/squash-extra/osdb,btrcmpr,1,1,10085684,3722591,0.013774162,0.006377558
+bench/data/squash-extra/osdb,btrcmpr,2,0,10085684,3722591,0.013502050,0.006494379
+bench/data/squash-extra/osdb,zstd,2,1,10085684,3742988,0.014550317,0.006035838
+bench/data/squash-extra/osdb,zstd,3,0,10085684,3742988,0.014927043,0.006384248
+bench/data/squash-extra/osdb,btrcmpr,3,1,10085684,3722591,0.013596310,0.006141892
+bench/data/squash-extra/osdb,btrcmpr,4,0,10085684,3722591,0.014502243,0.006066695
+bench/data/squash-extra/osdb,zstd,4,1,10085684,3742988,0.015596029,0.005890940
+bench/data/squash-extra/osdb,zstd,5,0,10085684,3742988,0.012158409,0.006075994
+bench/data/squash-extra/osdb,btrcmpr,5,1,10085684,3722591,0.014358908,0.007455955

@@ -1,0 +1,10 @@
+{
+  "file": "ptt5",
+  "level": 3,
+  "archive_sha256": "266270bc030a6e2fafb074c8835c69ecd2a81e22cd25c7760387889758222865",
+  "archive_bytes": 57677,
+  "raw_and_restored_sha256": "0ec3a75089bb52342813496b17e51377bc9eba3cb519a444d67025354841d650",
+  "trial_sha256": "98b92f51315d31e65d86a1914d407dd862b1fe12df7155bdc6fca696db038937",
+  "started_utc": "2026-11-22T18:54:43.690081+00:00",
+  "completed_utc": "2026-11-22T18:54:43.752434+00:00"
+}

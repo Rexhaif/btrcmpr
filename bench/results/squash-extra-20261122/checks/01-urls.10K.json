@@ -1,0 +1,10 @@
+{
+  "file": "urls.10K",
+  "level": 1,
+  "archive_sha256": "43c09e4bc82944b7c57d58abcbb7395b252f80f1b9df5620455d510e92f99851",
+  "archive_bytes": 228537,
+  "raw_and_restored_sha256": "0319ce7fe1f51b14eace3de879fe7da15418d1525d3176c2b26c5985943a3cad",
+  "trial_sha256": "ebd8c3373d74badf9a8a34cf3e6dfba6da492fd8a737bdef60f12d29f55f7034",
+  "started_utc": "2026-11-22T18:55:20.936980+00:00",
+  "completed_utc": "2026-11-22T18:55:21.000427+00:00"
+}

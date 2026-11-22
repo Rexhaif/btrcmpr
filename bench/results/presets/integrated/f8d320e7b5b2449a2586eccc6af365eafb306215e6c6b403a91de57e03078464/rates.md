@@ -1,0 +1,86 @@
+# Matched zstd rates per file
+
+Comparator `f8d320e7b5b2449a2586eccc6af365eafb306215e6c6b403a91de57e03078464`, four workers per codec in each direction. Every numeric pair is **Rust / zstd**. Ratio is original bytes divided by archive bytes. Speeds are original decimal MB per second. A dash means the paired run and standalone round trip have not both been verified yet. [Relative throughput and bytes saved](preset-ladder.md). [Variation between individual pairs](paired-rounds.md).
+
+The zstd size includes 36 bytes of outer framing (20-byte header and four lengths). Concatenating the very same four zstd frames would omit those bytes. The smallest size margin against that concatenation is **+1,799 bytes** (zstd minus Rust, enwik8 level 6). This calculation does not estimate a different single-stream zstd compression.
+
+## enwik8
+
+| Preset | Ratio | Encode MB/s | Decode MB/s |
+|---:|---:|---:|---:|
+| [1](../../native-combined-1/level-01-enwik8.csv) | 2.4683 / 2.4588 | 647.42 / 626.61 | 1566.64 / 1607.52 |
+| [2](l02/level-02-enwik8.csv) | 2.6858 / 2.6778 | 278.11 / 233.72 | 1387.32 / 1281.78 |
+| [3](l03/level-03-enwik8.csv) | 2.8488 / 2.8218 | 88.48 / 68.75 | 1202.03 / 1048.12 |
+| [4](l04/level-04-enwik8.csv) | 2.8917 / 2.8790 | 51.87 / 47.75 | 1199.72 / 799.44 |
+| [5](l05/level-05-enwik8.csv) | 2.9677 / 2.9649 | 41.51 / 33.04 | 1064.58 / 940.66 |
+| [6](l06/level-06-enwik8.csv) | 3.0631 / 3.0629 | 32.92 / 30.21 | 978.70 / 976.01 |
+| [7](l07/level-07-enwik8.csv) | 3.1251 / 3.1220 | 26.22 / 21.94 | 895.04 / 868.75 |
+| [8](l08/level-08-enwik8.csv) | 3.1653 / 3.1606 | 21.90 / 21.36 | 884.49 / 894.18 |
+| [9](l09/level-09-enwik8.csv) | 3.2118 / 3.2084 | 19.87 / 18.28 | 746.93 / 771.16 |
+| [10](l10/level-10-enwik8.csv) | 3.2715 / 3.2531 | 14.58 / 11.34 | 721.39 / 708.25 |
+| [11](l11/level-11-enwik8.csv) | 3.2771 / 3.2747 | 11.46 / 8.02 | 728.80 / 671.82 |
+| [12](l12/level-12-enwik8.csv) | 3.2870 / 3.2826 | 8.69 / 7.57 | 711.32 / 666.21 |
+| [13](l13/level-13-enwik8.csv) | 3.3510 / 3.3236 | 19.45 / 7.72 | 918.11 / 686.81 |
+| [14](l14/level-14-enwik8.csv) | 3.4103 / 3.3425 | 17.02 / 6.20 | 866.03 / 687.57 |
+| [15](l15/level-15-enwik8.csv) | 3.4484 / 3.3790 | 14.78 / 4.95 | 781.62 / 652.75 |
+| [16](l16/level-16-enwik8.csv) | 3.5326 / 3.4992 | 14.13 / 5.07 | 836.01 / 755.02 |
+| [17](l17/level-17-enwik8.csv) | 3.6019 / 3.5828 | 13.55 / 3.52 | 917.57 / 713.08 |
+| [18](l18/level-18-enwik8.csv) | 3.6470 / 3.6290 | 6.92 / 3.18 | 828.81 / 640.51 |
+| [19](l19/level-19-enwik8.csv) | 3.6696 / 3.6687 | 6.49 / 2.89 | 785.20 / 619.86 |
+| [20](l20/level-20-enwik8.csv) | 3.7295 / 3.7279 | 6.47 / 2.62 | 841.90 / 669.15 |
+| [21](l21/level-21-enwik8.csv) | 3.7307 / 3.7298 | 6.36 / 2.53 | 747.45 / 660.64 |
+| [22](l22/level-22-enwik8.csv) | 3.7327 / 3.7299 | 6.38 / 2.52 | 759.71 / 653.26 |
+
+## x-ray
+
+| Preset | Ratio | Encode MB/s | Decode MB/s |
+|---:|---:|---:|---:|
+| [1](../../native-combined-1/level-01-x-ray.csv) | 1.9569 / 1.2513 | 2520.97 / 695.55 | 2663.40 / 1322.06 |
+| [2](l02/level-02-x-ray.csv) | 2.2747 / 1.2662 | 885.99 / 323.84 | 1556.30 / 1206.97 |
+| [3](l03/level-03-x-ray.csv) | 2.2867 / 1.3889 | 745.54 / 41.86 | 1539.20 / 1052.58 |
+| [4](tracks/x-ray/level-04-x-ray.csv) | 2.2867 / 1.4694 | 746.94 / 20.79 | 1478.07 / 731.26 |
+| [5](tracks/x-ray/level-05-x-ray.csv) | 2.3003 / 1.5118 | 537.07 / 23.26 | 1406.99 / 736.97 |
+| [6](l06/level-06-x-ray.csv) | 2.3003 / 1.5129 | 493.83 / 22.65 | 1427.31 / 749.92 |
+| [7](tracks/x-ray/level-07-x-ray.csv) | 2.3003 / 1.5356 | 550.21 / 17.42 | 1481.16 / 580.62 |
+| [8](tracks/x-ray/level-08-x-ray.csv) | 2.3003 / 1.5351 | 540.47 / 16.85 | 1477.50 / 578.77 |
+| [9](tracks/x-ray/level-09-x-ray.csv) | 2.3003 / 1.5440 | 544.82 / 14.46 | 1503.01 / 551.81 |
+| [10](tracks/x-ray/level-10-x-ray.csv) | 2.3003 / 1.5471 | 579.86 / 11.46 | 1478.22 / 531.59 |
+| [11](tracks/x-ray/level-11-x-ray.csv) | 2.3003 / 1.5476 | 509.63 / 9.87 | 1367.90 / 523.54 |
+| [12](tracks/x-ray/level-12-x-ray.csv) | 2.3018 / 1.5477 | 328.34 / 9.22 | 1464.94 / 528.95 |
+| [13](tracks/x-ray/level-13-x-ray.csv) | 2.3018 / 1.5484 | 322.29 / 10.26 | 1451.22 / 536.90 |
+| [14](tracks/x-ray/level-14-x-ray.csv) | 2.3018 / 1.5484 | 343.27 / 10.00 | 1468.26 / 533.10 |
+| [15](tracks/x-ray/level-15-x-ray.csv) | 2.3018 / 1.5484 | 309.04 / 10.01 | 1488.92 / 531.61 |
+| [16](tracks/x-ray/level-16-x-ray.csv) | 2.3018 / 1.5693 | 324.40 / 7.97 | 1469.51 / 557.28 |
+| [17](tracks/x-ray/level-17-x-ray.csv) | 2.3018 / 1.5730 | 324.01 / 7.49 | 1377.64 / 533.13 |
+| [18](tracks/x-ray/level-18-x-ray.csv) | 2.3018 / 1.6115 | 317.53 / 6.13 | 1437.99 / 599.39 |
+| [19](tracks/x-ray/level-19-x-ray.csv) | 2.3018 / 1.6131 | 307.80 / 6.08 | 1403.70 / 591.65 |
+| [20](tracks/x-ray/level-20-x-ray.csv) | 2.3018 / 1.6131 | 298.47 / 5.70 | 1425.34 / 588.79 |
+| [21](tracks/x-ray/level-21-x-ray.csv) | 2.3018 / 1.6131 | 312.79 / 5.77 | 1444.37 / 600.14 |
+| [22](tracks/x-ray/level-22-x-ray.csv) | 2.3018 / 1.6131 | 315.06 / 5.52 | 1373.58 / 593.84 |
+
+## mozilla
+
+| Preset | Ratio | Encode MB/s | Decode MB/s |
+|---:|---:|---:|---:|
+| [1](../../native-combined-1/level-01-mozilla.csv) | 2.5698 / 2.5657 | 775.09 / 761.15 | 1674.84 / 1668.44 |
+| [2](l02/level-02-mozilla.csv) | 2.7684 / 2.6988 | 384.37 / 320.34 | 1718.59 / 1589.24 |
+| [3](l03/level-03-mozilla.csv) | 2.8046 / 2.8008 | 122.85 / 79.05 | 1723.62 / 1459.31 |
+| [4](l04/level-04-mozilla.csv) | 2.8601 / 2.8276 | 366.13 / 50.37 | 1519.45 / 1279.22 |
+| [5](l05/level-05-mozilla.csv) | 2.9529 / 2.8932 | 316.26 / 48.91 | 1355.06 / 1289.18 |
+| [6](l06/level-06-mozilla.csv) | 2.9766 / 2.9718 | 73.08 / 46.48 | 1449.65 / 1391.84 |
+| [7](l07/level-07-mozilla.csv) | 3.0336 / 2.9993 | 54.93 / 35.69 | 1424.15 / 1291.51 |
+| [8](l08/level-08-mozilla.csv) | 3.0565 / 3.0244 | 53.60 / 35.36 | 1419.32 / 1340.53 |
+| [9](l09/level-09-mozilla.csv) | 3.0785 / 3.0505 | 40.67 / 30.72 | 1412.48 / 1205.15 |
+| [10](l10/level-10-mozilla.csv) | 3.0908 / 3.0644 | 40.16 / 21.17 | 1360.94 / 1167.78 |
+| [11](l11/level-11-mozilla.csv) | 3.0981 / 3.0698 | 39.31 / 17.46 | 1379.91 / 1117.07 |
+| [12](l12/level-12-mozilla.csv) | 3.1083 / 3.0710 | 36.62 / 16.69 | 1397.80 / 1070.57 |
+| [13](l13/level-13-mozilla.csv) | 3.1149 / 3.0741 | 37.83 / 20.19 | 1295.98 / 1186.15 |
+| [14](l14/level-14-mozilla.csv) | 3.1278 / 3.0775 | 38.32 / 17.63 | 1390.42 / 1156.30 |
+| [15](l15/level-15-mozilla.csv) | 3.1350 / 3.0839 | 38.80 / 14.43 | 1375.36 / 1131.35 |
+| [16](l16/level-16-mozilla.csv) | 3.1854 / 3.1718 | 33.40 / 11.30 | 1298.88 / 1221.39 |
+| [17](l17/level-17-mozilla.csv) | 3.2606 / 3.2478 | 27.92 / 8.34 | 1393.70 / 1151.86 |
+| [18](l18/level-18-mozilla.csv) | 3.3614 / 3.3518 | 22.70 / 6.89 | 1099.56 / 1088.02 |
+| [19](l19/level-19-mozilla.csv) | 3.3720 / 3.3605 | 22.37 / 6.04 | 1094.48 / 1083.85 |
+| [20](l20/level-20-mozilla.csv) | 3.3731 / 3.3623 | 22.15 / 5.92 | 1093.78 / 1085.41 |
+| [21](l21/level-21-mozilla.csv) | 3.3792 / 3.3628 | 21.92 / 5.73 | 1079.56 / 1049.67 |
+| [22](l22/level-22-mozilla.csv) | 3.3813 / 3.3630 | 25.58 / 5.56 | 1133.01 / 1087.09 |

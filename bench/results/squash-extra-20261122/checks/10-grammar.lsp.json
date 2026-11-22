@@ -1,0 +1,10 @@
+{
+  "file": "grammar.lsp",
+  "level": 10,
+  "archive_sha256": "160201c41ec0beb9236c13a6ff416b4659fae88425d0316b2ce9176f4945dad2",
+  "archive_bytes": 2105,
+  "raw_and_restored_sha256": "1b0805dfc0ae706b35aac2bb4e15f02485efd24dda5dbd29de7b2f84d1a88c15",
+  "trial_sha256": "6ad19dc2e2f82b01c2744b2cb7e015f838ee05db7962bb0b86a256b4164dd87f",
+  "started_utc": "2026-11-22T18:55:37.902750+00:00",
+  "completed_utc": "2026-11-22T18:55:37.928394+00:00"
+}

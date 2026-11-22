@@ -1,0 +1,23 @@
+[package]
+name = "btrcmpr"
+version = "0.1.0"
+edition = "2024"
+description = "A parallel lossless file compressor with 22 presets and ARM-optimized decoding"
+include = ["/src/**", "/tests/**", "/examples/**", "/bench/support/**", "/Cargo.toml", "/Cargo.lock", "/README.md", "/PRESETS.md"]
+
+[dependencies]
+
+[profile.release]
+debug = 1
+
+[features]
+baseline = []
+
+[[bin]]
+name = "compare"
+path = "src/bin/compare.rs"
+required-features = ["baseline"]
+
+[[example]]
+name = "profile"
+required-features = ["baseline"]

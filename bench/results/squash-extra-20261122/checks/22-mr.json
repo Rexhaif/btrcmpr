@@ -1,0 +1,10 @@
+{
+  "file": "mr",
+  "level": 22,
+  "archive_sha256": "56c5c679be5316b51c5eb6c2d0e5d34b7e6b9f1140d63a17d3f5e0bc9abfae0a",
+  "archive_bytes": 3285608,
+  "raw_and_restored_sha256": "68637ed52e3e4860174ed2dc0840ac77d5f1a60abbcb13770d5754e3774d53e6",
+  "trial_sha256": "d8067624a9d9373eceb23925a8acd1ce3187ff2bcb9fb0cdd32e91efad80530c",
+  "started_utc": "2026-11-22T18:58:22.300918+00:00",
+  "completed_utc": "2026-11-22T18:59:09.610768+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "checked_utc": "2026-11-22T19:07:42.552118+00:00",
+  "files": 25,
+  "levels": [
+    1,
+    3,
+    10,
+    22
+  ],
+  "file_level_comparisons": 100,
+  "measured_pairs": 500,
+  "standalone_archives_restored": 100,
+  "code_and_configuration_files_unchanged": 226,
+  "code_before_manifest_sha256": "2b9c37e8ecbbcd55712e1de7d6bf5fc874b6c6b1cc57b163b42a5bd710f911ff",
+  "release_sources_matched": true,
+  "comparator_sha256": "f8d320e7b5b2449a2586eccc6af365eafb306215e6c6b403a91de57e03078464",
+  "cli_sha256": "650525ab340439b6a7fe7e112ae0eaaba357257363ba73b5c7c5921bd71e7313",
+  "libzstd_sha256": "1279c4edfbfb08878b5b7fb40d392c1bdc9b30100d9b7a019d4aefaf10d2046c",
+  "comparisons_csv_sha256": "3a5e451dbff934c7362a240fed8d906e0352c2e15c7b3ef99a2c485062df35a8",
+  "all_raw_results_checked": true
+}

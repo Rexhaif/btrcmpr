@@ -1,0 +1,11 @@
+file,codec,round,order,raw_bytes,compressed_bytes,compress_seconds,decompress_seconds
+bench/data/squash-extra/webster,zstd,1,0,41458703,10151632,3.206676130,0.049280056
+bench/data/squash-extra/webster,btrcmpr,1,1,41458703,10449942,2.284664574,0.044735411
+bench/data/squash-extra/webster,btrcmpr,2,0,41458703,10449942,2.249267767,0.044997552
+bench/data/squash-extra/webster,zstd,2,1,41458703,10151632,2.987410156,0.048685249
+bench/data/squash-extra/webster,zstd,3,0,41458703,10151632,3.066406567,0.048449590
+bench/data/squash-extra/webster,btrcmpr,3,1,41458703,10449942,2.257259428,0.048040456
+bench/data/squash-extra/webster,btrcmpr,4,0,41458703,10449942,2.288276828,0.045510672
+bench/data/squash-extra/webster,zstd,4,1,41458703,10151632,3.103372786,0.050656975
+bench/data/squash-extra/webster,zstd,5,0,41458703,10151632,3.040535750,0.049223372
+bench/data/squash-extra/webster,btrcmpr,5,1,41458703,10449942,2.246988417,0.045980432

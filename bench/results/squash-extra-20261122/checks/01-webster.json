@@ -1,0 +1,10 @@
+{
+  "file": "webster",
+  "level": 1,
+  "archive_sha256": "b7da7d7fa08f043ebfd0512ebc6b5f7c982383336e3f013a15f29899c9a6d758",
+  "archive_bytes": 14022643,
+  "raw_and_restored_sha256": "6a68f69b26daf09f9dd84f7470368553194a0b294fcfa80f1604efb11143a383",
+  "trial_sha256": "b1b021582d33d641727d7a0213e6e1c7a9024be12a9edc34bf06849d828bc1bd",
+  "started_utc": "2026-11-22T18:55:21.059302+00:00",
+  "completed_utc": "2026-11-22T18:55:24.332909+00:00"
+}

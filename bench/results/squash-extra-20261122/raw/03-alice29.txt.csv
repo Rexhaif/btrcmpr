@@ -1,0 +1,11 @@
+file,codec,round,order,raw_bytes,compressed_bytes,compress_seconds,decompress_seconds
+bench/data/squash-extra/alice29.txt,zstd,1,0,152089,60623,0.001038879,0.000163327
+bench/data/squash-extra/alice29.txt,btrcmpr,1,1,152089,61241,0.002460002,0.000376342
+bench/data/squash-extra/alice29.txt,btrcmpr,2,0,152089,61241,0.003083433,0.000191753
+bench/data/squash-extra/alice29.txt,zstd,2,1,152089,60623,0.002473595,0.000172139
+bench/data/squash-extra/alice29.txt,zstd,3,0,152089,60623,0.001058991,0.000163097
+bench/data/squash-extra/alice29.txt,btrcmpr,3,1,152089,61241,0.002344778,0.000173131
+bench/data/squash-extra/alice29.txt,btrcmpr,4,0,152089,61241,0.002412039,0.000158044
+bench/data/squash-extra/alice29.txt,zstd,4,1,152089,60623,0.001086843,0.000165263
+bench/data/squash-extra/alice29.txt,zstd,5,0,152089,60623,0.000983360,0.000163292
+bench/data/squash-extra/alice29.txt,btrcmpr,5,1,152089,61241,0.002456502,0.000154051

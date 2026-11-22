@@ -1,0 +1,27 @@
+{
+  "frozen_comparator_sha256": "f8d320e7b5b2449a2586eccc6af365eafb306215e6c6b403a91de57e03078464",
+  "libzstd_sha256": "1279c4edfbfb08878b5b7fb40d392c1bdc9b30100d9b7a019d4aefaf10d2046c",
+  "rounds": 5,
+  "decodes_per_observation": 7,
+  "trials": "paired/frozen-control-enwik8.csv",
+  "trials_sha256": "afb1ae1f8cfa0038943eb5e5ee18fe7817b531b5b10322adfde00878630c88c2",
+  "rates": {
+    "level": "1",
+    "file": "enwik8",
+    "rounds": "5",
+    "btr_bytes": "40513113",
+    "zstd_bytes": "40669611",
+    "btr_ratio": "2.4683",
+    "zstd_ratio": "2.4588",
+    "btr_encode_MBps": "644.42",
+    "zstd_encode_MBps": "634.23",
+    "btr_decode_MBps": "1618.18",
+    "zstd_decode_MBps": "1648.02",
+    "all_pass": "0"
+  },
+  "level": "1",
+  "file": "enwik8",
+  "allow_decode_loss_pct": "5",
+  "decode_delta_pct": "-1.81069",
+  "all_pass_with_allowance": "1"
+}

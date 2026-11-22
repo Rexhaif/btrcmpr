@@ -1,0 +1,4084 @@
+{
+  "kind": "compiler branch counts only; no model or dictionary read by the codec",
+  "seed": 22627,
+  "sources": {
+    "/usr/share/doc/git/RelNotes/1.5.0.1.txt": {
+      "input": "manuals",
+      "size": 1255,
+      "used": 1255,
+      "sha256": "9e7803c943a1b3d11f107268e3e972479cee8c76b67e82a5468fbb76bdd347da"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.0.2.txt": {
+      "input": "manuals",
+      "size": 2308,
+      "used": 2308,
+      "sha256": "1a255594164afc93e5ff2253a0736c62da49d5cbc36f8f5dccdf06a5d10eaa9f"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.0.3.txt": {
+      "input": "manuals",
+      "size": 1577,
+      "used": 1577,
+      "sha256": "651c6527677502aefaf8cbc4badc410ef261c5620c43da15a845c1021f4ea2d2"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.0.4.txt": {
+      "input": "manuals",
+      "size": 462,
+      "used": 462,
+      "sha256": "9ef837dc014705518a6341d2a090872fad0f147c0619d4ae25653cb458e707c0"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.0.5.txt": {
+      "input": "manuals",
+      "size": 609,
+      "used": 609,
+      "sha256": "f34de37ace036a7be38c7d4129c5328ee565bc82b52f051c1a2d3031b35feb98"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.0.6.txt": {
+      "input": "manuals",
+      "size": 484,
+      "used": 484,
+      "sha256": "1ff02f8e4d53aa3cb59d48f07d1d94f76a5d92a068b8ef33387d18f2436b3795"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.0.7.txt": {
+      "input": "manuals",
+      "size": 482,
+      "used": 482,
+      "sha256": "9abbcf4b6ef3ce2ffe932f600524c5222ad29ec8796139e70052a68a21894eff"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.0.txt": {
+      "input": "manuals",
+      "size": 18638,
+      "used": 18638,
+      "sha256": "43f6defffcdd8e4e3d89b468baffa626be995724b343d2058e10cf1444109aba"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.1.1.txt": {
+      "input": "manuals",
+      "size": 2164,
+      "used": 2164,
+      "sha256": "6acf92bb65585a432ab3b397611e3910c0024d014d5095b901eb592fea803e86"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.1.2.txt": {
+      "input": "manuals",
+      "size": 1651,
+      "used": 1651,
+      "sha256": "c7b8e556439519c40898101e0ee9ccf9ba21883ac3476a8db108079deacd1de0"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.1.3.txt": {
+      "input": "manuals",
+      "size": 1566,
+      "used": 1566,
+      "sha256": "35cf06ab378388cf6b5e97d20543c3939c41d39011d8fc7de79ee035c02bbc60"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.1.4.txt": {
+      "input": "manuals",
+      "size": 843,
+      "used": 843,
+      "sha256": "07b290f6f7ccfbea0fbafbf5e23453f644e1dc31331db088042555794734e4ff"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.1.5.txt": {
+      "input": "manuals",
+      "size": 1430,
+      "used": 1430,
+      "sha256": "718e9758fc239fca0136795b09c128c592ada1ee10d16760b90f5a89b118f855"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.1.6.txt": {
+      "input": "manuals",
+      "size": 1519,
+      "used": 1519,
+      "sha256": "bd5a7571605790c93f7d6ac29fa9e3fc284053fce424c2a8d0fbafea9cb8299b"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.1.txt": {
+      "input": "manuals",
+      "size": 13288,
+      "used": 13288,
+      "sha256": "a769534f4bd8b9e61530b21f54f05cf1a1e716a0e1fc6c33392cabdd363bac10"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.2.1.txt": {
+      "input": "manuals",
+      "size": 1457,
+      "used": 1457,
+      "sha256": "76ed2bc2a7691bf001851e446316c83fb535e9c67032ebbcec832c2c3c15b635"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.2.2.txt": {
+      "input": "manuals",
+      "size": 2086,
+      "used": 2086,
+      "sha256": "acb91201801caa4c502943e8dd74a30cd6a1f5b0dd97ac9696a688a8229c7717"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.2.3.txt": {
+      "input": "manuals",
+      "size": 796,
+      "used": 796,
+      "sha256": "fe99e263da1bfd08814ade33c3826caedc35ab3771efb34ea0e12931c795ecc1"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.2.4.txt": {
+      "input": "manuals",
+      "size": 802,
+      "used": 802,
+      "sha256": "2c02dd08fe3d16b6c061d5780168ce1a0c449d30d4a1e9b42956476c3e21157b"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.2.5.txt": {
+      "input": "manuals",
+      "size": 928,
+      "used": 928,
+      "sha256": "452c06cf9c5ec3f777f9fdfc1990a1e59f75a1feae4aca28d6f5176f9aa2c16e"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.2.txt": {
+      "input": "manuals",
+      "size": 7355,
+      "used": 7355,
+      "sha256": "172a419a5d2024c1954507df64a5d0c01fd5af5122bfa96f3467d41949a888aa"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.3.1.txt": {
+      "input": "manuals",
+      "size": 326,
+      "used": 326,
+      "sha256": "cf33ad3d463b3bf0819568d3211c3143a1d029bad3fe1d7043586e5c8a64bb68"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.3.2.txt": {
+      "input": "manuals",
+      "size": 1931,
+      "used": 1931,
+      "sha256": "0acc4505e840aa69e3db61b77ee25d5460aff363972f444b5bd712f0898bd716"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.3.3.txt": {
+      "input": "manuals",
+      "size": 896,
+      "used": 896,
+      "sha256": "c857dc56f168d72f91e848ab3da8a8153f7e583d70afa65d1ca8f69f1cc325e6"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.3.4.txt": {
+      "input": "manuals",
+      "size": 1208,
+      "used": 1208,
+      "sha256": "463fe9c6c5e1afe6bc1ede1cdba2c0921a2da561a1a050ecda25f71e0fd0e39f"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.3.5.txt": {
+      "input": "manuals",
+      "size": 3376,
+      "used": 3376,
+      "sha256": "68684179fc97bef69bec82526d8b7f0f4a08c4c9d670102e0b754ceecb1414f6"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.3.6.txt": {
+      "input": "manuals",
+      "size": 1432,
+      "used": 1432,
+      "sha256": "30ba06873aceaf1d74a0e429b0811a01ed0c84271842d171d727f62cd955eeef"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.3.7.txt": {
+      "input": "manuals",
+      "size": 1584,
+      "used": 1584,
+      "sha256": "1af776cc1478a5c682dea1e5cf1a7d732502b779401f3c45af055027d00a6d12"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.3.8.txt": {
+      "input": "manuals",
+      "size": 783,
+      "used": 783,
+      "sha256": "bea236eb3e1b2aad7299ad7c7d5e112dd07ab0de9dbf3bc2cb3aedbac97f9a0e"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.3.txt": {
+      "input": "manuals",
+      "size": 14030,
+      "used": 14030,
+      "sha256": "5de3b7b12cd05d52e5caf06a0cb5227ef1748c2b2bc3f79cb8a13009b1bb4a6f"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.4.1.txt": {
+      "input": "manuals",
+      "size": 524,
+      "used": 524,
+      "sha256": "bac132c28386d1837a2a0c459b35a12a8d9c14317b8d6371a7bd5af11dde69d4"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.4.2.txt": {
+      "input": "manuals",
+      "size": 1530,
+      "used": 1530,
+      "sha256": "9e7f6822161a45fc318d85aa0da0aef83f6b1ad5e0d15d8579b7038e07722500"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.4.3.txt": {
+      "input": "manuals",
+      "size": 997,
+      "used": 997,
+      "sha256": "36d49083813bb8240069724e83b028488f7722c83de70c3dc60fea8c5f36ff23"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.4.4.txt": {
+      "input": "manuals",
+      "size": 2617,
+      "used": 2617,
+      "sha256": "1d683686dcf375ae64e61d1ebfb393dafdd035851477faca175267c91cf16d63"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.4.5.txt": {
+      "input": "manuals",
+      "size": 2241,
+      "used": 2241,
+      "sha256": "76dde82acc9aea773ae44e92e039a1faf1c577255663001787cec0a29a24eaf3"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.4.6.txt": {
+      "input": "manuals",
+      "size": 1440,
+      "used": 1440,
+      "sha256": "5a4fe3858a159819928ed54bb726dfc1c233c8aed8cd529d1c74575c408c4a78"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.4.7.txt": {
+      "input": "manuals",
+      "size": 342,
+      "used": 342,
+      "sha256": "20ae6ef46b359a2f4e704fea72f192b61ec1aa6ca1a8a519144445ae72a49890"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.4.txt": {
+      "input": "manuals",
+      "size": 14424,
+      "used": 14424,
+      "sha256": "05aa2e201f111fcc818779cffb00247b8ce543f7145780e2a72d70e406b8abdf"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.5.1.txt": {
+      "input": "manuals",
+      "size": 1499,
+      "used": 1499,
+      "sha256": "a773a6dd737d43b10405d9c4e114825a99392d15473511a541b4840820fd8eef"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.5.2.txt": {
+      "input": "manuals",
+      "size": 772,
+      "used": 772,
+      "sha256": "fa332a350f264951c21e75e40b2ba6c9920cbe26a77c62ce0bcac4ea767e55e8"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.5.3.txt": {
+      "input": "manuals",
+      "size": 305,
+      "used": 305,
+      "sha256": "baa296295e0dea9045b283133b2201dea633ed9fefdb60f07be763a6e5b9c7ab"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.5.4.txt": {
+      "input": "manuals",
+      "size": 140,
+      "used": 140,
+      "sha256": "4eacd3f27e91fc23ccd3f416bede58bcdf1d64b4cc2764bca57e6d8ace9c6d2e"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.5.5.txt": {
+      "input": "manuals",
+      "size": 449,
+      "used": 449,
+      "sha256": "f0a6d977e7276f77fb6be512cafce1e7713d67872b51d260485164e0e8b1b472"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.5.6.txt": {
+      "input": "manuals",
+      "size": 342,
+      "used": 342,
+      "sha256": "dfacd4c964835646a89489eea6a9934cec4cf09ba3124d24af3cace3376d1ace"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.5.txt": {
+      "input": "manuals",
+      "size": 7596,
+      "used": 7596,
+      "sha256": "e0c28a65d1674420c6bbfb81390eb1a366811192650f939b6ec97fea1773b0ea"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.6.1.txt": {
+      "input": "manuals",
+      "size": 793,
+      "used": 793,
+      "sha256": "055728a9fd04c8b08ae6e7fc849606385a79b585d5721ee897d5aec7c5e45ffd"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.6.2.txt": {
+      "input": "manuals",
+      "size": 1457,
+      "used": 1457,
+      "sha256": "76d98836d1f962b77ca32783355850baaaa743451eb07e202f5ad9044269ce1d"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.6.3.txt": {
+      "input": "manuals",
+      "size": 2113,
+      "used": 2113,
+      "sha256": "8c13fbb9e085f786d4e5967855dc8489bee119c3b4935b52b2bfae976175a631"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.6.4.txt": {
+      "input": "manuals",
+      "size": 1573,
+      "used": 1573,
+      "sha256": "7f31c6dc3fa1e001b25b785c094c3bd8a7df4c7025796e077ad483db090fffb1"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.6.5.txt": {
+      "input": "manuals",
+      "size": 1041,
+      "used": 1041,
+      "sha256": "f617064996a9a5cac524c4b813a3174bdfd2e415c9aaee94a6587702628a5328"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.6.6.txt": {
+      "input": "manuals",
+      "size": 342,
+      "used": 342,
+      "sha256": "703186b76a2c130c627f13d70e3e187dd5f535b30ef7eef912032fa7869b8b80"
+    },
+    "/usr/share/doc/git/RelNotes/1.5.6.txt": {
+      "input": "manuals",
+      "size": 3843,
+      "used": 3843,
+      "sha256": "403302690de1c803112cc9fe1879db9710ba2368198179a4aa5cc9ac163537b3"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.0.1.txt": {
+      "input": "manuals",
+      "size": 1188,
+      "used": 1188,
+      "sha256": "6d3f58796cde8c919ea953e3cdb1ba8fc2df9efb3976123788fa930953405d47"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.0.2.txt": {
+      "input": "manuals",
+      "size": 2840,
+      "used": 2840,
+      "sha256": "1c6fedaf2324e8c855afee49d4ed851ed8fcc5f5378bf9b9adb7ef6ae3f4b58f"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.0.3.txt": {
+      "input": "manuals",
+      "size": 4315,
+      "used": 4315,
+      "sha256": "6690ec3c5a5897a499b7b0df481794bbf5300eac2547b85fbf7d84b5a181988e"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.0.4.txt": {
+      "input": "manuals",
+      "size": 1293,
+      "used": 1293,
+      "sha256": "05dd39f7c7493cf249ca53b8b15cd8a555309930308362448ba438443458beae"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.0.5.txt": {
+      "input": "manuals",
+      "size": 2014,
+      "used": 2014,
+      "sha256": "fb8ff00a90f4fe71815795f80584de758ed44017f1749d8adfb227cea9a6d764"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.0.6.txt": {
+      "input": "manuals",
+      "size": 1193,
+      "used": 1193,
+      "sha256": "4642c8a6d041b91943ffc22d52ef63f70782ef3fc201ab2ff781f7d6d39c6c2a"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.0.txt": {
+      "input": "manuals",
+      "size": 10049,
+      "used": 10049,
+      "sha256": "8e4f481c992a2f4c1cdc645996b9e14494fa6a152baa4bc6219a4a89a05e58eb"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.1.1.txt": {
+      "input": "manuals",
+      "size": 1976,
+      "used": 1976,
+      "sha256": "d6d6162dade53849c37063d8354b15119aad14cade63918f5404e79c373053dd"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.1.2.txt": {
+      "input": "manuals",
+      "size": 1640,
+      "used": 1640,
+      "sha256": "d913cd6d36fdc92dca69849838346df3dde5c53f79c82f13031723813a8e6ee7"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.1.3.txt": {
+      "input": "manuals",
+      "size": 847,
+      "used": 847,
+      "sha256": "dbbf1ce25e63ff77e8b3409b2d4641784492c07ce006fba7c730002d13951e6b"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.1.4.txt": {
+      "input": "manuals",
+      "size": 1593,
+      "used": 1593,
+      "sha256": "deca999b9655bbfa37a3c75a74686a7c72b9db7688d4bce9ae8f0703079a4830"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.1.txt": {
+      "input": "manuals",
+      "size": 10322,
+      "used": 10322,
+      "sha256": "1756bee992ff0a6e347e9742ef87c8cab717da1d31392b9528ee703c16c43abe"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.2.1.txt": {
+      "input": "manuals",
+      "size": 597,
+      "used": 597,
+      "sha256": "933959c88df89ff482f3a000162b601d7c36e69f86a93eeb7a2fe08421312d1b"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.2.2.txt": {
+      "input": "manuals",
+      "size": 1508,
+      "used": 1508,
+      "sha256": "dee5c9fd9a0051d85c9113f32fc991a91863ba4781b5e40d0e0e269c4a1a3a35"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.2.3.txt": {
+      "input": "manuals",
+      "size": 781,
+      "used": 781,
+      "sha256": "e83a2af7a0f62db8c8b9987bfbc3b5de5a446c96f5c8148a69765af0d8a166cd"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.2.4.txt": {
+      "input": "manuals",
+      "size": 1351,
+      "used": 1351,
+      "sha256": "75327b4d16ab8c05e6af5e8bf8d56474662f55a2edfc5b0ecb0064a758ac1b54"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.2.5.txt": {
+      "input": "manuals",
+      "size": 688,
+      "used": 688,
+      "sha256": "a638385d8aa09599ff9ad6b34b5d787e664cf3656fcf64445bf3513a37117be8"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.2.txt": {
+      "input": "manuals",
+      "size": 5933,
+      "used": 5933,
+      "sha256": "cc097d5125c334998cfcdd880e3f56554ceff4496b59621100b58a6a7403b013"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.3.1.txt": {
+      "input": "manuals",
+      "size": 343,
+      "used": 343,
+      "sha256": "48a348e04c2259400e7f287ba46f75fc5d1ef27a9de6e4e41380d9c5097d3d45"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.3.2.txt": {
+      "input": "manuals",
+      "size": 2271,
+      "used": 2271,
+      "sha256": "e49e17eba648b17a186e0b038896640a074ea7759397bd79b58c9b7658cabfa5"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.3.3.txt": {
+      "input": "manuals",
+      "size": 1379,
+      "used": 1379,
+      "sha256": "65b9f0e14c02e8f30190566860d4a00fbbd3dd27b7ba4d951d1d5145996de12c"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.3.4.txt": {
+      "input": "manuals",
+      "size": 1206,
+      "used": 1206,
+      "sha256": "03043f59efa39f4e3d821e7d53061ea64c7801363c856236c82dd1c0e7af6d21"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.3.txt": {
+      "input": "manuals",
+      "size": 6832,
+      "used": 6832,
+      "sha256": "2202f4f5e265f5a4631cc66d2777a1e1ce5e67e16ee82290b20dac8c700171cd"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.4.1.txt": {
+      "input": "manuals",
+      "size": 1906,
+      "used": 1906,
+      "sha256": "007d21c7213b886b20e49e9b2ee839032aa56b5d7200198d736e2a59bbf70a75"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.4.2.txt": {
+      "input": "manuals",
+      "size": 1210,
+      "used": 1210,
+      "sha256": "0e6d93a8e72f5f8e877d37217f06e63533b962c67a41ec45628ddabd882681f6"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.4.3.txt": {
+      "input": "manuals",
+      "size": 1146,
+      "used": 1146,
+      "sha256": "e062025e848c39874ebc5341de382adf049a597852d77e12054b8c4412c4ecc8"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.4.4.txt": {
+      "input": "manuals",
+      "size": 1034,
+      "used": 1034,
+      "sha256": "9e4eaef97ae41c3206d1e0e86507136b12aa26d5104dc9673dc8c2c08f4e480f"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.4.5.txt": {
+      "input": "manuals",
+      "size": 605,
+      "used": 605,
+      "sha256": "ee5177c62fae6f1cdbe7f32ee0ede2269ecaeba3bea2a6dff03b67e971ed89e5"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.4.txt": {
+      "input": "manuals",
+      "size": 5398,
+      "used": 5398,
+      "sha256": "89fb44b5fbb510faeab668b53a22310f09998de8f57f9c19174527ace621c35b"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.5.1.txt": {
+      "input": "manuals",
+      "size": 549,
+      "used": 549,
+      "sha256": "3392a2c28bdc661db6d11a2ba591a3208ae5f5742a14b4f907dba3d44373c7b7"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.5.2.txt": {
+      "input": "manuals",
+      "size": 581,
+      "used": 581,
+      "sha256": "0d042848f4703d717bd70b21466cb6f003eca6d3a2235809c255e53b114c1686"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.5.3.txt": {
+      "input": "manuals",
+      "size": 2485,
+      "used": 2485,
+      "sha256": "6a35312ed86df0b08043e5a9edefc4d127323dbcb2686d7850cc490c0b948ac1"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.5.4.txt": {
+      "input": "manuals",
+      "size": 1274,
+      "used": 1274,
+      "sha256": "c75406708f9957ccfa7c4e0c280d807b0cc322486aa81b880d13038562ce44c1"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.5.5.txt": {
+      "input": "manuals",
+      "size": 1891,
+      "used": 1891,
+      "sha256": "3b660fde643abf10b56b0f28f6ad9e3a32370c31a46e35cabc0156a441697bfa"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.5.6.txt": {
+      "input": "manuals",
+      "size": 791,
+      "used": 791,
+      "sha256": "2c1d6f862a3e8c740a42ea11cde6f40ad878aa149c8d7d77ecead8cdfda9ba1e"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.5.7.txt": {
+      "input": "manuals",
+      "size": 771,
+      "used": 771,
+      "sha256": "43e7665a6ed3676e4af50df3cd2c4d5fe38702f63a32dce7a86cf50fcb8fd299"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.5.8.txt": {
+      "input": "manuals",
+      "size": 900,
+      "used": 900,
+      "sha256": "fbbb84dd927bc7d5d4c30b0d8970a5d1ee9a82c5d7538e570d9d92eabbe3ab4c"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.5.9.txt": {
+      "input": "manuals",
+      "size": 581,
+      "used": 581,
+      "sha256": "45a8634a944fcd19c744e52b72e7e5a9475a8509507bcc531c0242bec64a06b7"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.5.txt": {
+      "input": "manuals",
+      "size": 6335,
+      "used": 6335,
+      "sha256": "543268031def09b6f5f7d9e8620d6d46f17fe026d831d2908ee145f1914b267d"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.6.1.txt": {
+      "input": "manuals",
+      "size": 1230,
+      "used": 1230,
+      "sha256": "8743a38e9c24268b44a79c113f0ab45d930695fedfb9fa23936344de53ab7292"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.6.2.txt": {
+      "input": "manuals",
+      "size": 1599,
+      "used": 1599,
+      "sha256": "a948f87611d511c04576f22acb72f2c40ad941c53513ba65c57a2efa53787ccc"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.6.3.txt": {
+      "input": "manuals",
+      "size": 751,
+      "used": 751,
+      "sha256": "0a105c04608a2a08cde01b2bcb3431356007beda139b13852baee1c87fdd9698"
+    },
+    "/usr/share/doc/git/RelNotes/1.6.6.txt": {
+      "input": "manuals",
+      "size": 9504,
+      "used": 9504,
+      "sha256": "7e12d1a937e9d7ace5866df326a8c9849f19898c986b4b50230cbd817f5184b4"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.0.1.txt": {
+      "input": "manuals",
+      "size": 1287,
+      "used": 1287,
+      "sha256": "47ead71b1b81a9255059ec6a6d82a5057ab39adbf437e832941a998268241b91"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.0.2.txt": {
+      "input": "manuals",
+      "size": 1476,
+      "used": 1476,
+      "sha256": "1bbff0f663e79fd48b464508b513f650c09f4174f9cfb4573ab812c46fd004b9"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.0.3.txt": {
+      "input": "manuals",
+      "size": 1176,
+      "used": 1176,
+      "sha256": "0e22524735aead5862d2951519926baba0ad5002306f3fdbcd7e44d1ec7fa43d"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.0.4.txt": {
+      "input": "manuals",
+      "size": 888,
+      "used": 888,
+      "sha256": "5cc3c97359379add3ce077879aefa05e1530c33de3974af56e50c53f7cc64fae"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.0.5.txt": {
+      "input": "manuals",
+      "size": 915,
+      "used": 915,
+      "sha256": "d5f277b86f0bae702fe0a0df698ff11ee4f944022790e9aee618cbb7991c6a97"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.0.6.txt": {
+      "input": "manuals",
+      "size": 365,
+      "used": 365,
+      "sha256": "f8798170463b42fc994fd942225dc97fd525e5b1044e33b91cc229ae0e02676a"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.0.7.txt": {
+      "input": "manuals",
+      "size": 467,
+      "used": 467,
+      "sha256": "6d381ae47889e19cd0f1de6d093b9404b4f9d9651773293f0c93041f889e535a"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.0.8.txt": {
+      "input": "manuals",
+      "size": 452,
+      "used": 452,
+      "sha256": "b6cd279c83676876898e34ba4c10a2b9704b5ca704e202409c267600f83ac4fb"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.0.9.txt": {
+      "input": "manuals",
+      "size": 219,
+      "used": 219,
+      "sha256": "f31c42e8a17d008c8e7b3c615d8d33b536bfea0e33edb4f29df42c28c9856167"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.0.txt": {
+      "input": "manuals",
+      "size": 8765,
+      "used": 8765,
+      "sha256": "d2b82be5703e24aec3bbc1aaebbd547472bccda79be6e89bde3075604f5d45f5"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.1.1.txt": {
+      "input": "manuals",
+      "size": 3825,
+      "used": 3825,
+      "sha256": "8e31b505807669f7ae6c1861d0611656b6eaafe9ef654b65e5f20878c4ec82da"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.1.2.txt": {
+      "input": "manuals",
+      "size": 1069,
+      "used": 1069,
+      "sha256": "3a03118f2336852e0a93744fb084f992653aeaed1ce91fdfd8a66fcae93067ad"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.1.3.txt": {
+      "input": "manuals",
+      "size": 452,
+      "used": 452,
+      "sha256": "b02933eec7cb35b1c81f54fba03f8ca519470f54582e7be21e2ec94400d71b8e"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.1.4.txt": {
+      "input": "manuals",
+      "size": 219,
+      "used": 219,
+      "sha256": "b2ea0cdbda04ed3178436d53773c98618546879c7a996630a256ea86b882ca1f"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.1.txt": {
+      "input": "manuals",
+      "size": 2941,
+      "used": 2941,
+      "sha256": "b4abed3d4d49a52614a4f5aca0c59474eb4744d874b839a8bd2969d254ba5119"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.10.1.txt": {
+      "input": "manuals",
+      "size": 3073,
+      "used": 3073,
+      "sha256": "e79236e88adeaf257033562f9e38f91bdc64c759511646f1857e5e55ab7a3536"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.10.2.txt": {
+      "input": "manuals",
+      "size": 3445,
+      "used": 3445,
+      "sha256": "05246380c1beee436d484c67cfcec788fe3a7929aff0771e1414cb93023bcb24"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.10.3.txt": {
+      "input": "manuals",
+      "size": 1876,
+      "used": 1876,
+      "sha256": "6b3f94b40b0f8941dbd13e9a119a806a20a42fb7cf6b0ed232c0e28be1cc050d"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.10.4.txt": {
+      "input": "manuals",
+      "size": 1057,
+      "used": 1057,
+      "sha256": "54e4acdc63f64091d3078f9ec48a039d78394ff1be9be3f4df74913a05eeb221"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.10.5.txt": {
+      "input": "manuals",
+      "size": 397,
+      "used": 397,
+      "sha256": "698fe30cf8434fc315337c267c631dcb2ae82303a7b9c4b3b9ec597ac9c240a9"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.10.txt": {
+      "input": "manuals",
+      "size": 9025,
+      "used": 9025,
+      "sha256": "405758aaf85cf406562ec46e69b0210f62cd46d9b56dfafd2e3560a295635b4a"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.11.1.txt": {
+      "input": "manuals",
+      "size": 224,
+      "used": 224,
+      "sha256": "98604ccfcb0b56af8e082784aed128083235c6da380277668c7e8e8653758f5f"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.11.2.txt": {
+      "input": "manuals",
+      "size": 2291,
+      "used": 2291,
+      "sha256": "d21e506f7b207a7ebe9d25a5b2e05e6e75a8859672a725f3c21e5671168193f4"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.11.3.txt": {
+      "input": "manuals",
+      "size": 2314,
+      "used": 2314,
+      "sha256": "c9ed246b866f62be0ad94e128d344e9d8164bc3fa016de216844be87c677cdb1"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.11.4.txt": {
+      "input": "manuals",
+      "size": 1171,
+      "used": 1171,
+      "sha256": "bdb314c5c69dce810010febdda4c4d2a7b00be1869b0099425f4d383a8d00b11"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.11.5.txt": {
+      "input": "manuals",
+      "size": 1292,
+      "used": 1292,
+      "sha256": "6b8c4ef7b7b659bc795b1a45a41d5eb5136c7cad264eaddbfddb2db775f74273"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.11.6.txt": {
+      "input": "manuals",
+      "size": 3436,
+      "used": 3436,
+      "sha256": "b54ec2d965c6179d2f02dc1d56f0539752f65ff7031e366fecd341551935c7f5"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.11.7.txt": {
+      "input": "manuals",
+      "size": 1959,
+      "used": 1959,
+      "sha256": "a5a4d730650594007590c8e0cf9fcafb45ac18687d95646bfd961458640fa91f"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.11.txt": {
+      "input": "manuals",
+      "size": 5506,
+      "used": 5506,
+      "sha256": "1db7ddf6fb7a4b4bad121b7a0ac080757b5a06939f68373fc9c5f29e692ae6ba"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.12.1.txt": {
+      "input": "manuals",
+      "size": 5800,
+      "used": 5800,
+      "sha256": "65b7f8516510d01f2de48b5dacbebaf6b5606f677d977d4337069f2dda78ef88"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.12.2.txt": {
+      "input": "manuals",
+      "size": 1767,
+      "used": 1767,
+      "sha256": "3f3685ac33fd4ea3bdd98a433152c0dd7b35579dbce78bed242b997ba35d35cd"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.12.3.txt": {
+      "input": "manuals",
+      "size": 1329,
+      "used": 1329,
+      "sha256": "d7ae9d26cc07b5e850bc950551802aafa678c3dba8de48d7f13c257e94999bff"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.12.4.txt": {
+      "input": "manuals",
+      "size": 712,
+      "used": 712,
+      "sha256": "f5bf33cde5cd0ed4aa5a7c547cc6e8bbfadff38347179d6ebd89216aaa0dad7d"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.12.txt": {
+      "input": "manuals",
+      "size": 5336,
+      "used": 5336,
+      "sha256": "b3c69dd82e96bcce77b00db892b438f608260ef4efb6de64061d858ac7d7659f"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.2.1.txt": {
+      "input": "manuals",
+      "size": 806,
+      "used": 806,
+      "sha256": "862b06a6c606f6dc2946901bf3733575b71d379c4dc24b803139e28ce4607b20"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.2.2.txt": {
+      "input": "manuals",
+      "size": 695,
+      "used": 695,
+      "sha256": "f3af0a539855eb66cd7933393b44cf2ef14c16da168cb887e0675c738fc3ba1c"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.2.3.txt": {
+      "input": "manuals",
+      "size": 1355,
+      "used": 1355,
+      "sha256": "e6309a6caffe7bdd51151381ba0146cf480e4647344c01ee9007f59d37a9d039"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.2.4.txt": {
+      "input": "manuals",
+      "size": 452,
+      "used": 452,
+      "sha256": "8c572b92115ed1ded87b604ab8de0e12b183f45d27515e76c0cfa12aaf3ea838"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.2.5.txt": {
+      "input": "manuals",
+      "size": 219,
+      "used": 219,
+      "sha256": "3ab1c8ca5b6f3465e8422e0cd35d9d9b23883f5f56f384907505a588f92f66fb"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.2.txt": {
+      "input": "manuals",
+      "size": 5978,
+      "used": 5978,
+      "sha256": "ab195d868dae18b3ef87719993f66a0521e16d40c90913ce733ade8b6b7452b2"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.3.1.txt": {
+      "input": "manuals",
+      "size": 425,
+      "used": 425,
+      "sha256": "debc5262cd2d6b340d9975f08edfd08f73e1ba5b55923b2b7f549e7343083e95"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.3.2.txt": {
+      "input": "manuals",
+      "size": 149,
+      "used": 149,
+      "sha256": "e6c84b1d05a1ae3d7c6a1336cab58738f61971f62f53beed8ab9da6da3422d99"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.3.3.txt": {
+      "input": "manuals",
+      "size": 2075,
+      "used": 2075,
+      "sha256": "ce7524b74b6abf22a8a88f474fede7a862cf55b1882c3fbe3dfd7d564d229c0a"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.3.4.txt": {
+      "input": "manuals",
+      "size": 1639,
+      "used": 1639,
+      "sha256": "01b7a96ad43c45084529c319a1b9851cbdb13175e12fc364cfc38f4dc8b1b8bd"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.3.5.txt": {
+      "input": "manuals",
+      "size": 1454,
+      "used": 1454,
+      "sha256": "94ddd4e2fba8c452bc41d8314f3d7c45df7f31921126c8405e01a569a418b1a3"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.3.txt": {
+      "input": "manuals",
+      "size": 2642,
+      "used": 2642,
+      "sha256": "78cc19e0b77615afb89e0b395b6bf1bd936c80ac548e8708de65663ade3fccc7"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.4.1.txt": {
+      "input": "manuals",
+      "size": 899,
+      "used": 899,
+      "sha256": "1d1e570147e3237ecb909ed66def675166f47eeeb32dd8dc91dfb6b6a66e876d"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.4.2.txt": {
+      "input": "manuals",
+      "size": 2290,
+      "used": 2290,
+      "sha256": "7618dfb0167245562530fba0274cae3568303da4fa7bfe0f02acf0f38673bc46"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.4.3.txt": {
+      "input": "manuals",
+      "size": 1245,
+      "used": 1245,
+      "sha256": "54be39587e4fcb450e25e71d5a265d53c2a45a96dd02d307ce60f0b83432a92d"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.4.4.txt": {
+      "input": "manuals",
+      "size": 1288,
+      "used": 1288,
+      "sha256": "7a78a9978c03524b6af212aba029ca04572c55b73cc67be93d91d6db303f1a4c"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.4.5.txt": {
+      "input": "manuals",
+      "size": 127,
+      "used": 127,
+      "sha256": "ae7ab811b18d0915fb74d2d6c4a0a462a2aead831532c3b973c603cd22e1c62d"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.4.txt": {
+      "input": "manuals",
+      "size": 6502,
+      "used": 6502,
+      "sha256": "269a4b7584d68f5ccc7b60907e826f157de5ea1e9fc8d3aa357391545c1f53d9"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.5.1.txt": {
+      "input": "manuals",
+      "size": 1905,
+      "used": 1905,
+      "sha256": "dff68f73da8a1510c7a6dda4ec677c5356252ca3d643ec558943051b09571131"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.5.2.txt": {
+      "input": "manuals",
+      "size": 2189,
+      "used": 2189,
+      "sha256": "8a4a8445c308b942f0b8d203ec5ae8c98c79776df70aa3325d5b1ec77123f001"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.5.3.txt": {
+      "input": "manuals",
+      "size": 1101,
+      "used": 1101,
+      "sha256": "27a1228f6978747bdad36d11b22cb08e4bfad583b62892311902b34414e2e16f"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.5.4.txt": {
+      "input": "manuals",
+      "size": 754,
+      "used": 754,
+      "sha256": "df901fdab8e88f0f41ee06a2986e4971f77e8758bd3b2337f5c63e7d609f23a7"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.5.txt": {
+      "input": "manuals",
+      "size": 5329,
+      "used": 5329,
+      "sha256": "0e4518d1d37c286eb8fdb6bf21ff5a9dc12de0e5224421c4fee28af0d398ca3b"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.6.1.txt": {
+      "input": "manuals",
+      "size": 2248,
+      "used": 2248,
+      "sha256": "67ff7a81ff88124e901129acd218f16973cbfea3d86c231ccd86d825ddb7832a"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.6.2.txt": {
+      "input": "manuals",
+      "size": 245,
+      "used": 245,
+      "sha256": "84a281eb31c40ad9d2f4573da7edda387dfdb274edb57a2f1226caa6a7b355d2"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.6.3.txt": {
+      "input": "manuals",
+      "size": 792,
+      "used": 792,
+      "sha256": "ff165a4bc0a73a9bbd8bea5115cb9476649ab8a4fee8da680e6db34f10e3098e"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.6.4.txt": {
+      "input": "manuals",
+      "size": 1264,
+      "used": 1264,
+      "sha256": "e622a1939582604b216a88fc5c136d3bb51db36fcc2210f4266342a8a0ee1d93"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.6.5.txt": {
+      "input": "manuals",
+      "size": 969,
+      "used": 969,
+      "sha256": "e77674ac5cd0158ca9e4f5fb2a24f880ecc1e0830bf5f95e2cd23bb9e4d50f55"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.6.6.txt": {
+      "input": "manuals",
+      "size": 587,
+      "used": 587,
+      "sha256": "7c5b1af36f2453004f995bfae7dce5684d0afd0f4acd6e579d3c35f641f79a11"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.6.txt": {
+      "input": "manuals",
+      "size": 5507,
+      "used": 5507,
+      "sha256": "9b38e829e1d3ab678250ff485e1f47008f64a051d7d9e2e52b809374719cd321"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.7.1.txt": {
+      "input": "manuals",
+      "size": 2432,
+      "used": 2432,
+      "sha256": "0e636f0023ebd1770e35317cdda29ae5638b26719a7e3333cf671cb13f5c157f"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.7.2.txt": {
+      "input": "manuals",
+      "size": 1630,
+      "used": 1630,
+      "sha256": "e61c910eadb1a7e196a517db95c059db2bef741c9f58f753e20aee480992cdd8"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.7.3.txt": {
+      "input": "manuals",
+      "size": 696,
+      "used": 696,
+      "sha256": "d5fcb0f88d79ac2af2372abd8698707701c3818a0b7d4a6de20ab0798d6a038f"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.7.4.txt": {
+      "input": "manuals",
+      "size": 444,
+      "used": 444,
+      "sha256": "72d54427fbece5f57799a298407de4f6b855ffb516f594c81cdcc48e03bac30b"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.7.5.txt": {
+      "input": "manuals",
+      "size": 481,
+      "used": 481,
+      "sha256": "cd64ba47352e3a9bb6f69320de96f5babf0e8bc6d75f93e810b3bbc069adce10"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.7.6.txt": {
+      "input": "manuals",
+      "size": 791,
+      "used": 791,
+      "sha256": "8a66e765de456b362d40f9ad967db5e1ab06ed2bc722b75e6f79898c52c347b3"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.7.7.txt": {
+      "input": "manuals",
+      "size": 334,
+      "used": 334,
+      "sha256": "9e5644ff1de609831afa3005958c7d8c783ec1f78bc1b36cf8a790988021e697"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.7.txt": {
+      "input": "manuals",
+      "size": 5408,
+      "used": 5408,
+      "sha256": "ea359fd42279ad300aab483d315fcd6b87f66455e0055b7ab10291a4cc63f552"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.8.1.txt": {
+      "input": "manuals",
+      "size": 1438,
+      "used": 1438,
+      "sha256": "d4223a33a23b72d346263c90832b144570472c70111d749f32527c7d610218c7"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.8.2.txt": {
+      "input": "manuals",
+      "size": 2925,
+      "used": 2925,
+      "sha256": "480621ced9bcba1ebe650cfda140fa5da8e8cde006119e32c3dcacb06794022b"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.8.3.txt": {
+      "input": "manuals",
+      "size": 431,
+      "used": 431,
+      "sha256": "bb527e4234faee9f396798e5555b0872898bfb58f52dda193fcae67088cd5d48"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.8.4.txt": {
+      "input": "manuals",
+      "size": 921,
+      "used": 921,
+      "sha256": "ab89a90dfbfc25480674cdf2857f92dbdc0620da209284e85e7b4c3703ac4f86"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.8.5.txt": {
+      "input": "manuals",
+      "size": 606,
+      "used": 606,
+      "sha256": "2d41ee702bb5781bbcd8956ea3e1819bfd0aa228e4c3cc821fa1c7c3162a27dd"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.8.6.txt": {
+      "input": "manuals",
+      "size": 621,
+      "used": 621,
+      "sha256": "7dab96ad8e9ebdaf0c6a7f9196eb71c8c79a231b04196346bbc956d4740eabe4"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.8.txt": {
+      "input": "manuals",
+      "size": 6351,
+      "used": 6351,
+      "sha256": "e28436e9df35224f4eedaad603f33f09e694c1867741244b5099962fe5c4a4d2"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.9.1.txt": {
+      "input": "manuals",
+      "size": 2461,
+      "used": 2461,
+      "sha256": "705b917f68f6ecb50817252335481cd5f11b307118ec6d56783418c340e2d401"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.9.2.txt": {
+      "input": "manuals",
+      "size": 2706,
+      "used": 2706,
+      "sha256": "fe616fe4cd8bc765dc23eec9c1c806e0667934a9df00ca2704d9582c5ff850ac"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.9.3.txt": {
+      "input": "manuals",
+      "size": 1958,
+      "used": 1958,
+      "sha256": "05a05b68a9021052294e17d52ae05f8e0d86575653f0db46b5178e3f3d60753a"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.9.4.txt": {
+      "input": "manuals",
+      "size": 887,
+      "used": 887,
+      "sha256": "9c3ba8b071a4b5fe12bce68565871f79f6ce2358d408a57a4c65d4ac5a98b19f"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.9.5.txt": {
+      "input": "manuals",
+      "size": 731,
+      "used": 731,
+      "sha256": "8fa6138d5eeb12af09d23842619a718124813a5c346d29ff3b13068d7888df6d"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.9.6.txt": {
+      "input": "manuals",
+      "size": 432,
+      "used": 432,
+      "sha256": "7a2fe612bed8f16d4ce58d44bd78051dc391450c7adf57fe424a72fab3c1c499"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.9.7.txt": {
+      "input": "manuals",
+      "size": 371,
+      "used": 371,
+      "sha256": "20208e47ab8c56fa0dccfa28d1539ac53fedb0afe2a9eff8e93c1760142176a9"
+    },
+    "/usr/share/doc/git/RelNotes/1.7.9.txt": {
+      "input": "manuals",
+      "size": 4373,
+      "used": 4373,
+      "sha256": "a83dec4d17a60040e0570e03dacd853552721c7b76f8194f1600589b6b573af5"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.0.1.txt": {
+      "input": "manuals",
+      "size": 2454,
+      "used": 2454,
+      "sha256": "97a1f14f008e306304de3746173e539156f5edbeb600abbe74386e93cbbcb264"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.0.2.txt": {
+      "input": "manuals",
+      "size": 1250,
+      "used": 1250,
+      "sha256": "927c55ffd7e35a56f0b3dc8b97a105a283b334bbde4fafdb99b4f82aa0452b20"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.0.3.txt": {
+      "input": "manuals",
+      "size": 424,
+      "used": 424,
+      "sha256": "d43cd3a8877c2e9418d56ee3e5c544ba3236a817e14bf91cf8382d413a87d3a1"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.0.txt": {
+      "input": "manuals",
+      "size": 11072,
+      "used": 11072,
+      "sha256": "7ed3631ab499baa6bfc1bed8677b7008b411d670dfdf71f4b9885e5b82c0aaa3"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.1.1.txt": {
+      "input": "manuals",
+      "size": 3577,
+      "used": 3577,
+      "sha256": "5a2d1c9c9fd2b4b93bb5900645001c6de093302d4ce539c3a31c4931906f133e"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.1.2.txt": {
+      "input": "manuals",
+      "size": 991,
+      "used": 991,
+      "sha256": "990e96724a2bbc44de24eb75a2c7ab21a46753c1f1984e914eba404703986daf"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.1.3.txt": {
+      "input": "manuals",
+      "size": 1740,
+      "used": 1740,
+      "sha256": "8c5e433a89b27a20f742d5e62936693b7c59544ca6ed79f2fd3511dc441e7df6"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.1.4.txt": {
+      "input": "manuals",
+      "size": 337,
+      "used": 337,
+      "sha256": "1664702eba1799846edee56b6251e6046e9b987c441a83c629c98617b4e73352"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.1.5.txt": {
+      "input": "manuals",
+      "size": 1940,
+      "used": 1940,
+      "sha256": "29a4d1ad4afbd38e11abe4718c44944e6f7696c3fda922ad60d5597736b732ec"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.1.6.txt": {
+      "input": "manuals",
+      "size": 1563,
+      "used": 1563,
+      "sha256": "36f7901bb6649c44de724b4a2a18fca297d50c316169b357743cfd956371d4f9"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.1.txt": {
+      "input": "manuals",
+      "size": 9624,
+      "used": 9624,
+      "sha256": "f64653657a5f043bce042ee6a6d217a7ccb3ee1f19c1ad3b59aab893d0368b5f"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.2.1.txt": {
+      "input": "manuals",
+      "size": 4561,
+      "used": 4561,
+      "sha256": "f83c7fff2c1283c64b50266b004803e06f2fbc458c4277eef2760b1ee8224d23"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.2.2.txt": {
+      "input": "manuals",
+      "size": 2438,
+      "used": 2438,
+      "sha256": "9a955e5a20df4a7862fc4b266affdef62094ba1eedb64857f4e858a664bd3679"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.2.3.txt": {
+      "input": "manuals",
+      "size": 672,
+      "used": 672,
+      "sha256": "179ab09219824be1d9ab0e7caa9c95cf03a50ef62ebe7b63967ba05aa5861e43"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.2.txt": {
+      "input": "manuals",
+      "size": 22140,
+      "used": 22140,
+      "sha256": "c2e2a672d96388db497cc3b4221a6dc268a0e7ab1f4d312c3ae58cbf1cfc9cf4"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.3.1.txt": {
+      "input": "manuals",
+      "size": 433,
+      "used": 433,
+      "sha256": "fcabec27f85767af85ae76a271f294e97313008f6f6f615fc6b48f3353cf9a2c"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.3.2.txt": {
+      "input": "manuals",
+      "size": 2406,
+      "used": 2406,
+      "sha256": "d22540a5eb83169cfaa55ff5cb77ba055007b3f0263a9cad73f74891b8d15c0e"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.3.3.txt": {
+      "input": "manuals",
+      "size": 1778,
+      "used": 1778,
+      "sha256": "101a28f2942221dd4d3840ad370688cf4e25b135baed67ed62c082fbf194523c"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.3.4.txt": {
+      "input": "manuals",
+      "size": 700,
+      "used": 700,
+      "sha256": "9d71158c39cece99823adf14c835452ab265d8d7b095ffc474cff92c184458b6"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.3.txt": {
+      "input": "manuals",
+      "size": 18336,
+      "used": 18336,
+      "sha256": "b68d350388cfcf9d6ff9f19ec0fdc9f72eecbfd45cebb60b8fb23dc4128b2204"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.4.1.txt": {
+      "input": "manuals",
+      "size": 3012,
+      "used": 3012,
+      "sha256": "630c68f30f8aa4ec036f2b840f483ac5ef956a4b6ed2f076fe36ad7ed0bb8c5a"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.4.2.txt": {
+      "input": "manuals",
+      "size": 3294,
+      "used": 3294,
+      "sha256": "bbef7cfb0c0c02fc063e45af6ee22e21ee03b4388d99301d8b449ab5fa97b4dc"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.4.3.txt": {
+      "input": "manuals",
+      "size": 2208,
+      "used": 2208,
+      "sha256": "d354ca45e1d4a929209ff483809508e9420560b8f87681b1cb9dc3ad4082602f"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.4.4.txt": {
+      "input": "manuals",
+      "size": 342,
+      "used": 342,
+      "sha256": "1126c41e6b0f0e3899dedfe1c924d1409265268350de0ae06b2ebb5d81441f9b"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.4.5.txt": {
+      "input": "manuals",
+      "size": 421,
+      "used": 421,
+      "sha256": "97dd8121e87ee2b9e051574586c40debb55a664b1b274527241ea9369c007197"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.4.txt": {
+      "input": "manuals",
+      "size": 21258,
+      "used": 21258,
+      "sha256": "061ee491817718505da7c450c30d3665a262e701bb13e6ce7ae4ad8f843aa44f"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.5.1.txt": {
+      "input": "manuals",
+      "size": 254,
+      "used": 254,
+      "sha256": "eddc7e540d362fd966f9f65b09abe8b4c9b7a05d2716d569a3dee083802405c3"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.5.2.txt": {
+      "input": "manuals",
+      "size": 656,
+      "used": 656,
+      "sha256": "ce8f364683c9cb1deedc519fef8c7be6d1071468a532e71ff7eb4c984b141533"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.5.3.txt": {
+      "input": "manuals",
+      "size": 859,
+      "used": 859,
+      "sha256": "5c42a1b495acca2d9dd0a4ea74ca0957f02b0eda9218064ae7a63c24603ef27d"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.5.4.txt": {
+      "input": "manuals",
+      "size": 1912,
+      "used": 1912,
+      "sha256": "e68da8437a33bc23c9e6259a529fc241b18f2744bfad7338735c8677a97dd509"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.5.5.txt": {
+      "input": "manuals",
+      "size": 1466,
+      "used": 1466,
+      "sha256": "ea5df1d9625df9bfdbfa4ab8def8c18a3eb17b34ca8490a9fdfd9a1c664ed64c"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.5.6.txt": {
+      "input": "manuals",
+      "size": 1686,
+      "used": 1686,
+      "sha256": "961af62f7a880e6ceeb448b1aaf59bd80f63be28b35fcdf628badc432c022e76"
+    },
+    "/usr/share/doc/git/RelNotes/1.8.5.txt": {
+      "input": "manuals",
+      "size": 20348,
+      "used": 20348,
+      "sha256": "84d1028c9e10b7bc304a5015baada1d22d182d57b80b52764a380705263d0b80"
+    },
+    "/usr/share/doc/git/RelNotes/1.9.0.txt": {
+      "input": "manuals",
+      "size": 15197,
+      "used": 15197,
+      "sha256": "5a373d8ad0bff6d6b8db4dc15b1725c5d612805b417bc7e37e15aa562a25c5ab"
+    },
+    "/usr/share/doc/git/RelNotes/1.9.1.txt": {
+      "input": "manuals",
+      "size": 2409,
+      "used": 2409,
+      "sha256": "b52727721879da866ce71a13e46e8095cc43caa6e6ce73371ad1a831f7e8e4d2"
+    },
+    "/usr/share/doc/git/RelNotes/1.9.2.txt": {
+      "input": "manuals",
+      "size": 2807,
+      "used": 2807,
+      "sha256": "7d8dc778a846c546e239d67858773e86f60b7337672d1e401ac7222c07f952c7"
+    },
+    "/usr/share/doc/git/RelNotes/1.9.3.txt": {
+      "input": "manuals",
+      "size": 635,
+      "used": 635,
+      "sha256": "ce27222ffd36ed6aefb49f5d8380a9c0053e01726327595fddf8c0f8d176505a"
+    },
+    "/usr/share/doc/git/RelNotes/1.9.4.txt": {
+      "input": "manuals",
+      "size": 607,
+      "used": 607,
+      "sha256": "2161391cd72898e6da22a4bc6b03906adc7a06c86eb3abb48a37bc1cf0a1a393"
+    },
+    "/usr/share/doc/git/RelNotes/1.9.5.txt": {
+      "input": "manuals",
+      "size": 1678,
+      "used": 1678,
+      "sha256": "d03b471c0d9576f3f767fea47f2aaac30be90878a81637c976ea6087486feafd"
+    },
+    "/usr/share/doc/git/RelNotes/2.0.0.txt": {
+      "input": "manuals",
+      "size": 15911,
+      "used": 15911,
+      "sha256": "753cde51fe29ed5869f9c996708640ec3e3fd7decbd981b726b58e8646905ab1"
+    },
+    "/usr/share/doc/git/RelNotes/2.0.1.txt": {
+      "input": "manuals",
+      "size": 5171,
+      "used": 5171,
+      "sha256": "0dec2d0674d5199aa1033a2bb010c47d84f424935d10ee759419ed31921e963c"
+    },
+    "/usr/share/doc/git/RelNotes/2.0.2.txt": {
+      "input": "manuals",
+      "size": 1350,
+      "used": 1350,
+      "sha256": "0d9089549d2e9102dafca1d0768ad4b00d0ac84c1441fbaa9d61c4a1c69b05b1"
+    },
+    "/usr/share/doc/git/RelNotes/2.0.3.txt": {
+      "input": "manuals",
+      "size": 592,
+      "used": 592,
+      "sha256": "c2ad52f9cc5878ad7d29909cde90a50792e5500b452e58635f6c081c7148a4f4"
+    },
+    "/usr/share/doc/git/RelNotes/2.0.4.txt": {
+      "input": "manuals",
+      "size": 153,
+      "used": 153,
+      "sha256": "caaa227a3ae210c13eb398ec807a6f3b6e11c93ae770293e0f2cfa32dcefe7cf"
+    },
+    "/usr/share/doc/git/RelNotes/2.0.5.txt": {
+      "input": "manuals",
+      "size": 1678,
+      "used": 1678,
+      "sha256": "62f4da83978ad677b516631490ee24cbd8c982ca7ead1329464ff91f68c8c9b9"
+    },
+    "/usr/share/doc/git/RelNotes/2.1.0.txt": {
+      "input": "manuals",
+      "size": 17336,
+      "used": 17336,
+      "sha256": "815a5a35bb17852d53e053d9ea61ee568c15c3ec804a403dfe4a48a98d3a2958"
+    },
+    "/usr/share/doc/git/RelNotes/2.1.1.txt": {
+      "input": "manuals",
+      "size": 1806,
+      "used": 1806,
+      "sha256": "6497e1bbe14e7eafa9443680ba89b4b74db9a9f588696fcfdd777eb44e5b8c73"
+    },
+    "/usr/share/doc/git/RelNotes/2.1.2.txt": {
+      "input": "manuals",
+      "size": 768,
+      "used": 768,
+      "sha256": "624315f511c264c1855044beeb2eb531ab9c1f744426553ee4e4312bec763902"
+    },
+    "/usr/share/doc/git/RelNotes/2.1.3.txt": {
+      "input": "manuals",
+      "size": 970,
+      "used": 970,
+      "sha256": "f971be1339174fa28c2ac59b714682e63eafd0cc5aa6d25f98e47363511cb74e"
+    },
+    "/usr/share/doc/git/RelNotes/2.1.4.txt": {
+      "input": "manuals",
+      "size": 1678,
+      "used": 1678,
+      "sha256": "74e348a1344749e8deb6f8db6132510e133b7c059052c72db9f245705e8d56fc"
+    },
+    "/usr/share/doc/git/RelNotes/2.10.0.txt": {
+      "input": "manuals",
+      "size": 30132,
+      "used": 30132,
+      "sha256": "9cb435e8b4280071c7a878d03105eb3e049167de5b7794c8eadc5ca08b5edb75"
+    },
+    "/usr/share/doc/git/RelNotes/2.10.1.txt": {
+      "input": "manuals",
+      "size": 5730,
+      "used": 5730,
+      "sha256": "1aeb8067acbd1c8284afb27873efa52f15169fd78d49821ee5021f44d48b45f1"
+    },
+    "/usr/share/doc/git/RelNotes/2.10.2.txt": {
+      "input": "manuals",
+      "size": 5298,
+      "used": 5298,
+      "sha256": "c89372ef922eac255480bba86d86550b25f60b1ad8cbb500b6184e37bc11b1b9"
+    },
+    "/usr/share/doc/git/RelNotes/2.10.3.txt": {
+      "input": "manuals",
+      "size": 2353,
+      "used": 2353,
+      "sha256": "70e988f69e42960b1f5de3114aefb8ddc87e78bb672e9659d79336667188521f"
+    },
+    "/usr/share/doc/git/RelNotes/2.10.4.txt": {
+      "input": "manuals",
+      "size": 124,
+      "used": 124,
+      "sha256": "97ccaa7bac2c0c7bdc26dee33c4d54fdeac7144a28d25cff44ff9f2df08aa9e9"
+    },
+    "/usr/share/doc/git/RelNotes/2.10.5.txt": {
+      "input": "manuals",
+      "size": 561,
+      "used": 561,
+      "sha256": "418a8375d89a7870410306083c068c24ea7ab06f133f2631cfcf7facbfdb76a9"
+    },
+    "/usr/share/doc/git/RelNotes/2.11.0.txt": {
+      "input": "manuals",
+      "size": 27992,
+      "used": 27992,
+      "sha256": "921b95df7a84375bf9e5c0da6e0b4c84ac48033888acd19fcb81eb9cce5b16a8"
+    },
+    "/usr/share/doc/git/RelNotes/2.11.1.txt": {
+      "input": "manuals",
+      "size": 6815,
+      "used": 6815,
+      "sha256": "7c2d428fa084930f45bb54fb9bf43990a36ab2b980793a526a237b5d603355c7"
+    },
+    "/usr/share/doc/git/RelNotes/2.11.2.txt": {
+      "input": "manuals",
+      "size": 479,
+      "used": 479,
+      "sha256": "ee243a75ece6b6be065da8b610e4f99341c99b16426401db2ade034272357b02"
+    },
+    "/usr/share/doc/git/RelNotes/2.11.3.txt": {
+      "input": "manuals",
+      "size": 124,
+      "used": 124,
+      "sha256": "28f7a1dbb5999395abb475259f7f3148147f1575f85dcc97eaae52cf57a54ab2"
+    },
+    "/usr/share/doc/git/RelNotes/2.11.4.txt": {
+      "input": "manuals",
+      "size": 561,
+      "used": 561,
+      "sha256": "32ce53a81aa708b84b79f4d0163ff2687bdecba10a779ee36f9c009eeed0d9da"
+    },
+    "/usr/share/doc/git/RelNotes/2.12.0.txt": {
+      "input": "manuals",
+      "size": 22093,
+      "used": 22093,
+      "sha256": "0f973b96fca3c266363ad5b1b0057ce4d9d047cc5122b0bb0f8ba3eb1eb96766"
+    },
+    "/usr/share/doc/git/RelNotes/2.12.1.txt": {
+      "input": "manuals",
+      "size": 1611,
+      "used": 1611,
+      "sha256": "d097993e6ebe795e25bf903bf07ca97713551dad1409d9788360f54d54dbeeb5"
+    },
+    "/usr/share/doc/git/RelNotes/2.12.2.txt": {
+      "input": "manuals",
+      "size": 3614,
+      "used": 3614,
+      "sha256": "e69d3ff7973ae1e5c303162a2330d0a0269ab910821d5e7b185f4db5155975cf"
+    },
+    "/usr/share/doc/git/RelNotes/2.12.3.txt": {
+      "input": "manuals",
+      "size": 2539,
+      "used": 2539,
+      "sha256": "416992a1aee3ffe1e2c7e4d6a62cb0878ea641798ba80a68fd5bd8a3c7576d6c"
+    },
+    "/usr/share/doc/git/RelNotes/2.12.4.txt": {
+      "input": "manuals",
+      "size": 124,
+      "used": 124,
+      "sha256": "0353b442f85e9cb99f9b0922c44fcc7fa5b9fc23b14a705bb5318e1deca4041e"
+    },
+    "/usr/share/doc/git/RelNotes/2.12.5.txt": {
+      "input": "manuals",
+      "size": 561,
+      "used": 561,
+      "sha256": "565239bcb3f7a4e4da3387bf209b73844931e6c59acca85a290b2d9fc968beab"
+    },
+    "/usr/share/doc/git/RelNotes/2.13.0.txt": {
+      "input": "manuals",
+      "size": 28222,
+      "used": 28222,
+      "sha256": "9e388a8b8d712aca415596fe8d1420f729b90491004d459f13a002c8284e0c2f"
+    },
+    "/usr/share/doc/git/RelNotes/2.13.1.txt": {
+      "input": "manuals",
+      "size": 5026,
+      "used": 5026,
+      "sha256": "9e3b69d463ce0ca981a1514ee2d0e63a37d3c8a5bc7369e2630876bc9e90a885"
+    },
+    "/usr/share/doc/git/RelNotes/2.13.2.txt": {
+      "input": "manuals",
+      "size": 2178,
+      "used": 2178,
+      "sha256": "1947518efe850ddd2b3776a4d88e38a87a59db0016401f3cadc87a8f61b0874e"
+    },
+    "/usr/share/doc/git/RelNotes/2.13.3.txt": {
+      "input": "manuals",
+      "size": 2388,
+      "used": 2388,
+      "sha256": "794e0154a11935eb79aec78bc08e2e6082907767249844d889449e090659a0c4"
+    },
+    "/usr/share/doc/git/RelNotes/2.13.4.txt": {
+      "input": "manuals",
+      "size": 1078,
+      "used": 1078,
+      "sha256": "a99636c74558990924ddb26cd7820a4854bc3bb674d8b6a27fe70d840b7381bb"
+    },
+    "/usr/share/doc/git/RelNotes/2.13.5.txt": {
+      "input": "manuals",
+      "size": 124,
+      "used": 124,
+      "sha256": "5cfadb569cbd513d621a82112f8f7c8e26829613539551a617ef97dec0e0997d"
+    },
+    "/usr/share/doc/git/RelNotes/2.13.6.txt": {
+      "input": "manuals",
+      "size": 561,
+      "used": 561,
+      "sha256": "aa92060901229089599727f5cc69ad6de5c8e31edd4374d56e748c027a6aca1a"
+    },
+    "/usr/share/doc/git/RelNotes/2.13.7.txt": {
+      "input": "manuals",
+      "size": 780,
+      "used": 780,
+      "sha256": "caa35506b14f9a68640e8c602cb8cd97da0563147942f8c6a746f96ae1b24606"
+    },
+    "/usr/share/doc/git/RelNotes/2.14.0.txt": {
+      "input": "manuals",
+      "size": 22728,
+      "used": 22728,
+      "sha256": "9767a6882e10d0ca597125e8faff5143a0b719f630512d46b5b230a34044d794"
+    },
+    "/usr/share/doc/git/RelNotes/2.14.1.txt": {
+      "input": "manuals",
+      "size": 124,
+      "used": 124,
+      "sha256": "fff9853cc2afb071ef4ca07d0127e5d7068a219d8250ddaaa97f86a34301f2b1"
+    },
+    "/usr/share/doc/git/RelNotes/2.14.2.txt": {
+      "input": "manuals",
+      "size": 4486,
+      "used": 4486,
+      "sha256": "dd3406b78d277d913e95949a9adfd4ee62cfbe8b5cdf85c6f50797aa5f3e8187"
+    },
+    "/usr/share/doc/git/RelNotes/2.14.3.txt": {
+      "input": "manuals",
+      "size": 4010,
+      "used": 4010,
+      "sha256": "6b148596399a5977db56cbd4ac5ecc8eb41dc0fe35d75aaaa6426b6431494f32"
+    },
+    "/usr/share/doc/git/RelNotes/2.14.4.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "c168580c3e83d2eef2717b16a4ae0a1d16b2f41af49112e26688bb1d3af1c216"
+    },
+    "/usr/share/doc/git/RelNotes/2.14.5.txt": {
+      "input": "manuals",
+      "size": 578,
+      "used": 578,
+      "sha256": "22c08845b4af352f6bb69efcf9be520ef98d90a75d73e670e065d1182e5163e6"
+    },
+    "/usr/share/doc/git/RelNotes/2.14.6.txt": {
+      "input": "manuals",
+      "size": 2144,
+      "used": 2144,
+      "sha256": "6c5c63afc9a33137c24eba32a255dcd1a4094b2e446d49d42023611e23fb11de"
+    },
+    "/usr/share/doc/git/RelNotes/2.15.0.txt": {
+      "input": "manuals",
+      "size": 21971,
+      "used": 21971,
+      "sha256": "dcf51b39538e8c015abd92faf34cb283ab566560714f66a20832526d956783b2"
+    },
+    "/usr/share/doc/git/RelNotes/2.15.1.txt": {
+      "input": "manuals",
+      "size": 3434,
+      "used": 3434,
+      "sha256": "1346f33d10a3f6f265aef98770aa2a1e35ddda647b1f2110fbd260e79efd7d7e"
+    },
+    "/usr/share/doc/git/RelNotes/2.15.2.txt": {
+      "input": "manuals",
+      "size": 1894,
+      "used": 1894,
+      "sha256": "985b75857a80ceec7d4a5989df14b4eda8bf64b875ac6989c1cfa3f5412165ef"
+    },
+    "/usr/share/doc/git/RelNotes/2.15.3.txt": {
+      "input": "manuals",
+      "size": 210,
+      "used": 210,
+      "sha256": "37b93a39eaf4b10cb758ee3aa9d872016d11969493d155acfec98691c04b3b7f"
+    },
+    "/usr/share/doc/git/RelNotes/2.15.4.txt": {
+      "input": "manuals",
+      "size": 482,
+      "used": 482,
+      "sha256": "6f4976a7328a88c2d6d22c5a22f636b0387d28a4633cfc48ed235d7b725e5fe4"
+    },
+    "/usr/share/doc/git/RelNotes/2.16.0.txt": {
+      "input": "manuals",
+      "size": 20744,
+      "used": 20744,
+      "sha256": "8bd7d5f929b9255a89aa4d219e566e094bcc255ab76a46b4f46a796f01af9e09"
+    },
+    "/usr/share/doc/git/RelNotes/2.16.1.txt": {
+      "input": "manuals",
+      "size": 305,
+      "used": 305,
+      "sha256": "603b41b9a632fc367e33916c77738b42f49c35b5b4f57b42fa8c245e6c2a8ec2"
+    },
+    "/usr/share/doc/git/RelNotes/2.16.2.txt": {
+      "input": "manuals",
+      "size": 1083,
+      "used": 1083,
+      "sha256": "13f6bef35c567f85547b4f054393ced4e5f4c67ab2795dbd1c350ed6a40fc9f0"
+    },
+    "/usr/share/doc/git/RelNotes/2.16.3.txt": {
+      "input": "manuals",
+      "size": 1757,
+      "used": 1757,
+      "sha256": "badc462faa0b5b81c2577b01af1a209be2a098c25108a5b83bdd6f4edc4b7885"
+    },
+    "/usr/share/doc/git/RelNotes/2.16.4.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "d3107fce6a2c3a55a4f3165cac7d2291bb8debfd27ad233055595045ee26e66d"
+    },
+    "/usr/share/doc/git/RelNotes/2.16.5.txt": {
+      "input": "manuals",
+      "size": 210,
+      "used": 210,
+      "sha256": "e104f6f069b7f74abda1e5de6874aa6b532d25c9c8ded40b6a52acddf88ed676"
+    },
+    "/usr/share/doc/git/RelNotes/2.16.6.txt": {
+      "input": "manuals",
+      "size": 333,
+      "used": 333,
+      "sha256": "1cf973ca4d6165d65200f64425c0f7103b7ca057e5cc10206cf73721882db6d0"
+    },
+    "/usr/share/doc/git/RelNotes/2.17.0.txt": {
+      "input": "manuals",
+      "size": 17884,
+      "used": 17884,
+      "sha256": "58754c0c0ed70ea1247f7c8b34595e3fefcd8b7e426edd4280990679958b28ca"
+    },
+    "/usr/share/doc/git/RelNotes/2.17.1.txt": {
+      "input": "manuals",
+      "size": 617,
+      "used": 617,
+      "sha256": "c3b43e532f8b787fb3e083cced42929c5c396ae1c9b5adcc03a3bd7b2b56616c"
+    },
+    "/usr/share/doc/git/RelNotes/2.17.2.txt": {
+      "input": "manuals",
+      "size": 493,
+      "used": 493,
+      "sha256": "fcc84c6a2a9aaf52983cbff1bce6cd81c49ce4bddaae590a472ea99dab32e6c7"
+    },
+    "/usr/share/doc/git/RelNotes/2.17.3.txt": {
+      "input": "manuals",
+      "size": 490,
+      "used": 490,
+      "sha256": "455f67f6e12514243deeb706da028839872a650d47b905c8fe97e1fbca978e6c"
+    },
+    "/usr/share/doc/git/RelNotes/2.17.4.txt": {
+      "input": "manuals",
+      "size": 520,
+      "used": 520,
+      "sha256": "d7d58b51510b9b17e4df71db5345af6d6c255a20e02bd00fcd13d0f87d655eb9"
+    },
+    "/usr/share/doc/git/RelNotes/2.17.5.txt": {
+      "input": "manuals",
+      "size": 828,
+      "used": 828,
+      "sha256": "0f005a73a33cd763d8833754941072108fcde08217a0de6dae36988698c4d2fd"
+    },
+    "/usr/share/doc/git/RelNotes/2.17.6.txt": {
+      "input": "manuals",
+      "size": 511,
+      "used": 511,
+      "sha256": "559f5bdd6a090ab458b127039fa574d56b9c5d18a6f8aa8d67f67d839513f697"
+    },
+    "/usr/share/doc/git/RelNotes/2.18.0.txt": {
+      "input": "manuals",
+      "size": 26784,
+      "used": 26784,
+      "sha256": "bf6aac8521662fd9405bcf28ac391efad1c676a7e5c0a265c7bb9c6fd288d013"
+    },
+    "/usr/share/doc/git/RelNotes/2.18.1.txt": {
+      "input": "manuals",
+      "size": 227,
+      "used": 227,
+      "sha256": "04963f44649d4b3413018245565e600680cf849f073db761291e17591dfc5d5e"
+    },
+    "/usr/share/doc/git/RelNotes/2.18.2.txt": {
+      "input": "manuals",
+      "size": 343,
+      "used": 343,
+      "sha256": "8e53196f169e062ff7a70307e60601a7233fbb3a9e35b2dc666ebc23e371d7f5"
+    },
+    "/usr/share/doc/git/RelNotes/2.18.3.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "999a5ce8c753eb0f893941ba8de03b3028ab87ad3c4e080309cc8afb5c3464a4"
+    },
+    "/usr/share/doc/git/RelNotes/2.18.4.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "a6312fe2fe10bfa8f0e5fb2cf0ab7bcf54247e16dcf2695072c3141ef7d5cb8c"
+    },
+    "/usr/share/doc/git/RelNotes/2.18.5.txt": {
+      "input": "manuals",
+      "size": 207,
+      "used": 207,
+      "sha256": "55dd14f6c46d4a616cc671d8ad763b59703265f560ad4f4ffdb41317e8e08aa8"
+    },
+    "/usr/share/doc/git/RelNotes/2.19.0.txt": {
+      "input": "manuals",
+      "size": 28138,
+      "used": 28138,
+      "sha256": "3e5301b71bf42568234ba936607d215846a83fc7a63050b2bc99b91976c059d1"
+    },
+    "/usr/share/doc/git/RelNotes/2.19.1.txt": {
+      "input": "manuals",
+      "size": 227,
+      "used": 227,
+      "sha256": "16767af1f3824967f45a51293f21695fd79654acc63c8312ef48d4406bf6f1c8"
+    },
+    "/usr/share/doc/git/RelNotes/2.19.2.txt": {
+      "input": "manuals",
+      "size": 4446,
+      "used": 4446,
+      "sha256": "747ce833bacf4833eacf7b3a693854b654d3c7a5fd1523e4ab259fa33a3d426e"
+    },
+    "/usr/share/doc/git/RelNotes/2.19.3.txt": {
+      "input": "manuals",
+      "size": 343,
+      "used": 343,
+      "sha256": "8e3cd836fe56d11615d0e458321cb3ee614d36f21030d2375c8a83fe554797af"
+    },
+    "/usr/share/doc/git/RelNotes/2.19.4.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "c5732562f2a928ba5bc48f56516af5e502680517ecf222b7f994c987c612fe79"
+    },
+    "/usr/share/doc/git/RelNotes/2.19.5.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "63cba1cd2dae905251c525db382663ec0157b505fa8c49c010356e2f484616b8"
+    },
+    "/usr/share/doc/git/RelNotes/2.19.6.txt": {
+      "input": "manuals",
+      "size": 221,
+      "used": 221,
+      "sha256": "053333cabfe78eaa3b3bd6e1dcec22e61bf43b05f7b04850b2525c2faa70ad4e"
+    },
+    "/usr/share/doc/git/RelNotes/2.2.0.txt": {
+      "input": "manuals",
+      "size": 13338,
+      "used": 13338,
+      "sha256": "a4c4118b43d569960ea225dc8a908754c378957359c3ee2cff7a54fc537b0832"
+    },
+    "/usr/share/doc/git/RelNotes/2.2.1.txt": {
+      "input": "manuals",
+      "size": 1674,
+      "used": 1674,
+      "sha256": "df85e486a0e5f83c1bac00119c0a91a4073ddcbe7ba4680e7df6daa0c1173995"
+    },
+    "/usr/share/doc/git/RelNotes/2.2.2.txt": {
+      "input": "manuals",
+      "size": 2357,
+      "used": 2357,
+      "sha256": "54dfb7976dd15274bd137f2be2532d443cd9601fb999b0957d90c2343f2e0593"
+    },
+    "/usr/share/doc/git/RelNotes/2.2.3.txt": {
+      "input": "manuals",
+      "size": 284,
+      "used": 284,
+      "sha256": "fa0bebe861fc50f140efce95079b388feae420a0e8527c153615bca1a5d75382"
+    },
+    "/usr/share/doc/git/RelNotes/2.20.0.txt": {
+      "input": "manuals",
+      "size": 32536,
+      "used": 32536,
+      "sha256": "df0a465668b60d7b9773fe9910a0f263b403f4022e181e8fa6d4c733e3d51e46"
+    },
+    "/usr/share/doc/git/RelNotes/2.20.1.txt": {
+      "input": "manuals",
+      "size": 616,
+      "used": 616,
+      "sha256": "f8c6ac2b6c814d3a5777b9fbb73f7cf053e9881786ccab0a868ceeb541a86265"
+    },
+    "/usr/share/doc/git/RelNotes/2.20.2.txt": {
+      "input": "manuals",
+      "size": 828,
+      "used": 828,
+      "sha256": "b8038fdece002a157db77b22f9477c5b7d6ed3f5c410896a51b3a5e0d88ab260"
+    },
+    "/usr/share/doc/git/RelNotes/2.20.3.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "a2adbdfbee308a7f85d0d938485cef37aa6f635ca62b2b42c71d0bd18f7aa0d2"
+    },
+    "/usr/share/doc/git/RelNotes/2.20.4.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "ca30749d7d36a139ade1daef9eebf867fad73156eb1ac2807a1c98e525691503"
+    },
+    "/usr/share/doc/git/RelNotes/2.20.5.txt": {
+      "input": "manuals",
+      "size": 230,
+      "used": 230,
+      "sha256": "e8735d53d8c6f40c8e570a1119fce5fe4e77b84016a6e31a690aa5e72add5917"
+    },
+    "/usr/share/doc/git/RelNotes/2.21.0.txt": {
+      "input": "manuals",
+      "size": 20130,
+      "used": 20130,
+      "sha256": "9173bce78484a9e93143eacb9d26464dbf6e8ede9e5b14dbec5f73ceb4eb14aa"
+    },
+    "/usr/share/doc/git/RelNotes/2.21.1.txt": {
+      "input": "manuals",
+      "size": 530,
+      "used": 530,
+      "sha256": "4a2a4d06b64ecafa401b40635c1955eed838744cf3a414d0c977f9aaf39627cc"
+    },
+    "/usr/share/doc/git/RelNotes/2.21.2.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "df7c13a4eebf6ec9073f3bd78c75f30a9e26d8015afa1bdd2ad257cabc5930d0"
+    },
+    "/usr/share/doc/git/RelNotes/2.21.3.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "b1169e06cf9c6f33d59d990d8ade64b99b9ab287ac7fd201b21a09cd7b59263a"
+    },
+    "/usr/share/doc/git/RelNotes/2.21.4.txt": {
+      "input": "manuals",
+      "size": 239,
+      "used": 239,
+      "sha256": "02c492ce9293fbd4b862c5aaaa2581def906e114929d86d74b786f4ea3e38c6e"
+    },
+    "/usr/share/doc/git/RelNotes/2.22.0.txt": {
+      "input": "manuals",
+      "size": 26979,
+      "used": 26979,
+      "sha256": "9d70f648b9e3ab3ca825a7f16c128ad7dfc71dce774b31a6987a0b025efd9dfa"
+    },
+    "/usr/share/doc/git/RelNotes/2.22.1.txt": {
+      "input": "manuals",
+      "size": 6233,
+      "used": 6233,
+      "sha256": "3238979728472b124cbbcff469269ed47cb2ab420d5aa741f3891ed98ecd3f9e"
+    },
+    "/usr/share/doc/git/RelNotes/2.22.2.txt": {
+      "input": "manuals",
+      "size": 377,
+      "used": 377,
+      "sha256": "d74cd37c896323a70d1d60357df4997c3a8d3451661db801eab1b5b56ae53ae5"
+    },
+    "/usr/share/doc/git/RelNotes/2.22.3.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "62069fd0143ac10c7b55d481c9b5d10d0ebea39b1b0d2e3c891bccc551407c0e"
+    },
+    "/usr/share/doc/git/RelNotes/2.22.4.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "8f02e0cc203fee2fa29364f5887b2c89853a07d4a778ca790e270344ebe33711"
+    },
+    "/usr/share/doc/git/RelNotes/2.22.5.txt": {
+      "input": "manuals",
+      "size": 248,
+      "used": 248,
+      "sha256": "284f39fc237c6f0c6fb150e6fd17149630be3fc805ab09b01d31cce7dc180556"
+    },
+    "/usr/share/doc/git/RelNotes/2.23.0.txt": {
+      "input": "manuals",
+      "size": 13943,
+      "used": 13943,
+      "sha256": "cf375745764bd60e6d6b8ab09dccc782687ba64b87b9f30fa320dda9ef026ca3"
+    },
+    "/usr/share/doc/git/RelNotes/2.23.1.txt": {
+      "input": "manuals",
+      "size": 377,
+      "used": 377,
+      "sha256": "6f2a7a97e9b7df8a137f2ea8cda58fcdce515a95a999d332da13453c37cf678b"
+    },
+    "/usr/share/doc/git/RelNotes/2.23.2.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "f491de130aecadecc310d43d9a56fdf28f67ec25d81cbd7221db01656423cfd6"
+    },
+    "/usr/share/doc/git/RelNotes/2.23.3.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "46d7b1087126f977dbec7856bd02bdb6d3718b60b760efcfde5793c36c868eed"
+    },
+    "/usr/share/doc/git/RelNotes/2.23.4.txt": {
+      "input": "manuals",
+      "size": 257,
+      "used": 257,
+      "sha256": "b2dacd4e30f72fef067e22ba67a180f07ba7c615c8217b81ca1656e848bf3289"
+    },
+    "/usr/share/doc/git/RelNotes/2.24.0.txt": {
+      "input": "manuals",
+      "size": 17750,
+      "used": 17750,
+      "sha256": "2072c79649a19415f2ae4925da02851b14c4989ff8747542491cc13ffe938cfb"
+    },
+    "/usr/share/doc/git/RelNotes/2.24.1.txt": {
+      "input": "manuals",
+      "size": 377,
+      "used": 377,
+      "sha256": "cd9d18dec093bbd8ba282893e2ef98e8cc4cb7f0111a4421c20fec3713f02026"
+    },
+    "/usr/share/doc/git/RelNotes/2.24.2.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "ba71c6261e368ab3229a6e82c59e606b76e331d8d9a95a0a4e7ef5d48d4b425b"
+    },
+    "/usr/share/doc/git/RelNotes/2.24.3.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "854ca40f347362e07aa687d509cd25856a34a65771a42b56b0964d7ee187980c"
+    },
+    "/usr/share/doc/git/RelNotes/2.24.4.txt": {
+      "input": "manuals",
+      "size": 266,
+      "used": 266,
+      "sha256": "6504be1b7b9b4b81586c5fcbbec2f0f9ba5ad0643ce325fb26cb31a17eac2c71"
+    },
+    "/usr/share/doc/git/RelNotes/2.25.0.txt": {
+      "input": "manuals",
+      "size": 16410,
+      "used": 16410,
+      "sha256": "fcae8cc2f173d3e7aa6217855c8ffb0648bc3418dfa5e7ab894fa9ce6186eb26"
+    },
+    "/usr/share/doc/git/RelNotes/2.25.1.txt": {
+      "input": "manuals",
+      "size": 2141,
+      "used": 2141,
+      "sha256": "238ce082e1cfab1043b03da4ff3221811bf89ca0e1debcec05f16d9f774b1a73"
+    },
+    "/usr/share/doc/git/RelNotes/2.25.2.txt": {
+      "input": "manuals",
+      "size": 2494,
+      "used": 2494,
+      "sha256": "ce20dc164c9562e150b2068aa6a0d5fc35a62d76c8830bb2aa564a62618c25e0"
+    },
+    "/usr/share/doc/git/RelNotes/2.25.3.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "34a3c8398979e5c65a696fab76cf57bf6fe22bacb46f62bb4cfe3807d0e8db94"
+    },
+    "/usr/share/doc/git/RelNotes/2.25.4.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "0b17eb4efcf3fd924651aa68e0c516036ada4509e0d62ccdef2c727c16843d35"
+    },
+    "/usr/share/doc/git/RelNotes/2.25.5.txt": {
+      "input": "manuals",
+      "size": 275,
+      "used": 275,
+      "sha256": "f8241d170450eeecd893b13dc922e8b57d3f9b3d986d1dc1de7c9fb875baf827"
+    },
+    "/usr/share/doc/git/RelNotes/2.26.0.txt": {
+      "input": "manuals",
+      "size": 14305,
+      "used": 14305,
+      "sha256": "ca3adbd288de5ba635140b47a73a4cbaa3fcfdbf714babf4f6a2f76112da54f2"
+    },
+    "/usr/share/doc/git/RelNotes/2.26.1.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "d963c1cbb6a5d4b5766b36a4c420d5a51c113a817d861050c276a4f4861aaf41"
+    },
+    "/usr/share/doc/git/RelNotes/2.26.2.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "494a6d8c528a766c1d1ff390f547ad9084cdc8dc8b10e871cc1256a135355fe2"
+    },
+    "/usr/share/doc/git/RelNotes/2.26.3.txt": {
+      "input": "manuals",
+      "size": 284,
+      "used": 284,
+      "sha256": "00a1c6fac559fc7e4e92380291cb516cd146fd95452eaa11eb2245de87c57e41"
+    },
+    "/usr/share/doc/git/RelNotes/2.27.0.txt": {
+      "input": "manuals",
+      "size": 23519,
+      "used": 23519,
+      "sha256": "ad61705f84bf2908e48494fe056ff4bb451fc5f1e9fb0fae26f4ed73bc0e7c73"
+    },
+    "/usr/share/doc/git/RelNotes/2.27.1.txt": {
+      "input": "manuals",
+      "size": 293,
+      "used": 293,
+      "sha256": "59582da1b33ca40a5b96922e2984e443669b9afc312e87de884dbb3b3b3af3da"
+    },
+    "/usr/share/doc/git/RelNotes/2.28.0.txt": {
+      "input": "manuals",
+      "size": 9709,
+      "used": 9709,
+      "sha256": "4686ae17e7ce8698d1f2574c0bdabec7240399d5e96de5d47c433c72061a4537"
+    },
+    "/usr/share/doc/git/RelNotes/2.28.1.txt": {
+      "input": "manuals",
+      "size": 302,
+      "used": 302,
+      "sha256": "f71e5765b6538698815cb7026a1d60b91587ed8e0c263fc41dd6454dc73443ab"
+    },
+    "/usr/share/doc/git/RelNotes/2.29.0.txt": {
+      "input": "manuals",
+      "size": 23314,
+      "used": 23314,
+      "sha256": "e8cfd2ad9e7f5f762507f3dc35a570da392226187fec9df15e44b3f4339efb12"
+    },
+    "/usr/share/doc/git/RelNotes/2.29.1.txt": {
+      "input": "manuals",
+      "size": 487,
+      "used": 487,
+      "sha256": "f8e68b890cc9b6ef04c9807a2e3f5fe526965a4ddb0b894faa7580080be59a8e"
+    },
+    "/usr/share/doc/git/RelNotes/2.29.2.txt": {
+      "input": "manuals",
+      "size": 331,
+      "used": 331,
+      "sha256": "3756766bc0f003217c050592ba2c956b4438a19d0ada414b59982942a3ab3dd0"
+    },
+    "/usr/share/doc/git/RelNotes/2.29.3.txt": {
+      "input": "manuals",
+      "size": 311,
+      "used": 311,
+      "sha256": "14823c1c97223575fe8cc4d1428b8f6b564b7bd0dec1ed656d8b8e04dbe9de6d"
+    },
+    "/usr/share/doc/git/RelNotes/2.3.0.txt": {
+      "input": "manuals",
+      "size": 12859,
+      "used": 12859,
+      "sha256": "5727ea689d16fec08c7d4b4dd8bf32d40ad349b80613ed165bfe078a95db5cc5"
+    },
+    "/usr/share/doc/git/RelNotes/2.3.1.txt": {
+      "input": "manuals",
+      "size": 1998,
+      "used": 1998,
+      "sha256": "f7a7c48b7c0123313da5c6bb8b92bede43d632b5bb287154ea3498e9347b15e2"
+    },
+    "/usr/share/doc/git/RelNotes/2.3.10.txt": {
+      "input": "manuals",
+      "size": 711,
+      "used": 711,
+      "sha256": "229b39993b47128958088fae90e01bb76d20ce32223bfad93fc1d3550a0edc68"
+    },
+    "/usr/share/doc/git/RelNotes/2.3.2.txt": {
+      "input": "manuals",
+      "size": 3009,
+      "used": 3009,
+      "sha256": "d7ec050376b1717b54eaf3e1f8eab3646830bddfe811b8e56ac019cd3b48cea1"
+    },
+    "/usr/share/doc/git/RelNotes/2.3.3.txt": {
+      "input": "manuals",
+      "size": 1523,
+      "used": 1523,
+      "sha256": "47cade7b6c48a3ee2e1714ac57ae2282fdc9deb25af16560785af9958be579c1"
+    },
+    "/usr/share/doc/git/RelNotes/2.3.4.txt": {
+      "input": "manuals",
+      "size": 1150,
+      "used": 1150,
+      "sha256": "5dd149c6c69d69f7225af1cd838ae74983c7ba3a24f7c3d7b653950f08fac816"
+    },
+    "/usr/share/doc/git/RelNotes/2.3.5.txt": {
+      "input": "manuals",
+      "size": 1767,
+      "used": 1767,
+      "sha256": "c31112f02a4db273370271da3b6858ee8ca76d4ab23749d60cbf7efa264493d3"
+    },
+    "/usr/share/doc/git/RelNotes/2.3.6.txt": {
+      "input": "manuals",
+      "size": 400,
+      "used": 400,
+      "sha256": "92e00c98474630c291dbf35d2ae5a553026a5418d14b1f9254149d88550944df"
+    },
+    "/usr/share/doc/git/RelNotes/2.3.7.txt": {
+      "input": "manuals",
+      "size": 762,
+      "used": 762,
+      "sha256": "516006155824b36a80d3565f8f74e1364f612740aaa2c481bb2d55c735bf3a6e"
+    },
+    "/usr/share/doc/git/RelNotes/2.3.8.txt": {
+      "input": "manuals",
+      "size": 814,
+      "used": 814,
+      "sha256": "3624268de17b0399e058c10caad47fda8d3486bbcf84fb267709924288ee9220"
+    },
+    "/usr/share/doc/git/RelNotes/2.3.9.txt": {
+      "input": "manuals",
+      "size": 284,
+      "used": 284,
+      "sha256": "330b48861c8dca927d8e73b72919a69dd58608590eb61a6f6507caf1789916ab"
+    },
+    "/usr/share/doc/git/RelNotes/2.30.0.txt": {
+      "input": "manuals",
+      "size": 17380,
+      "used": 17380,
+      "sha256": "ad694d0722e5b521edf8132c8ec9d9b0d338c205dfda6a7c23c154e988d24c81"
+    },
+    "/usr/share/doc/git/RelNotes/2.30.1.txt": {
+      "input": "manuals",
+      "size": 1967,
+      "used": 1967,
+      "sha256": "e87d024c5ee0b3e76554c9bd94fadf7452af856905758e57c681c86f4346642f"
+    },
+    "/usr/share/doc/git/RelNotes/2.30.2.txt": {
+      "input": "manuals",
+      "size": 320,
+      "used": 320,
+      "sha256": "a8121dec3873fb5ad00b6f79e4430c26df96f3cf98616247dcefee62a6aa3c64"
+    },
+    "/usr/share/doc/git/RelNotes/2.30.3.txt": {
+      "input": "manuals",
+      "size": 865,
+      "used": 865,
+      "sha256": "8a30a32964da4b22d4b62c3df7de752ec030e9ca8e5a72fe2b9e9354015a721c"
+    },
+    "/usr/share/doc/git/RelNotes/2.30.4.txt": {
+      "input": "manuals",
+      "size": 684,
+      "used": 684,
+      "sha256": "07c0ebbfca7793f90a9c6a30bf8ad1239ab849bdb4e6f4350b40ada3429634f6"
+    },
+    "/usr/share/doc/git/RelNotes/2.30.5.txt": {
+      "input": "manuals",
+      "size": 445,
+      "used": 445,
+      "sha256": "b262a6a5fca959c82b3b24f99264943d5a8f551cef9d5966c739fd84617ccff0"
+    },
+    "/usr/share/doc/git/RelNotes/2.30.6.txt": {
+      "input": "manuals",
+      "size": 2252,
+      "used": 2252,
+      "sha256": "1479519fa2076c438769a0e55c615fae0750bec6bb572a0b5a05e8c9c7f23d03"
+    },
+    "/usr/share/doc/git/RelNotes/2.30.7.txt": {
+      "input": "manuals",
+      "size": 3923,
+      "used": 3923,
+      "sha256": "4fe123c5a626e4cc5a420d8d0d7633d1acb0300672ea1869c502d6fa7d830ebc"
+    },
+    "/usr/share/doc/git/RelNotes/2.30.8.txt": {
+      "input": "manuals",
+      "size": 1733,
+      "used": 1733,
+      "sha256": "0f87c1dfcde246af7fe94216ef1695fd845e160e44cca1f4ebcd2d08f45aa289"
+    },
+    "/usr/share/doc/git/RelNotes/2.30.9.txt": {
+      "input": "manuals",
+      "size": 1520,
+      "used": 1520,
+      "sha256": "2bf6cf597573494f3276b1cd2af891cc3fe14edb39dd9bf124b1e1f20be7fe4f"
+    },
+    "/usr/share/doc/git/RelNotes/2.31.0.txt": {
+      "input": "manuals",
+      "size": 15390,
+      "used": 15390,
+      "sha256": "b47d607f9e93501cb46841a82366b3b226cc4745844ff302fc13f326e505d5bb"
+    },
+    "/usr/share/doc/git/RelNotes/2.31.1.txt": {
+      "input": "manuals",
+      "size": 895,
+      "used": 895,
+      "sha256": "7bb7bddbf378b6600f831d7dcd8f55069f2067c9ccf6c5912b9b0a52a24f05e7"
+    },
+    "/usr/share/doc/git/RelNotes/2.31.2.txt": {
+      "input": "manuals",
+      "size": 207,
+      "used": 207,
+      "sha256": "f278d8c61172665e7a38c639ef27737710e6d797212ec9c602c16e8225a23102"
+    },
+    "/usr/share/doc/git/RelNotes/2.31.3.txt": {
+      "input": "manuals",
+      "size": 136,
+      "used": 136,
+      "sha256": "2c27d576c99780520296a5f06ca4edf691cf76d0295ac86cc1f161c51151a410"
+    },
+    "/usr/share/doc/git/RelNotes/2.31.4.txt": {
+      "input": "manuals",
+      "size": 207,
+      "used": 207,
+      "sha256": "23f2c4f03c964d2b2e57c1e2f6323c33f68dae2dd4fe30e63ad669e514ce56ec"
+    },
+    "/usr/share/doc/git/RelNotes/2.31.5.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "3ea4507560f3d34c260e7ea4f3cf42c7402903b8a48ff6220ed5604b2f711535"
+    },
+    "/usr/share/doc/git/RelNotes/2.31.6.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "07840ab944ee8fd1ca2f22b99ce92d571b7035ead196cc0aed25cbe39f22e661"
+    },
+    "/usr/share/doc/git/RelNotes/2.31.7.txt": {
+      "input": "manuals",
+      "size": 227,
+      "used": 227,
+      "sha256": "88f31aa14f7b7f171d05cbafb48222237f4c6dab55c25e8811960dae70813cf5"
+    },
+    "/usr/share/doc/git/RelNotes/2.31.8.txt": {
+      "input": "manuals",
+      "size": 241,
+      "used": 241,
+      "sha256": "3af6dc134fc047d5651bceced873861078fc1d8f04f52ec49641772b2d65d792"
+    },
+    "/usr/share/doc/git/RelNotes/2.32.0.txt": {
+      "input": "manuals",
+      "size": 17430,
+      "used": 17430,
+      "sha256": "8abad46c53ca4f386c93c43a0a3eeb78624cdf954ba6fd7944bd664d9f0d5d76"
+    },
+    "/usr/share/doc/git/RelNotes/2.32.1.txt": {
+      "input": "manuals",
+      "size": 221,
+      "used": 221,
+      "sha256": "250486e957afd7a9c79e6d367d865bf859f3a74184d6e4433982a220d621f7bc"
+    },
+    "/usr/share/doc/git/RelNotes/2.32.2.txt": {
+      "input": "manuals",
+      "size": 136,
+      "used": 136,
+      "sha256": "e6e80562984219ba7905eacc4cbe1861517762548ee652e7af457edc5641bfd8"
+    },
+    "/usr/share/doc/git/RelNotes/2.32.3.txt": {
+      "input": "manuals",
+      "size": 221,
+      "used": 221,
+      "sha256": "d27f6798116b04283ebe8faa2b1144ffc713245965d06d9ffc79f0841bc76805"
+    },
+    "/usr/share/doc/git/RelNotes/2.32.4.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "3c66c8dd8a016ad47a0630bfc18672a561ec90e871ae63eb509bac65d885d03f"
+    },
+    "/usr/share/doc/git/RelNotes/2.32.5.txt": {
+      "input": "manuals",
+      "size": 273,
+      "used": 273,
+      "sha256": "a11a0e60cbaa72addb8441933512add99100d2de77c833e8c11de0a944e2bb83"
+    },
+    "/usr/share/doc/git/RelNotes/2.32.6.txt": {
+      "input": "manuals",
+      "size": 241,
+      "used": 241,
+      "sha256": "d7ae07f892b72c9bb3d34107add5e109dcce761029bb2c9b074e35e89e624c6e"
+    },
+    "/usr/share/doc/git/RelNotes/2.32.7.txt": {
+      "input": "manuals",
+      "size": 255,
+      "used": 255,
+      "sha256": "01db92d997c30f52ba586ef20ddb63c708b6c1baee82bdef25c82f4f68a45652"
+    },
+    "/usr/share/doc/git/RelNotes/2.33.0.txt": {
+      "input": "manuals",
+      "size": 12237,
+      "used": 12237,
+      "sha256": "fef977c6e62ef6fc24903ac231cdfab71b0f27f99aa86437b481467e87ac5e44"
+    },
+    "/usr/share/doc/git/RelNotes/2.33.1.txt": {
+      "input": "manuals",
+      "size": 5164,
+      "used": 5164,
+      "sha256": "bf236ba15d6a9d50f3f9d269e028eeffc685690b5eb02d458c6e434e03cdfe5d"
+    },
+    "/usr/share/doc/git/RelNotes/2.33.2.txt": {
+      "input": "manuals",
+      "size": 500,
+      "used": 500,
+      "sha256": "8eb01d8e853c33824510123a8809da9a3ff5b3dff380050a48db070e6691b674"
+    },
+    "/usr/share/doc/git/RelNotes/2.33.3.txt": {
+      "input": "manuals",
+      "size": 136,
+      "used": 136,
+      "sha256": "26cab6466b93327c6c75c681eabcb7fe53b78e1438866157a26203e3748adc44"
+    },
+    "/usr/share/doc/git/RelNotes/2.33.4.txt": {
+      "input": "manuals",
+      "size": 230,
+      "used": 230,
+      "sha256": "a1653d1e8f94ff37c9ba2dc2b5d11ecb10123e06b1f1c7d6f87fec263ba17d59"
+    },
+    "/usr/share/doc/git/RelNotes/2.33.5.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "00385ec89287ac7717e4d0d8c11bc450b97617c0b3127146d9af2a7d8a119ea7"
+    },
+    "/usr/share/doc/git/RelNotes/2.33.6.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "b9de9428dbac06b9312b3d193599744703f96a6b5af2f305d495a335f425e4e1"
+    },
+    "/usr/share/doc/git/RelNotes/2.33.7.txt": {
+      "input": "manuals",
+      "size": 250,
+      "used": 250,
+      "sha256": "7d4e436147995061ebe2a0595f24827f1e5ffb5aa89abdc7ae8330964caa1467"
+    },
+    "/usr/share/doc/git/RelNotes/2.33.8.txt": {
+      "input": "manuals",
+      "size": 264,
+      "used": 264,
+      "sha256": "45974da6599296466bbcc2dae1a46a1a4f9192fac778c007664d40bf8a561fea"
+    },
+    "/usr/share/doc/git/RelNotes/2.34.0.txt": {
+      "input": "manuals",
+      "size": 18182,
+      "used": 18182,
+      "sha256": "9e50d0702f564217768a79e09b1c300e24ce503d313f384b0d1548e86001f263"
+    },
+    "/usr/share/doc/git/RelNotes/2.34.1.txt": {
+      "input": "manuals",
+      "size": 794,
+      "used": 794,
+      "sha256": "8c3c9b5520c8b0f06ae788b957ffcaa1f20a87e257232597f32e805347ce7a62"
+    },
+    "/usr/share/doc/git/RelNotes/2.34.2.txt": {
+      "input": "manuals",
+      "size": 239,
+      "used": 239,
+      "sha256": "9f4c9742c0432c538c656346d1ae2e1978d512afcf30a11985523d28224c5057"
+    },
+    "/usr/share/doc/git/RelNotes/2.34.3.txt": {
+      "input": "manuals",
+      "size": 136,
+      "used": 136,
+      "sha256": "089176d1a07fe734e28760ee9ac8758b94b7d12fd451c4f4a8b7768d6e5ac7af"
+    },
+    "/usr/share/doc/git/RelNotes/2.34.4.txt": {
+      "input": "manuals",
+      "size": 239,
+      "used": 239,
+      "sha256": "fbc9eb49c6ce6f7143735a9a20a4142e42d312141d644be561d08a8dd27e73e2"
+    },
+    "/usr/share/doc/git/RelNotes/2.34.5.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "25cbd70ae16f26974d5ef8c95a14769b75ec3b60b6e3a2e8575d68a85e8d6ed5"
+    },
+    "/usr/share/doc/git/RelNotes/2.34.6.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "42a8979939234f0094548195e9471fed2be36ccd9ea81fa30022387b690a63da"
+    },
+    "/usr/share/doc/git/RelNotes/2.34.7.txt": {
+      "input": "manuals",
+      "size": 259,
+      "used": 259,
+      "sha256": "73acf3025aec57305ebb085310543c4677d96aa0bd71ddf5bc1606ad8afc55fd"
+    },
+    "/usr/share/doc/git/RelNotes/2.34.8.txt": {
+      "input": "manuals",
+      "size": 273,
+      "used": 273,
+      "sha256": "ad3d103b79ae37e58901ad724e4f259d7c93f39dc0f14acc160e39dafb81d5a4"
+    },
+    "/usr/share/doc/git/RelNotes/2.35.0.txt": {
+      "input": "manuals",
+      "size": 18055,
+      "used": 18055,
+      "sha256": "33677b594164167e7929326cadb58087cfc9e4f614b425cc3a687d266180edfa"
+    },
+    "/usr/share/doc/git/RelNotes/2.35.1.txt": {
+      "input": "manuals",
+      "size": 195,
+      "used": 195,
+      "sha256": "45f51f70736f89444e979b8ae2d53cc51b20c7dabf2bd63fea6158a213d891f4"
+    },
+    "/usr/share/doc/git/RelNotes/2.35.2.txt": {
+      "input": "manuals",
+      "size": 248,
+      "used": 248,
+      "sha256": "d65393635c74150708c291fc39b2f237c9debad13f6a9605894eda302436c2a3"
+    },
+    "/usr/share/doc/git/RelNotes/2.35.3.txt": {
+      "input": "manuals",
+      "size": 136,
+      "used": 136,
+      "sha256": "ac9271ac3cafb5846030088304a995b1b72a6b5266cb8f410a970fcd1d3c7f79"
+    },
+    "/usr/share/doc/git/RelNotes/2.35.4.txt": {
+      "input": "manuals",
+      "size": 248,
+      "used": 248,
+      "sha256": "2eb95c924968fbeb63f24dfe304b6a2f41cea7ddd29b4985e737dbc5050dda44"
+    },
+    "/usr/share/doc/git/RelNotes/2.35.5.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "2b6128d21b868cc0b77b316873224b2d864f20bc61c9c7cb7e665f3f3112f203"
+    },
+    "/usr/share/doc/git/RelNotes/2.35.6.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "49dbc762bdbaddbd993067e90c9ffa6ddf8e52e8d5025cd32c6b0305d7eba094"
+    },
+    "/usr/share/doc/git/RelNotes/2.35.7.txt": {
+      "input": "manuals",
+      "size": 268,
+      "used": 268,
+      "sha256": "9f4a30f0bc6182b12c40f97b9f567a4eeab1672fc43add3b7686c200a2368c7b"
+    },
+    "/usr/share/doc/git/RelNotes/2.35.8.txt": {
+      "input": "manuals",
+      "size": 282,
+      "used": 282,
+      "sha256": "36694c2e378dc5cab7d93f89d9b68a3af53096bf4e20017160763b7e115415ac"
+    },
+    "/usr/share/doc/git/RelNotes/2.36.0.txt": {
+      "input": "manuals",
+      "size": 19129,
+      "used": 19129,
+      "sha256": "078e28ba1bd421402c1e5421193ac5835807f10ddc4e5ed16660b32c39bbc78d"
+    },
+    "/usr/share/doc/git/RelNotes/2.36.1.txt": {
+      "input": "manuals",
+      "size": 1208,
+      "used": 1208,
+      "sha256": "ad10e1291ea369dd4c36a5c3a3eb23f3d58b5fb5da3d6b72cbe447045fea9031"
+    },
+    "/usr/share/doc/git/RelNotes/2.36.2.txt": {
+      "input": "manuals",
+      "size": 2142,
+      "used": 2142,
+      "sha256": "6a62872294a4996355bbc4e30da26bcd4376fae5e0d9cb5d49845e4c16d877aa"
+    },
+    "/usr/share/doc/git/RelNotes/2.36.3.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "32b97dbdd17cc135c9b73ee0b9241f4f5eb30d330661af4c5f934a17df42bcc0"
+    },
+    "/usr/share/doc/git/RelNotes/2.36.4.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "4f50779a0bb9180228e8bc01452ec04283260c9358ae05c01003ab0a8fad4681"
+    },
+    "/usr/share/doc/git/RelNotes/2.36.5.txt": {
+      "input": "manuals",
+      "size": 277,
+      "used": 277,
+      "sha256": "40bf8825cfd930f6178809fbd87e8bc630c947122c0702d37a6efbd005345116"
+    },
+    "/usr/share/doc/git/RelNotes/2.36.6.txt": {
+      "input": "manuals",
+      "size": 291,
+      "used": 291,
+      "sha256": "76ff8baf7cf7e83cd50066402fa27881bd5be08eb6638ba20218eff761ce3a0e"
+    },
+    "/usr/share/doc/git/RelNotes/2.37.0.txt": {
+      "input": "manuals",
+      "size": 14902,
+      "used": 14902,
+      "sha256": "3255bd01b9f96bdf0a28fa85bd8cc6091afbf923f368f015a4ae5cbe5c340fdf"
+    },
+    "/usr/share/doc/git/RelNotes/2.37.1.txt": {
+      "input": "manuals",
+      "size": 580,
+      "used": 580,
+      "sha256": "039e35488b150b6f59f592bfff733be5815c56498317dcce514755116614307a"
+    },
+    "/usr/share/doc/git/RelNotes/2.37.2.txt": {
+      "input": "manuals",
+      "size": 3223,
+      "used": 3223,
+      "sha256": "54982f4fa87d68b4bdba967e6a532213d90bdb4ead45468da8608d3a15c9ec8b"
+    },
+    "/usr/share/doc/git/RelNotes/2.37.3.txt": {
+      "input": "manuals",
+      "size": 1718,
+      "used": 1718,
+      "sha256": "4d0b602e3219296e2b4fb7663784052fa1cfc83eacefd4481cf04a29a0faf58f"
+    },
+    "/usr/share/doc/git/RelNotes/2.37.4.txt": {
+      "input": "manuals",
+      "size": 2543,
+      "used": 2543,
+      "sha256": "f499e1e800a159086936705c31be22747aa38bb853d940d2298c15da261ae80c"
+    },
+    "/usr/share/doc/git/RelNotes/2.37.5.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "903103bf33fac26f539325222d97078126356df8f920fb736cd2912363b67e94"
+    },
+    "/usr/share/doc/git/RelNotes/2.37.6.txt": {
+      "input": "manuals",
+      "size": 286,
+      "used": 286,
+      "sha256": "5d2396e246a3cb45eda9c27f53eb6cb4f52ae0270bdaba490e04ceb97f4a5a48"
+    },
+    "/usr/share/doc/git/RelNotes/2.37.7.txt": {
+      "input": "manuals",
+      "size": 302,
+      "used": 302,
+      "sha256": "77917d9efbb710e6a4fb6bb7782d28d05ace69fe9bf24ac9578f1b2d2c55986c"
+    },
+    "/usr/share/doc/git/RelNotes/2.38.0.txt": {
+      "input": "manuals",
+      "size": 16057,
+      "used": 16057,
+      "sha256": "9085a542b2bd8ac81d8d1bbb0918a9f94c9b70a2d6e3d37e0569d2544cdae70e"
+    },
+    "/usr/share/doc/git/RelNotes/2.38.1.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "1f2e5c77e30b47dcc85675912d2bb12811e6ea4cfb3521297d6cf58b24ccc8c4"
+    },
+    "/usr/share/doc/git/RelNotes/2.38.2.txt": {
+      "input": "manuals",
+      "size": 2366,
+      "used": 2366,
+      "sha256": "ba5c491c175b1a59db8728ff5237e1914c540ecb9928205bc9d6f8bae7a1696b"
+    },
+    "/usr/share/doc/git/RelNotes/2.38.3.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "802ce3dff2beb3d1e87179ac136323a410b6a05030e53fea391e957fc39bd812"
+    },
+    "/usr/share/doc/git/RelNotes/2.38.4.txt": {
+      "input": "manuals",
+      "size": 295,
+      "used": 295,
+      "sha256": "c55e45137a5a3544c51673cf65bacc66e10cce668473ef271b2b76eac0cc3a5f"
+    },
+    "/usr/share/doc/git/RelNotes/2.38.5.txt": {
+      "input": "manuals",
+      "size": 311,
+      "used": 311,
+      "sha256": "1630bbc5833786c958e9eb5f69e7142b719d25a8f3637f20911d2264dadc00ab"
+    },
+    "/usr/share/doc/git/RelNotes/2.39.0.txt": {
+      "input": "manuals",
+      "size": 13163,
+      "used": 13163,
+      "sha256": "28a2040afcc0b242b113e7e058552551f19afeb52292b2efef5ba55c0002f9c4"
+    },
+    "/usr/share/doc/git/RelNotes/2.39.1.txt": {
+      "input": "manuals",
+      "size": 167,
+      "used": 167,
+      "sha256": "01aa6b4ae10f8ec477f542aec1e8ebb2bc2d8ffbf569e72ee0d9c504f6dd7610"
+    },
+    "/usr/share/doc/git/RelNotes/2.39.2.txt": {
+      "input": "manuals",
+      "size": 304,
+      "used": 304,
+      "sha256": "a95dd8a9cb821edd1a2a88bd96ce02d21de0c04bdd737d6edb69458fb87f602c"
+    },
+    "/usr/share/doc/git/RelNotes/2.39.3.txt": {
+      "input": "manuals",
+      "size": 2350,
+      "used": 2350,
+      "sha256": "3d05145c07fa9d05887aa44df525a58bb5b9fb5231eeca9d4072a413714597fe"
+    },
+    "/usr/share/doc/git/RelNotes/2.39.4.txt": {
+      "input": "manuals",
+      "size": 2647,
+      "used": 2647,
+      "sha256": "16a2a10155cae847d3cfc3d5a9ecef80af1d325518a0a9464af873dfc76c0cac"
+    },
+    "/usr/share/doc/git/RelNotes/2.39.5.txt": {
+      "input": "manuals",
+      "size": 1089,
+      "used": 1089,
+      "sha256": "d14e2fde2ad5c65617e4eee119187bdd1da63035cb0f6e94a8ca501ddcf795b7"
+    },
+    "/usr/share/doc/git/RelNotes/2.4.0.txt": {
+      "input": "manuals",
+      "size": 22110,
+      "used": 22110,
+      "sha256": "28db2ebda2f387e937ea4164ff68dff8fd96eacc8f81395878cb30954100b328"
+    },
+    "/usr/share/doc/git/RelNotes/2.4.1.txt": {
+      "input": "manuals",
+      "size": 1654,
+      "used": 1654,
+      "sha256": "f4bf61f44830763e1efa51ee8bb9e51fc7e09feb38cc981357bfdd9aa8fc88c3"
+    },
+    "/usr/share/doc/git/RelNotes/2.4.10.txt": {
+      "input": "manuals",
+      "size": 711,
+      "used": 711,
+      "sha256": "badc1ebab73eea2874e5a405c9f7e8468957af80e293808fe23ccbe431594a72"
+    },
+    "/usr/share/doc/git/RelNotes/2.4.11.txt": {
+      "input": "manuals",
+      "size": 424,
+      "used": 424,
+      "sha256": "180ae1ad0d3ce8f9f16027394fa0ee7ee90b972bced94ceae1685fb445402207"
+    },
+    "/usr/share/doc/git/RelNotes/2.4.12.txt": {
+      "input": "manuals",
+      "size": 479,
+      "used": 479,
+      "sha256": "f3d728e41e4df5ee49844f2d0b3e63d0e65c3aed5238f9dc873ce789408ced31"
+    },
+    "/usr/share/doc/git/RelNotes/2.4.2.txt": {
+      "input": "manuals",
+      "size": 1954,
+      "used": 1954,
+      "sha256": "8dfd2dcf4077774cca5afa26cd46c1bc678e5f3805ae5fd6c5668779a1ec9347"
+    },
+    "/usr/share/doc/git/RelNotes/2.4.3.txt": {
+      "input": "manuals",
+      "size": 3066,
+      "used": 3066,
+      "sha256": "5748b71bdb9ce5b8ecde4bf053af7a911c6fc046510335bb68c2eeead4062e43"
+    },
+    "/usr/share/doc/git/RelNotes/2.4.4.txt": {
+      "input": "manuals",
+      "size": 1230,
+      "used": 1230,
+      "sha256": "4b7f3f889702b2cfb31bf2fbb6bd3e9242fd548aa83a9b270eb277ce93f1370f"
+    },
+    "/usr/share/doc/git/RelNotes/2.4.5.txt": {
+      "input": "manuals",
+      "size": 1066,
+      "used": 1066,
+      "sha256": "cb05a5b19948626c6969d38cb4ddbcd5041566cd35a6f77cde541d74ac5c7ecd"
+    },
+    "/usr/share/doc/git/RelNotes/2.4.6.txt": {
+      "input": "manuals",
+      "size": 744,
+      "used": 744,
+      "sha256": "5918b7f286163f3bf0e6e403521258570c8140c848b0eec5acf7d254700e1f0a"
+    },
+    "/usr/share/doc/git/RelNotes/2.4.7.txt": {
+      "input": "manuals",
+      "size": 2213,
+      "used": 2213,
+      "sha256": "49cf28a2f71bfcdfc9fede747340b7345801c8b82a4eebc94baf164abfad2de2"
+    },
+    "/usr/share/doc/git/RelNotes/2.4.8.txt": {
+      "input": "manuals",
+      "size": 704,
+      "used": 704,
+      "sha256": "0608571fc7e09c70d5b74620addc03a38b3f36b70a71bb5a07cbc50aeabe12cf"
+    },
+    "/usr/share/doc/git/RelNotes/2.4.9.txt": {
+      "input": "manuals",
+      "size": 284,
+      "used": 284,
+      "sha256": "d2a6e72f00c73b5d343ff226b82b2c9afb5b64a4f9cd03aab04836ff1cc4ab84"
+    },
+    "/usr/share/doc/git/RelNotes/2.40.0.txt": {
+      "input": "manuals",
+      "size": 13133,
+      "used": 13133,
+      "sha256": "b78ce1cf2d0670fc7befbe3c4069946271bfb709f524835eaf38b336807d9c00"
+    },
+    "/usr/share/doc/git/RelNotes/2.40.1.txt": {
+      "input": "manuals",
+      "size": 329,
+      "used": 329,
+      "sha256": "d951d97430f3ab69f462736d0dd87e5d3e253738e62892b7bdce45e8dc4f761e"
+    },
+    "/usr/share/doc/git/RelNotes/2.40.2.txt": {
+      "input": "manuals",
+      "size": 274,
+      "used": 274,
+      "sha256": "27dc75aaa17c113bbe024937c643f126d81156227b30c8a1329f006e525b65ae"
+    },
+    "/usr/share/doc/git/RelNotes/2.40.3.txt": {
+      "input": "manuals",
+      "size": 1089,
+      "used": 1089,
+      "sha256": "0b063d2f5b2b6df1ccb63c0b7be75e5fa10d22fe67895a264a2eed4fb67fbb91"
+    },
+    "/usr/share/doc/git/RelNotes/2.40.4.txt": {
+      "input": "manuals",
+      "size": 180,
+      "used": 180,
+      "sha256": "acd06d506877e060bbde351fd5de10b8c296db78783f5f5d501a89bf68fa57b9"
+    },
+    "/usr/share/doc/git/RelNotes/2.41.0.txt": {
+      "input": "manuals",
+      "size": 17488,
+      "used": 17488,
+      "sha256": "0e26902741d0a63a6cf9be169a488c5cd3f17e2ae5c3eb07a68ee5b62788d662"
+    },
+    "/usr/share/doc/git/RelNotes/2.41.1.txt": {
+      "input": "manuals",
+      "size": 288,
+      "used": 288,
+      "sha256": "6aa4a5ef6760242f3259908ca4d03acdfe6912cb37fc873af6ac2b0354f09a69"
+    },
+    "/usr/share/doc/git/RelNotes/2.41.2.txt": {
+      "input": "manuals",
+      "size": 1089,
+      "used": 1089,
+      "sha256": "11b8153b20d8ca1de6d9c6058c64987ecb32f0306dc0af1490a8e2f4a8b4db0f"
+    },
+    "/usr/share/doc/git/RelNotes/2.41.3.txt": {
+      "input": "manuals",
+      "size": 226,
+      "used": 226,
+      "sha256": "42e31aef8dd93d957cf7d9b808e66998f6c882265f26e47b8f81d33cf94f07a4"
+    },
+    "/usr/share/doc/git/RelNotes/2.42.0.txt": {
+      "input": "manuals",
+      "size": 15262,
+      "used": 15262,
+      "sha256": "cd59ad2d46a6f1729eeb748ef8aec3ffe236df621d72b2f572883cb395ab7301"
+    },
+    "/usr/share/doc/git/RelNotes/2.42.1.txt": {
+      "input": "manuals",
+      "size": 3444,
+      "used": 3444,
+      "sha256": "d125937f1578544c16d190d70190161544bcc79ec9e0b1c49e25d9bba11caa73"
+    },
+    "/usr/share/doc/git/RelNotes/2.42.2.txt": {
+      "input": "manuals",
+      "size": 297,
+      "used": 297,
+      "sha256": "6ada70f3835fbe865f14c9a825af0767a7ab89801e234a8c3faade848a468480"
+    },
+    "/usr/share/doc/git/RelNotes/2.42.3.txt": {
+      "input": "manuals",
+      "size": 1089,
+      "used": 1089,
+      "sha256": "5d8caa3905df381d86c91eb48860f6f8dd49c53fcf075f5f6ffeac4a367947e2"
+    },
+    "/usr/share/doc/git/RelNotes/2.42.4.txt": {
+      "input": "manuals",
+      "size": 240,
+      "used": 240,
+      "sha256": "756a48313b5d1d3a697210bb298e3882da9bdc93ad17c35836551a5b1a4f4c5e"
+    },
+    "/usr/share/doc/git/RelNotes/2.43.0.txt": {
+      "input": "manuals",
+      "size": 14009,
+      "used": 14009,
+      "sha256": "e17c554c8504db91acfced390a118f76981f9de7c13e124eb30b50ec00692b75"
+    },
+    "/usr/share/doc/git/RelNotes/2.43.1.txt": {
+      "input": "manuals",
+      "size": 3346,
+      "used": 3346,
+      "sha256": "4b6933746233945f1272e83a81bf2527ee3306598eeb6bf8c7ef00714f47c04f"
+    },
+    "/usr/share/doc/git/RelNotes/2.43.2.txt": {
+      "input": "manuals",
+      "size": 1404,
+      "used": 1404,
+      "sha256": "402e5fb4a73137779f3cc6ddf52f6e9404573cc6baeb4e184be1fda55186ae62"
+    },
+    "/usr/share/doc/git/RelNotes/2.43.3.txt": {
+      "input": "manuals",
+      "size": 357,
+      "used": 357,
+      "sha256": "1421a1f324678c56f69d24cf379bfe1c524485455714b02dcfe68a2bf0efba39"
+    },
+    "/usr/share/doc/git/RelNotes/2.43.4.txt": {
+      "input": "manuals",
+      "size": 306,
+      "used": 306,
+      "sha256": "2e8443d1b4c7c010aabc2da735df34b1852d29a38a4ea56666a03bd64148be61"
+    },
+    "/usr/share/doc/git/RelNotes/2.43.5.txt": {
+      "input": "manuals",
+      "size": 1089,
+      "used": 1089,
+      "sha256": "abe9768030990ea4f0de1e8e79fb28e8e1a27d6e60cf699812e11b3df2a30a3d"
+    },
+    "/usr/share/doc/git/RelNotes/2.43.6.txt": {
+      "input": "manuals",
+      "size": 249,
+      "used": 249,
+      "sha256": "678b79792685aa56ff213c5cdd437356394a9327b7176300ad25567275ae1515"
+    },
+    "/usr/share/doc/git/RelNotes/2.43.7.txt": {
+      "input": "manuals",
+      "size": 3025,
+      "used": 3025,
+      "sha256": "1b24a667f96f18db5daf841bef6d19c440d442a3a8536e9e3feaeec72c45012a"
+    },
+    "/usr/share/doc/git/RelNotes/2.44.0.txt": {
+      "input": "manuals",
+      "size": 13719,
+      "used": 13719,
+      "sha256": "9e0b65c23f901e5bda47a55e96d24ea304b349c88dbaf193fd2d20ac077f9143"
+    },
+    "/usr/share/doc/git/RelNotes/2.44.1.txt": {
+      "input": "manuals",
+      "size": 315,
+      "used": 315,
+      "sha256": "055ff194e5b4b0f23225bb4fdae35fb25e40db474cae95a1f06c9d9ab1c4dad1"
+    },
+    "/usr/share/doc/git/RelNotes/2.44.2.txt": {
+      "input": "manuals",
+      "size": 1089,
+      "used": 1089,
+      "sha256": "1408aa2ad95adc3f6966b349e8d14b8c477ef1a8c79ca2a3169437fae8c13422"
+    },
+    "/usr/share/doc/git/RelNotes/2.44.3.txt": {
+      "input": "manuals",
+      "size": 258,
+      "used": 258,
+      "sha256": "60bd0140f073b0cbeb74577b1ab295baf35d1924d822f5ff3e73ff2d8276bb1a"
+    },
+    "/usr/share/doc/git/RelNotes/2.44.4.txt": {
+      "input": "manuals",
+      "size": 304,
+      "used": 304,
+      "sha256": "7135f7683dce0b105d440600896a4dfe203639ddba4fb00fe8c47ad44878b7eb"
+    },
+    "/usr/share/doc/git/RelNotes/2.45.0.txt": {
+      "input": "manuals",
+      "size": 21422,
+      "used": 21422,
+      "sha256": "e9a83130d7b8192b82b74df6cb88e35783f3a316e486f3ee80a2f4fe1b4cf808"
+    },
+    "/usr/share/doc/git/RelNotes/2.45.1.txt": {
+      "input": "manuals",
+      "size": 324,
+      "used": 324,
+      "sha256": "cdf5a9c5c125246c870b749a7332f7f602291f97782aabeb7af082506fdfed82"
+    },
+    "/usr/share/doc/git/RelNotes/2.45.2.txt": {
+      "input": "manuals",
+      "size": 1089,
+      "used": 1089,
+      "sha256": "d9b2aae507519c3275c8bf3e84b60716cf0a8844cd1a9c06139a1d3f9a0a0ae4"
+    },
+    "/usr/share/doc/git/RelNotes/2.45.3.txt": {
+      "input": "manuals",
+      "size": 4379,
+      "used": 4379,
+      "sha256": "396e92e9df5167f9105ec1e887d0d7e3aaf73f66fd43ffdae79c66be35119e14"
+    },
+    "/usr/share/doc/git/RelNotes/2.45.4.txt": {
+      "input": "manuals",
+      "size": 317,
+      "used": 317,
+      "sha256": "4c9cb83aabdce67ac7b9d0ad2118023c627aee09481cef4980024ba972bc186b"
+    },
+    "/usr/share/doc/git/RelNotes/2.46.0.txt": {
+      "input": "manuals",
+      "size": 18786,
+      "used": 18786,
+      "sha256": "418fd85a1b3f8e6b145e36c3f66935f5027602551ada933914b089f60d5cb8dd"
+    },
+    "/usr/share/doc/git/RelNotes/2.46.1.txt": {
+      "input": "manuals",
+      "size": 2901,
+      "used": 2901,
+      "sha256": "8fd90a48a11355075f9e88a2901b64376c2e33b70c4585f21b9d92c81a2a919b"
+    },
+    "/usr/share/doc/git/RelNotes/2.46.2.txt": {
+      "input": "manuals",
+      "size": 883,
+      "used": 883,
+      "sha256": "0cdbb205e6229c5d79b91ea9d35fbf17ac5f6ba623073fe58aee96d5c5fef6c0"
+    },
+    "/usr/share/doc/git/RelNotes/2.46.3.txt": {
+      "input": "manuals",
+      "size": 276,
+      "used": 276,
+      "sha256": "91e6147dcbfe8ce4d6ee305b0fd101aee59f3f3a9a770b4db062ece1cf26d95c"
+    },
+    "/usr/share/doc/git/RelNotes/2.46.4.txt": {
+      "input": "manuals",
+      "size": 326,
+      "used": 326,
+      "sha256": "f41c7a230a22c88ded1b992bdb53299ff5e54b6ec06e461673ee1c34bd5120eb"
+    },
+    "/usr/share/doc/git/RelNotes/2.47.0.txt": {
+      "input": "manuals",
+      "size": 13967,
+      "used": 13967,
+      "sha256": "301b4326e16648bb22c8e5f9eec2bbd2eed49a5a68a6492517f6fee90fa95739"
+    },
+    "/usr/share/doc/git/RelNotes/2.47.1.txt": {
+      "input": "manuals",
+      "size": 1046,
+      "used": 1046,
+      "sha256": "bd9c311b83053538de961c3b3816b3195dae111bbdac23224a6891fac6b65b64"
+    },
+    "/usr/share/doc/git/RelNotes/2.47.2.txt": {
+      "input": "manuals",
+      "size": 285,
+      "used": 285,
+      "sha256": "bf86491373fbe52c69750960a54e4c148813e85e340390ea09e8a1da4293a47f"
+    },
+    "/usr/share/doc/git/RelNotes/2.47.3.txt": {
+      "input": "manuals",
+      "size": 335,
+      "used": 335,
+      "sha256": "2678240a2f05d739509bfdf934dfcd1ac10a90c2d069c555050f528f97f3b3bb"
+    },
+    "/usr/share/doc/git/RelNotes/2.5.0.txt": {
+      "input": "manuals",
+      "size": 26158,
+      "used": 26158,
+      "sha256": "fa522a7290584a827eb827fb9c0c6f36bc67eea0fe18297b4bcdf2c133c7a8cf"
+    },
+    "/usr/share/doc/git/RelNotes/2.5.1.txt": {
+      "input": "manuals",
+      "size": 2861,
+      "used": 2861,
+      "sha256": "2b4b6391ebc2674dc5bf7239d11eeb416df626bdeab06117b4e2db67d5567ede"
+    },
+    "/usr/share/doc/git/RelNotes/2.5.2.txt": {
+      "input": "manuals",
+      "size": 2654,
+      "used": 2654,
+      "sha256": "82d9c1f22672a8471e189cbec4ff16fe25c4a699e40fe45c754e3abf9686389b"
+    },
+    "/usr/share/doc/git/RelNotes/2.5.3.txt": {
+      "input": "manuals",
+      "size": 565,
+      "used": 565,
+      "sha256": "e330993baaa77b4783538de9e814b895fd69f5d1bda2b83e7964158d2a138edd"
+    },
+    "/usr/share/doc/git/RelNotes/2.5.4.txt": {
+      "input": "manuals",
+      "size": 709,
+      "used": 709,
+      "sha256": "142ae45b2c237eb8dddf66ad1507cbc869e349c63cc81f2fa503d8afb7dedaf6"
+    },
+    "/usr/share/doc/git/RelNotes/2.5.5.txt": {
+      "input": "manuals",
+      "size": 420,
+      "used": 420,
+      "sha256": "a584e0e4e27020f75f7f530459b778b3bc2f72a14c87cc4696a619c9ca4a163f"
+    },
+    "/usr/share/doc/git/RelNotes/2.5.6.txt": {
+      "input": "manuals",
+      "size": 475,
+      "used": 475,
+      "sha256": "d7853d2ce5faef480d79fe74b0b5dfebf6899d5c4d25b0022c43624ff939b340"
+    },
+    "/usr/share/doc/git/RelNotes/2.6.0.txt": {
+      "input": "manuals",
+      "size": 16434,
+      "used": 16434,
+      "sha256": "a5d1740a66c2344e3442624cd8aaf5e1f0eb31650e15f42634a064cb150d721c"
+    },
+    "/usr/share/doc/git/RelNotes/2.6.1.txt": {
+      "input": "manuals",
+      "size": 705,
+      "used": 705,
+      "sha256": "a2786b216fc9b3a9d6574ebe1ee5307568ff64bd8b963aae5bd5ec31c9221dd6"
+    },
+    "/usr/share/doc/git/RelNotes/2.6.2.txt": {
+      "input": "manuals",
+      "size": 2678,
+      "used": 2678,
+      "sha256": "3eead5c359710badafb41b0638af3618b22a3edae96c4d27698657bc5753182a"
+    },
+    "/usr/share/doc/git/RelNotes/2.6.3.txt": {
+      "input": "manuals",
+      "size": 4904,
+      "used": 4904,
+      "sha256": "5ce6900d44eee24f49a620e10282afd4abcbdce08421eaf5fbcb9290f34a062a"
+    },
+    "/usr/share/doc/git/RelNotes/2.6.4.txt": {
+      "input": "manuals",
+      "size": 2163,
+      "used": 2163,
+      "sha256": "a013ede6f7383505c7a7d8ca01faf4f3b3c0f2e07b75f5216b32088279e159a2"
+    },
+    "/usr/share/doc/git/RelNotes/2.6.5.txt": {
+      "input": "manuals",
+      "size": 2542,
+      "used": 2542,
+      "sha256": "cc859d56dfa814b25c28f0f76fb377c580d9e53d0d845a9847b1c248fe684e59"
+    },
+    "/usr/share/doc/git/RelNotes/2.6.6.txt": {
+      "input": "manuals",
+      "size": 420,
+      "used": 420,
+      "sha256": "6dc2f60ab1db0f4814bd721da93f264cc6d2605903bb41125fda2de2f8b680ec"
+    },
+    "/usr/share/doc/git/RelNotes/2.6.7.txt": {
+      "input": "manuals",
+      "size": 475,
+      "used": 475,
+      "sha256": "a5692dcbf920f8c0493f075e9acb3a229e8125130776832dad1df324670eda20"
+    },
+    "/usr/share/doc/git/RelNotes/2.7.0.txt": {
+      "input": "manuals",
+      "size": 17498,
+      "used": 17498,
+      "sha256": "985386c3ba14c7853c1e41be540fbdd11a60be042e131a1df325a80ac480af2b"
+    },
+    "/usr/share/doc/git/RelNotes/2.7.1.txt": {
+      "input": "manuals",
+      "size": 3533,
+      "used": 3533,
+      "sha256": "eb3d3388d61211ef181706377b5833b372207496a8a1989913c5cdcad807c1db"
+    },
+    "/usr/share/doc/git/RelNotes/2.7.2.txt": {
+      "input": "manuals",
+      "size": 1739,
+      "used": 1739,
+      "sha256": "003b972b6026dbb8c3b6c059922453798b2cdb72aa70f8749a99d7f2a2577b67"
+    },
+    "/usr/share/doc/git/RelNotes/2.7.3.txt": {
+      "input": "manuals",
+      "size": 2597,
+      "used": 2597,
+      "sha256": "8bdd9bccf1bfacd12b905acdfb4a64f516a8295087931a370666f86c071e54e1"
+    },
+    "/usr/share/doc/git/RelNotes/2.7.4.txt": {
+      "input": "manuals",
+      "size": 420,
+      "used": 420,
+      "sha256": "b614d582759ec0a880fce92e224a8437a89693b8f74e70762015ecc825c7487e"
+    },
+    "/usr/share/doc/git/RelNotes/2.7.5.txt": {
+      "input": "manuals",
+      "size": 544,
+      "used": 544,
+      "sha256": "a1834f267cb737a15300b1cd410193c482bcaaebdda1439720d43a5ddb40ad6f"
+    },
+    "/usr/share/doc/git/RelNotes/2.7.6.txt": {
+      "input": "manuals",
+      "size": 951,
+      "used": 951,
+      "sha256": "cd2746faad3e51f1091bbadefad83cc8925e48078dbb25aa030877910a282443"
+    },
+    "/usr/share/doc/git/RelNotes/2.8.0.txt": {
+      "input": "manuals",
+      "size": 19677,
+      "used": 19677,
+      "sha256": "adfd2bda4feffaeaaae43805c3631e5f83b0f7e9d842458426bc3251b474ffd7"
+    },
+    "/usr/share/doc/git/RelNotes/2.8.1.txt": {
+      "input": "manuals",
+      "size": 255,
+      "used": 255,
+      "sha256": "b440f15254a8960513b1bf33f8f28d19bff3bccef1b6fae18a0b10d8df7865d1"
+    },
+    "/usr/share/doc/git/RelNotes/2.8.2.txt": {
+      "input": "manuals",
+      "size": 2704,
+      "used": 2704,
+      "sha256": "c60ecf8c7e1da61130c85c6f574e97b690f8881698fce3aebeefded0325849aa"
+    },
+    "/usr/share/doc/git/RelNotes/2.8.3.txt": {
+      "input": "manuals",
+      "size": 4433,
+      "used": 4433,
+      "sha256": "20d51861cbaa4169fe8a9fd81ae3f228302b129f15e5b0b399a648fe92bdffef"
+    },
+    "/usr/share/doc/git/RelNotes/2.8.4.txt": {
+      "input": "manuals",
+      "size": 3061,
+      "used": 3061,
+      "sha256": "4db6d01d39e9d2e5e9b585a4d7f23f5437c7e88af1ca17b613eb8bc058c015a8"
+    },
+    "/usr/share/doc/git/RelNotes/2.8.5.txt": {
+      "input": "manuals",
+      "size": 475,
+      "used": 475,
+      "sha256": "1723f4bd50b6b364863eaa03b907744a47f2833ccb3fe1566e17e50868563ebd"
+    },
+    "/usr/share/doc/git/RelNotes/2.8.6.txt": {
+      "input": "manuals",
+      "size": 122,
+      "used": 122,
+      "sha256": "d49da8697e16e24bc8444b5912e24d6f0da61b7efb17332be40e108dac000265"
+    },
+    "/usr/share/doc/git/RelNotes/2.9.0.txt": {
+      "input": "manuals",
+      "size": 21836,
+      "used": 21836,
+      "sha256": "fd7cf3028b40743ab27df0736c234cf3e56832caf797412f66b9a0ba53aba53e"
+    },
+    "/usr/share/doc/git/RelNotes/2.9.1.txt": {
+      "input": "manuals",
+      "size": 4930,
+      "used": 4930,
+      "sha256": "027409e2e486f00bf924d64786f8a8ac3b327c6f37cf01c8e679575b6e400953"
+    },
+    "/usr/share/doc/git/RelNotes/2.9.2.txt": {
+      "input": "manuals",
+      "size": 427,
+      "used": 427,
+      "sha256": "f5a672a31b1e011a5174d92806ba5dae33206b4289779e3ecfc3fdd69644b1c6"
+    },
+    "/usr/share/doc/git/RelNotes/2.9.3.txt": {
+      "input": "manuals",
+      "size": 7466,
+      "used": 7466,
+      "sha256": "171eb7630a0b87eb67e15090c295357291baf95b13b716f54e5ab37c8d39f16e"
+    },
+    "/usr/share/doc/git/RelNotes/2.9.4.txt": {
+      "input": "manuals",
+      "size": 4384,
+      "used": 4384,
+      "sha256": "e1c95e1d10f2e41c3c72f49a0ff0e676ea8fde168d55b38323520338cada73f1"
+    },
+    "/usr/share/doc/git/RelNotes/2.9.5.txt": {
+      "input": "manuals",
+      "size": 122,
+      "used": 122,
+      "sha256": "c799997eb2071f28861f8d9658d48f86e6d0046d5ceee6a558ce192540ace280"
+    },
+    "/usr/lib/python3.13/__future__.py": {
+      "input": "modules",
+      "size": 5218,
+      "used": 5218,
+      "sha256": "981d4c398849f9ebcab72300d9c1fe288fd6d7f28957b3b3fa3a493a5836d95c"
+    },
+    "/usr/lib/python3.13/__hello__.py": {
+      "input": "modules",
+      "size": 227,
+      "used": 227,
+      "sha256": "a8ce70b199497950f0f06def93115a6814daf1f961934457f59046909901487f"
+    },
+    "/usr/lib/python3.13/_aix_support.py": {
+      "input": "modules",
+      "size": 4021,
+      "used": 4021,
+      "sha256": "0982f187c62fbfc1e8d368c8eb4104b56df71009a6b2823565a699e7b4cd945c"
+    },
+    "/usr/lib/python3.13/_android_support.py": {
+      "input": "modules",
+      "size": 6895,
+      "used": 6895,
+      "sha256": "2010868fba48f4c92a317e807e34e3a0bd6d383a68f95a07152ad91ed6651636"
+    },
+    "/usr/lib/python3.13/_apple_support.py": {
+      "input": "modules",
+      "size": 2256,
+      "used": 2256,
+      "sha256": "3bde7533b66dafa0c755c92bf09b30932a723ca58905a3fac670d53e3149f47b"
+    },
+    "/usr/lib/python3.13/_collections_abc.py": {
+      "input": "modules",
+      "size": 32264,
+      "used": 32264,
+      "sha256": "2cfe340c4cf54077f054cd366a2c7a515e9ee8da7d8b3fa071251f280034756d"
+    },
+    "/usr/lib/python3.13/_colorize.py": {
+      "input": "modules",
+      "size": 2848,
+      "used": 2848,
+      "sha256": "83d39ba60fb9844f2de83a6e19237bb127549809e67bf8752fa67c0ddd227b2a"
+    },
+    "/usr/lib/python3.13/_compat_pickle.py": {
+      "input": "modules",
+      "size": 8735,
+      "used": 8735,
+      "sha256": "028d2d9845d7acac2e1ceb565aacaee64e3f8019fba96174d65eff1609b50cd0"
+    },
+    "/usr/lib/python3.13/_compression.py": {
+      "input": "modules",
+      "size": 5681,
+      "used": 5681,
+      "sha256": "3ad5d60627477a60939ee44fc1bb3a05dbe8fb52f0f75039b8f5d8f1a278b981"
+    },
+    "/usr/lib/python3.13/_distutils_system_mod.py": {
+      "input": "modules",
+      "size": 5716,
+      "used": 5716,
+      "sha256": "c0ed16ad26297815a3a9e5748697d33a58994a6fe411be2e269d61636744e87a"
+    },
+    "/usr/lib/python3.13/_ios_support.py": {
+      "input": "modules",
+      "size": 2672,
+      "used": 2672,
+      "sha256": "efaf28205259cb869ba3ca8353f7b69c9d2d6ad465e22904f27122b12ac3f84a"
+    },
+    "/usr/lib/python3.13/_markupbase.py": {
+      "input": "modules",
+      "size": 14653,
+      "used": 14653,
+      "sha256": "cb14dd6f2e2439eb70b806cd49d19911363d424c2b6b9f4b73c9c08022d47030"
+    },
+    "/usr/lib/python3.13/_opcode_metadata.py": {
+      "input": "modules",
+      "size": 9265,
+      "used": 9265,
+      "sha256": "9a27d5830732442110b5945ddac1668db17abb51c44882ba9d4a8536bcc0ea1c"
+    },
+    "/usr/lib/python3.13/_osx_support.py": {
+      "input": "modules",
+      "size": 22023,
+      "used": 22023,
+      "sha256": "363d3240acbba18a270bd3161f1ddb478f8492dc14fc451b2dc314db5c5ee09c"
+    },
+    "/usr/lib/python3.13/_py_abc.py": {
+      "input": "modules",
+      "size": 6189,
+      "used": 6189,
+      "sha256": "f9c6fe3dd9b51bd7d93f867356e9d362600c924febfd903ee1c6e298860dca92"
+    },
+    "/usr/lib/python3.13/_pydatetime.py": {
+      "input": "modules",
+      "size": 91990,
+      "used": 91990,
+      "sha256": "52dae1088217de5f8b7a2c71fb97757daf29cb0679c1140435ff899a17eb8aa2"
+    },
+    "/usr/lib/python3.13/_pydecimal.py": {
+      "input": "modules",
+      "size": 227283,
+      "used": 227283,
+      "sha256": "87a3372df4c4269adcdac5725e04675d306abcfa8d65e8dda59c1846e3d202ac"
+    },
+    "/usr/lib/python3.13/_pyio.py": {
+      "input": "modules",
+      "size": 93693,
+      "used": 93693,
+      "sha256": "fe5f1eebe5d06333f03440392bb1851a6e7cfa3c7e074a3a65a3bf7c4fe5f4ba"
+    },
+    "/usr/lib/python3.13/_pylong.py": {
+      "input": "modules",
+      "size": 11830,
+      "used": 11830,
+      "sha256": "2d078829f36ba378e879fcac388fec443d5dfee7e0061a2656f8703bec124dbb"
+    },
+    "/usr/lib/python3.13/_sitebuiltins.py": {
+      "input": "modules",
+      "size": 3128,
+      "used": 3128,
+      "sha256": "b9388bc1d6d12ed6be12da420ab1feca40f99c0e33ec315d92b1e01cb69b25bc"
+    },
+    "/usr/lib/python3.13/_strptime.py": {
+      "input": "modules",
+      "size": 29383,
+      "used": 29383,
+      "sha256": "5f37a409d545797ab31bed744e7629a78ac65b45eb0f327a8ee8819c52d78f17"
+    },
+    "/usr/lib/python3.13/_sysconfigdata__aarch64-linux-gnu.py": {
+      "input": "modules",
+      "size": 47561,
+      "used": 47561,
+      "sha256": "e3f9930baf41826762ad0e465781e79804b4beb2701b0cbd1e6f27baa7ff82d8"
+    },
+    "/usr/lib/python3.13/_sysconfigdata__linux_aarch64-linux-gnu.py": {
+      "input": "modules",
+      "size": 47561,
+      "used": 47561,
+      "sha256": "e3f9930baf41826762ad0e465781e79804b4beb2701b0cbd1e6f27baa7ff82d8"
+    },
+    "/usr/lib/python3.13/_threading_local.py": {
+      "input": "modules",
+      "size": 4363,
+      "used": 4363,
+      "sha256": "c28a8fee862741e9173f5a76f0c680761b5f61e1dd9f2ca479b02c69c9ada4e7"
+    },
+    "/usr/lib/python3.13/_weakrefset.py": {
+      "input": "modules",
+      "size": 5893,
+      "used": 5893,
+      "sha256": "91895a451d06e9f521a1171b31b9b19bc9740f35af00d4fa106338ab7167c9ac"
+    },
+    "/usr/lib/python3.13/abc.py": {
+      "input": "modules",
+      "size": 6538,
+      "used": 6538,
+      "sha256": "e558702a95cdce3febd289da021715d2b92bc43995b8a1bc58dfa1c3d8010287"
+    },
+    "/usr/lib/python3.13/antigravity.py": {
+      "input": "modules",
+      "size": 500,
+      "used": 500,
+      "sha256": "8a5ee63e1b79ba2733e7ff4290b6eefea60e7f3a1ccb6bb519535aaf92b44967"
+    },
+    "/usr/lib/python3.13/argparse.py": {
+      "input": "modules",
+      "size": 102058,
+      "used": 102058,
+      "sha256": "536e65df75b5dae9d11d0fec05cb1faee86b41cf9fba4e7f2c3f54dbd7405488"
+    },
+    "/usr/lib/python3.13/ast.py": {
+      "input": "modules",
+      "size": 65339,
+      "used": 65339,
+      "sha256": "7514eb7df98b1b76eab160ca2a83e6e9a9f3219a4659808cd9fd278b524ede1b"
+    },
+    "/usr/lib/python3.13/base64.py": {
+      "input": "modules",
+      "size": 21629,
+      "used": 21629,
+      "sha256": "4899f39b88d4df432713f4a605747b0b737fe8bce3e654b574cad1e1f76c1abe"
+    },
+    "/usr/lib/python3.13/bdb.py": {
+      "input": "modules",
+      "size": 35343,
+      "used": 35343,
+      "sha256": "cdc8eb40d7eaa0582f2cc3c1be913a2ced073e1e1f950248ee364b0a9ae271ba"
+    },
+    "/usr/lib/python3.13/bisect.py": {
+      "input": "modules",
+      "size": 3423,
+      "used": 3423,
+      "sha256": "f1cf7b85fc36b5da249813fc5ab97d9464f8cc1bc817f7146206fa2713e35999"
+    },
+    "/usr/lib/python3.13/bz2.py": {
+      "input": "modules",
+      "size": 11969,
+      "used": 11969,
+      "sha256": "b217459e4c74ccb3da3a44b51dd335cfddcbe9d3014b3279dda1c1a7ca448c08"
+    },
+    "/usr/lib/python3.13/cProfile.py": {
+      "input": "modules",
+      "size": 6623,
+      "used": 6623,
+      "sha256": "47d28ebd53a59c77e4f15c9324ea74cfd31e77df09b0a67dc6cbec5e6b51ff72"
+    },
+    "/usr/lib/python3.13/calendar.py": {
+      "input": "modules",
+      "size": 26077,
+      "used": 26077,
+      "sha256": "519c59b7a52e45f9c8056ed8cc8cede5be4bfa16d2179c1db1b01688ac1935b3"
+    },
+    "/usr/lib/python3.13/cmd.py": {
+      "input": "modules",
+      "size": 15316,
+      "used": 15316,
+      "sha256": "f591b34e16dc6616da89eb79b650e940d6e8b377a898d353ee26cdfcb4d9a033"
+    },
+    "/usr/lib/python3.13/code.py": {
+      "input": "modules",
+      "size": 13170,
+      "used": 13170,
+      "sha256": "1371e4981b63a8fdde675b8d60362fca8a79c677c1c93d84158d9ec1feb0cfd7"
+    },
+    "/usr/lib/python3.13/codecs.py": {
+      "input": "modules",
+      "size": 36928,
+      "used": 36928,
+      "sha256": "514b00fe93120b4face4508351aa9f1246ecc808c4da3e599dfee7430fe459f9"
+    },
+    "/usr/lib/python3.13/codeop.py": {
+      "input": "modules",
+      "size": 5828,
+      "used": 5828,
+      "sha256": "ad13dfbb20a67e3cf82a8dd70f425559fbadf7c740208feb400635ee19b9745e"
+    },
+    "/usr/lib/python3.13/colorsys.py": {
+      "input": "modules",
+      "size": 4062,
+      "used": 4062,
+      "sha256": "65e3dfbf7bad61d4d7d7731a69dd7e75a347fd350d91327a51010a94e6fd2f1d"
+    },
+    "/usr/lib/python3.13/compileall.py": {
+      "input": "modules",
+      "size": 20756,
+      "used": 20756,
+      "sha256": "774cd812275cf32d49baca6953e5f5cbf958fcabe79aaad331d7e22f2606d0ba"
+    },
+    "/usr/lib/python3.13/configparser.py": {
+      "input": "modules",
+      "size": 53831,
+      "used": 53831,
+      "sha256": "8207196623ac6a8b35ca240598fa0136ee056c84d40708dec54562153172edd2"
+    },
+    "/usr/lib/python3.13/contextlib.py": {
+      "input": "modules",
+      "size": 27801,
+      "used": 27801,
+      "sha256": "c1e0d67b2007de11ae93cd36cf6faf38d9ab32656a832d592a49325eec579f96"
+    },
+    "/usr/lib/python3.13/contextvars.py": {
+      "input": "modules",
+      "size": 129,
+      "used": 129,
+      "sha256": "5ed260be8d1f4fe92261b7810b4bb1e8539c42093d7493f677d076e1a87f459a"
+    },
+    "/usr/lib/python3.13/copy.py": {
+      "input": "modules",
+      "size": 8975,
+      "used": 8975,
+      "sha256": "d6b858961b91b48a4bf5a115b0420c890d677bdf058ab2323a8a75298eed47db"
+    },
+    "/usr/lib/python3.13/copyreg.py": {
+      "input": "modules",
+      "size": 7614,
+      "used": 7614,
+      "sha256": "c8eda41f05c6bf95a4da4726a530409d2485ae060b8d019b3a8034389a15d3e9"
+    },
+    "/usr/lib/python3.13/csv.py": {
+      "input": "modules",
+      "size": 19178,
+      "used": 19178,
+      "sha256": "bd242c88ac4fd905cc64121e6fc9714c32b9e6031f52a03296aa8d28b32903df"
+    },
+    "/usr/lib/python3.13/dataclasses.py": {
+      "input": "modules",
+      "size": 64545,
+      "used": 64545,
+      "sha256": "18b8b97f6c43ece379793745dfd505ed713a4c86bc6babdcdec593101b5f4399"
+    },
+    "/usr/lib/python3.13/datetime.py": {
+      "input": "modules",
+      "size": 268,
+      "used": 268,
+      "sha256": "ef20dc6b3554cd585dddffdc573f1f9a7a54c522f2a3fb4576c44edbb1e14238"
+    },
+    "/usr/lib/python3.13/decimal.py": {
+      "input": "modules",
+      "size": 2798,
+      "used": 2798,
+      "sha256": "ed070025c9742f71f7ea92ec1a3d24f85b3199dd79b9d15a141716154e647989"
+    },
+    "/usr/lib/python3.13/difflib.py": {
+      "input": "modules",
+      "size": 83368,
+      "used": 83368,
+      "sha256": "3eb2d371b4a171b063921de6bbf115108bc39de8bf72866315868ce2599213b7"
+    },
+    "/usr/lib/python3.13/dis.py": {
+      "input": "modules",
+      "size": 40962,
+      "used": 40962,
+      "sha256": "1852129bf55039f192d90174334fbe459d5f982cae33a04e700fe7cdb2748a51"
+    },
+    "/usr/lib/python3.13/doctest.py": {
+      "input": "modules",
+      "size": 109333,
+      "used": 109333,
+      "sha256": "3123a3cfa27d35cbe80a8460089718e9897945dbaabdaa01a379146505006c2b"
+    },
+    "/usr/lib/python3.13/enum.py": {
+      "input": "modules",
+      "size": 85578,
+      "used": 85578,
+      "sha256": "419c011ac6db4efd60e737db7cbba83eb67110ed20d91781f7c60cdeed61e0b6"
+    },
+    "/usr/lib/python3.13/filecmp.py": {
+      "input": "modules",
+      "size": 10652,
+      "used": 10652,
+      "sha256": "f895d4defb64409dd31f860e8af58f3d2877bfc17aed4f93217d1417c791c28a"
+    },
+    "/usr/lib/python3.13/fileinput.py": {
+      "input": "modules",
+      "size": 15717,
+      "used": 15717,
+      "sha256": "c28f39e002286c3e822e7a0767d2db0a04613d5ec4f65599bccf29654a4dff3b"
+    },
+    "/usr/lib/python3.13/fnmatch.py": {
+      "input": "modules",
+      "size": 6180,
+      "used": 6180,
+      "sha256": "95391dac2ce9f60084d65eba2f4b9d9735e28136d55b684e1fde7d6342555963"
+    },
+    "/usr/lib/python3.13/fractions.py": {
+      "input": "modules",
+      "size": 40021,
+      "used": 40021,
+      "sha256": "58f7750133f2e23999ba3f634d1b14edfec6dc48bf8bb00a9911262cd7198f63"
+    },
+    "/usr/lib/python3.13/ftplib.py": {
+      "input": "modules",
+      "size": 35240,
+      "used": 35240,
+      "sha256": "fb32563e0157d25e1a4b72cdbb5607893014d1accc2dbb986b2e3a61aebfe26e"
+    },
+    "/usr/lib/python3.13/functools.py": {
+      "input": "modules",
+      "size": 39123,
+      "used": 39123,
+      "sha256": "7aa8725afbe9b9fc47a825b4e7c0330fa374432f481d7be8202b96f56eeac9a0"
+    },
+    "/usr/lib/python3.13/genericpath.py": {
+      "input": "modules",
+      "size": 6247,
+      "used": 6247,
+      "sha256": "cdac5a68dd738051e0d66fc81d5947d6a1776248fc6fe862253477608d870ec4"
+    },
+    "/usr/lib/python3.13/getopt.py": {
+      "input": "modules",
+      "size": 7488,
+      "used": 7488,
+      "sha256": "0ce875700c8798193b8e2748f7a27fc542cc4d525a1e6fc403767450ec92be99"
+    },
+    "/usr/lib/python3.13/getpass.py": {
+      "input": "modules",
+      "size": 6233,
+      "used": 6233,
+      "sha256": "e52ea266b79f3b4a83388093f387540ff36d51ff306dcbb6ca6de081cd28e718"
+    },
+    "/usr/lib/python3.13/gettext.py": {
+      "input": "modules",
+      "size": 21961,
+      "used": 21961,
+      "sha256": "c489df83550d123093abb1f1a86669218535707b826e4ec7de0b1a5cdae7679d"
+    },
+    "/usr/lib/python3.13/glob.py": {
+      "input": "modules",
+      "size": 19720,
+      "used": 19720,
+      "sha256": "3399f242a9bfb4e0b2b8bbbcdc0231487e453a861f4a4ca109c2a560e05698e8"
+    },
+    "/usr/lib/python3.13/graphlib.py": {
+      "input": "modules",
+      "size": 9648,
+      "used": 9648,
+      "sha256": "2a29e0adee584dc76251afef1236d7bedf250aca27911f91a4d442133ce81117"
+    },
+    "/usr/lib/python3.13/gzip.py": {
+      "input": "modules",
+      "size": 24633,
+      "used": 24633,
+      "sha256": "dba33ac2497af37712ea23f5c3ce3ed56177262886868cbc6a6d43632c79afe9"
+    },
+    "/usr/lib/python3.13/hashlib.py": {
+      "input": "modules",
+      "size": 9446,
+      "used": 9446,
+      "sha256": "f129b330e6ab878a96085843b3606acd7d157b8fe6edfa15e37fa13988cef19c"
+    },
+    "/usr/lib/python3.13/heapq.py": {
+      "input": "modules",
+      "size": 23024,
+      "used": 23024,
+      "sha256": "6d43277e5c76fc0f073cd388fcff852d14d068f6bb6d4886c340f8b75a1229a9"
+    },
+    "/usr/lib/python3.13/hmac.py": {
+      "input": "modules",
+      "size": 7716,
+      "used": 7716,
+      "sha256": "7facd1330e5487ed995eda5c8619df0d3e32f69cb619f97662372fb76325746e"
+    },
+    "/usr/lib/python3.13/imaplib.py": {
+      "input": "modules",
+      "size": 54040,
+      "used": 54040,
+      "sha256": "ab3d485f7ee89deaf132533cd135888326be3c92a88ede79a16fa4c0e4709632"
+    },
+    "/usr/lib/python3.13/inspect.py": {
+      "input": "modules",
+      "size": 128276,
+      "used": 128276,
+      "sha256": "d5ac7f91f6906439fd57f87f1e37934e95bb40569fa0a26affa4cf618f67532a"
+    },
+    "/usr/lib/python3.13/io.py": {
+      "input": "modules",
+      "size": 3582,
+      "used": 3582,
+      "sha256": "7cec3cb8ac004058dd0a5af246e6d950fb59c7ddd0058fda48bcb3fcb98d8822"
+    },
+    "/usr/lib/python3.13/ipaddress.py": {
+      "input": "modules",
+      "size": 81635,
+      "used": 81635,
+      "sha256": "9c6bb01db0ed80900671b0ffc853eacda6131b9bdeee95e6882a71e2801840fa"
+    },
+    "/usr/lib/python3.13/keyword.py": {
+      "input": "modules",
+      "size": 1073,
+      "used": 1073,
+      "sha256": "18c2be738c04ad20ad375f6a71db34b3823c7f40b0340f5294d0e89f3c9b093b"
+    },
+    "/usr/lib/python3.13/linecache.py": {
+      "input": "modules",
+      "size": 7284,
+      "used": 7284,
+      "sha256": "0939f472e54b4aadbf261d3c45a92d5aafe16e749c199917df9f4e47ce4cc4da"
+    },
+    "/usr/lib/python3.13/locale.py": {
+      "input": "modules",
+      "size": 79033,
+      "used": 79033,
+      "sha256": "ccffa53357828663c7a9d3f6817aab92dab378eaa950b460a72401d842f74365"
+    },
+    "/usr/lib/python3.13/lzma.py": {
+      "input": "modules",
+      "size": 13399,
+      "used": 13399,
+      "sha256": "6a923ba49b33897152a9398d2a39d08670238290c90c050b8f4d838046339db5"
+    },
+    "/usr/lib/python3.13/mailbox.py": {
+      "input": "modules",
+      "size": 81644,
+      "used": 81644,
+      "sha256": "c302512932be1e7c045eb1b97708b7fa0b8ea3b9a5ce1c7c147fd61d31b0f753"
+    },
+    "/usr/lib/python3.13/mimetypes.py": {
+      "input": "modules",
+      "size": 23851,
+      "used": 23851,
+      "sha256": "a6074f9516d69b046c97f75392ad0cc5eb3ab1b9c17ef3ba6731e2d9db12dd43"
+    },
+    "/usr/lib/python3.13/modulefinder.py": {
+      "input": "modules",
+      "size": 23792,
+      "used": 23792,
+      "sha256": "5447268e1fe922d334f59e2f370dae0130ab2b9eff48ca7bd71c4ec544443c8b"
+    },
+    "/usr/lib/python3.13/netrc.py": {
+      "input": "modules",
+      "size": 6922,
+      "used": 6922,
+      "sha256": "229da6d0cbe6a10295be6c64ac3806420ea018124c09e4887410548fc2fc8b5d"
+    },
+    "/usr/lib/python3.13/ntpath.py": {
+      "input": "modules",
+      "size": 30886,
+      "used": 30886,
+      "sha256": "7c5c992b1b52f97d7dc73ad09ea8b97917475e7e4474563379e71b03015f04ca"
+    },
+    "/usr/lib/python3.13/nturl2path.py": {
+      "input": "modules",
+      "size": 2374,
+      "used": 2374,
+      "sha256": "560e42264a337d0d41b42713fbda072890997161aca8b7397cca8967a23f8b63"
+    },
+    "/usr/lib/python3.13/numbers.py": {
+      "input": "modules",
+      "size": 11467,
+      "used": 11467,
+      "sha256": "ac381960a3dc1db0498b0bd43d8ef278d6599713121a186b153ff09d9552e0db"
+    },
+    "/usr/lib/python3.13/opcode.py": {
+      "input": "modules",
+      "size": 2825,
+      "used": 2825,
+      "sha256": "aaf8e6e0291b6ff439c27ad1657d5b1d2fc738f961bee3fa4863a51e494dc843"
+    },
+    "/usr/lib/python3.13/operator.py": {
+      "input": "modules",
+      "size": 10980,
+      "used": 10980,
+      "sha256": "c048f8a6852832d5fa750d6ae772d7658c52c3511d261cb902f7edfd262e9127"
+    },
+    "/usr/lib/python3.13/optparse.py": {
+      "input": "modules",
+      "size": 60369,
+      "used": 60369,
+      "sha256": "07d224301cba312fa0697bff9cd5a4bb4f778a90629632091b3f4ae874d89af5"
+    },
+    "/usr/lib/python3.13/os.py": {
+      "input": "modules",
+      "size": 41635,
+      "used": 41635,
+      "sha256": "b6b68783d438ff044c096fd0c3d1dfc9479a9b632e0a450a376be6c01655aafe"
+    },
+    "/usr/lib/python3.13/pdb.py": {
+      "input": "modules",
+      "size": 90924,
+      "used": 90924,
+      "sha256": "8c200bf9066bb6baeac7bdb174db4d3a354ed0bff8c947b022e72566084cdb70"
+    },
+    "/usr/lib/python3.13/pickle.py": {
+      "input": "modules",
+      "size": 66957,
+      "used": 66957,
+      "sha256": "8140370a0f3f23769cfb5e99546abf7a35bc0e286f2f81acb6e43a3544162302"
+    },
+    "/usr/lib/python3.13/pickletools.py": {
+      "input": "modules",
+      "size": 94052,
+      "used": 94052,
+      "sha256": "a4242b8728b0c29d15d9534fac4f7303d9c562a8edb65c87f6bc09f764953412"
+    },
+    "/usr/lib/python3.13/pkgutil.py": {
+      "input": "modules",
+      "size": 18281,
+      "used": 18281,
+      "sha256": "44300bc77f6f52ef2ad74d26e5053309c04f49eaa91c099356eb61426cde504f"
+    },
+    "/usr/lib/python3.13/platform.py": {
+      "input": "modules",
+      "size": 47345,
+      "used": 47345,
+      "sha256": "ca4f6e60e0d6cf7680eb6f35c6f762aa40eaea3f723624edf4807bac8992ac33"
+    },
+    "/usr/lib/python3.13/plistlib.py": {
+      "input": "modules",
+      "size": 30034,
+      "used": 30034,
+      "sha256": "ac723b45bb33e7cfa345b22d898bc14e8d1e51b473f7f9cc36ed67ed82b90795"
+    },
+    "/usr/lib/python3.13/poplib.py": {
+      "input": "modules",
+      "size": 14604,
+      "used": 14604,
+      "sha256": "527e714523264093910a0a0b1a55c6583f952835c89061537fc40ad98c347056"
+    },
+    "/usr/lib/python3.13/posixpath.py": {
+      "input": "modules",
+      "size": 18233,
+      "used": 18233,
+      "sha256": "69acb9e294987cd6056a2237048373cf8d6201faf1e43a49c38889b47d2fb28e"
+    },
+    "/usr/lib/python3.13/pprint.py": {
+      "input": "modules",
+      "size": 24158,
+      "used": 24158,
+      "sha256": "1585c8d74d7f485590db2af46680ae0a73737ca9fb66022b2bcbbc4c4925e203"
+    },
+    "/usr/lib/python3.13/profile.py": {
+      "input": "modules",
+      "size": 23139,
+      "used": 23139,
+      "sha256": "d9c89f811dac7c435e355d2407fa8f4c5434dcffed29f23bcfe9d34137482893"
+    },
+    "/usr/lib/python3.13/pstats.py": {
+      "input": "modules",
+      "size": 29296,
+      "used": 29296,
+      "sha256": "6e80c883f5cb958926e511b38bb0c328a15ae7e2480722e5c0fceb32f18747b8"
+    },
+    "/usr/lib/python3.13/pty.py": {
+      "input": "modules",
+      "size": 6137,
+      "used": 6137,
+      "sha256": "ddbb1749387539c2929957c7ec1235fd201d7ec15d285fe5246e88b35c722a4a"
+    },
+    "/usr/lib/python3.13/py_compile.py": {
+      "input": "modules",
+      "size": 7837,
+      "used": 7837,
+      "sha256": "3464f04938b57a7aafbc5c394ccd4c46823ee607f7fe36b48b91ecbc30ff4e48"
+    },
+    "/usr/lib/python3.13/pyclbr.py": {
+      "input": "modules",
+      "size": 11396,
+      "used": 11396,
+      "sha256": "e8ca09333701ba41244e20b8c2c37b7ed0499b88c4b2ca82cac51ef89ca9e647"
+    },
+    "/usr/lib/python3.13/pydoc.py": {
+      "input": "modules",
+      "size": 110234,
+      "used": 110234,
+      "sha256": "15f3f1b55cdd682112ecdf0ee76e07b7c7ac978631a91b18817605f3f8a99077"
+    },
+    "/usr/lib/python3.13/queue.py": {
+      "input": "modules",
+      "size": 13481,
+      "used": 13481,
+      "sha256": "15d3d5e1acaa7cb3a2f836ff2c9001f6a9272107e73b9c6f4e71fee62cb654a1"
+    },
+    "/usr/lib/python3.13/quopri.py": {
+      "input": "modules",
+      "size": 7183,
+      "used": 7183,
+      "sha256": "d462c421f1252e4d4a9fcee914794e3a35361e803eb517300bf9c17a2135c885"
+    },
+    "/usr/lib/python3.13/random.py": {
+      "input": "modules",
+      "size": 37006,
+      "used": 37006,
+      "sha256": "39f53b25d84a27e1be0b9116d74497c9466d749660692a25a0d14687175a6db0"
+    },
+    "/usr/lib/python3.13/reprlib.py": {
+      "input": "modules",
+      "size": 7192,
+      "used": 7192,
+      "sha256": "af33116cdd0d8baf2d5d41d9e6eafa9f5a0b7fb5af7e7343218877a04965f2f3"
+    },
+    "/usr/lib/python3.13/rlcompleter.py": {
+      "input": "modules",
+      "size": 7918,
+      "used": 7918,
+      "sha256": "67521ee368b694816ec0556c3a05315a15ff66f7f6557749f2606a95a11effe9"
+    },
+    "/usr/lib/python3.13/runpy.py": {
+      "input": "modules",
+      "size": 12885,
+      "used": 12885,
+      "sha256": "81e07da29bb2235111079bb64efea7d291639c5d2cf163e7af187d6a38cef389"
+    },
+    "/usr/lib/python3.13/sched.py": {
+      "input": "modules",
+      "size": 6351,
+      "used": 6351,
+      "sha256": "56588f00a68ef953014f41baf36e0dbb7ed7793f8aa883ebcb1a8bd3787c06a6"
+    },
+    "/usr/lib/python3.13/secrets.py": {
+      "input": "modules",
+      "size": 1984,
+      "used": 1984,
+      "sha256": "277000574358a6ecda4bb40e73332ae81a3bc1c8e1fa36f50e5c6a7d4d3f0f17"
+    },
+    "/usr/lib/python3.13/selectors.py": {
+      "input": "modules",
+      "size": 19457,
+      "used": 19457,
+      "sha256": "4b8a60cfbb619d080f87dffe1578372e56e8c0ac826f043224a154cf7b77606d"
+    },
+    "/usr/lib/python3.13/shelve.py": {
+      "input": "modules",
+      "size": 8810,
+      "used": 8810,
+      "sha256": "6a10724762dea768c4348bcf8f829cea8cf683c8bef2cb5874cd0583c59cc80e"
+    },
+    "/usr/lib/python3.13/shlex.py": {
+      "input": "modules",
+      "size": 13353,
+      "used": 13353,
+      "sha256": "f927227de5ba5b1b2bdd75e3d9c8cb72b602b3bba3cc8edbf8fb554de0dc1fd7"
+    },
+    "/usr/lib/python3.13/shutil.py": {
+      "input": "modules",
+      "size": 57463,
+      "used": 57463,
+      "sha256": "ce110d23884b9bdc75f7b1654dbd2d7cf5d6762046a4cf8c316b96fd937d1e0b"
+    },
+    "/usr/lib/python3.13/signal.py": {
+      "input": "modules",
+      "size": 2495,
+      "used": 2495,
+      "sha256": "0363c964c90ac0b3e515de5749205e6e6454051a1211058375d84d91eab6071a"
+    },
+    "/usr/lib/python3.13/site.py": {
+      "input": "modules",
+      "size": 26648,
+      "used": 26648,
+      "sha256": "f2dc75d58f273ef34c5e552ed3a429ad4bb00c9490ba2d205e06dc20640a59ea"
+    },
+    "/usr/lib/python3.13/sitecustomize.py": {
+      "input": "modules",
+      "size": 155,
+      "used": 155,
+      "sha256": "43d81125d92376b1a69d53a71126a041cc9a18d8080e92dea0a2ae23be138b1e"
+    },
+    "/usr/lib/python3.13/smtplib.py": {
+      "input": "modules",
+      "size": 43531,
+      "used": 43531,
+      "sha256": "3b9fa8d1df393ce9ddedccfcb40e38b35e47919b28b1a2fec04755a15631279e"
+    },
+    "/usr/lib/python3.13/socket.py": {
+      "input": "modules",
+      "size": 37759,
+      "used": 37759,
+      "sha256": "6d5e10b5bcd75b7a6a883a1819e3b47dda3f00621e8e7db365b96782fcf59ac3"
+    },
+    "/usr/lib/python3.13/socketserver.py": {
+      "input": "modules",
+      "size": 28065,
+      "used": 28065,
+      "sha256": "ecbbe1a633801460399a8f10b39007aa0e13cdbdad507e39414000f097b769b5"
+    },
+    "/usr/lib/python3.13/sre_compile.py": {
+      "input": "modules",
+      "size": 231,
+      "used": 231,
+      "sha256": "f7fd87f8ac9dad7d1387e2401761ec05806c5108201a6d1ede6ab2f481f6df54"
+    },
+    "/usr/lib/python3.13/sre_constants.py": {
+      "input": "modules",
+      "size": 232,
+      "used": 232,
+      "sha256": "87013dc0b349c2c044100f70a8daa9d713e60a527e26f6ab8ee1fc978a6d3234"
+    },
+    "/usr/lib/python3.13/sre_parse.py": {
+      "input": "modules",
+      "size": 229,
+      "used": 229,
+      "sha256": "c4929134532306081918f185c99305c6f55213bc16b32f8c259bc60f7f81e810"
+    },
+    "/usr/lib/python3.13/ssl.py": {
+      "input": "modules",
+      "size": 52706,
+      "used": 52706,
+      "sha256": "26c0cadbd55733432292135fb3e89d0928809030ce6991bfdc05070cba6b1957"
+    },
+    "/usr/lib/python3.13/stat.py": {
+      "input": "modules",
+      "size": 6147,
+      "used": 6147,
+      "sha256": "f76eaa7f02d6ef4a8c3c3e82cae34ed72870b643b8c94937a34c697d1e9d6ca2"
+    },
+    "/usr/lib/python3.13/statistics.py": {
+      "input": "modules",
+      "size": 61831,
+      "used": 61831,
+      "sha256": "0f618d7c13e99f5289d5e2a20ba8b7340be27ab424f2bffb739ab3be291fe261"
+    },
+    "/usr/lib/python3.13/string.py": {
+      "input": "modules",
+      "size": 11786,
+      "used": 11786,
+      "sha256": "24aeae1f0526250f442022022bf98df9a823b1cb330543ee79e70e44907462e9"
+    },
+    "/usr/lib/python3.13/stringprep.py": {
+      "input": "modules",
+      "size": 12917,
+      "used": 12917,
+      "sha256": "60b6c83581093029312efb6670b11c540090b3f78bcf72264467b494f02f21a5"
+    },
+    "/usr/lib/python3.13/struct.py": {
+      "input": "modules",
+      "size": 257,
+      "used": 257,
+      "sha256": "9c231f9497caf513a22dee8f790b07f969b0e45854a0bdd6dd84b492e08c2856"
+    },
+    "/usr/lib/python3.13/subprocess.py": {
+      "input": "modules",
+      "size": 89486,
+      "used": 89486,
+      "sha256": "21ecc4c8f4fcf641974fc0d9cc28e97b07670ed1cef7e9d96769b31bb8345586"
+    },
+    "/usr/lib/python3.13/symtable.py": {
+      "input": "modules",
+      "size": 14207,
+      "used": 14207,
+      "sha256": "e1ccb923f71d2b81f3128d535341377e901befd016da523fe2a56b032bc7f843"
+    },
+    "/usr/lib/python3.13/tabnanny.py": {
+      "input": "modules",
+      "size": 11531,
+      "used": 11531,
+      "sha256": "8fe5bd83f368f5935dabeb24e68780527ea0f6f7508539564db46e047ee977a3"
+    },
+    "/usr/lib/python3.13/tarfile.py": {
+      "input": "modules",
+      "size": 115495,
+      "used": 115495,
+      "sha256": "d344bae1fdd4309f5cb8d126b684dd127e41b3f4e1efb8aed6782d703def0e3d"
+    },
+    "/usr/lib/python3.13/tempfile.py": {
+      "input": "modules",
+      "size": 40094,
+      "used": 40094,
+      "sha256": "58f93535c4a68e5c733bc220b33490373298a4c6b7c087669c0051eeaed5c409"
+    },
+    "/usr/lib/python3.13/textwrap.py": {
+      "input": "modules",
+      "size": 19939,
+      "used": 19939,
+      "sha256": "26836f5c17cdb4ffdeaff1a5146ed61a262aa410bdf3ad204e2bd0792f010d5e"
+    },
+    "/usr/lib/python3.13/this.py": {
+      "input": "modules",
+      "size": 1003,
+      "used": 1003,
+      "sha256": "481d0cb3de511eae0b5713dad18542b07eafd9c013bb7690f7497bad49923a71"
+    },
+    "/usr/lib/python3.13/threading.py": {
+      "input": "modules",
+      "size": 55244,
+      "used": 55244,
+      "sha256": "61e1cd79adb93cfacf69dc3900ea99fbc8042d65f3742233c07c5707e39add84"
+    },
+    "/usr/lib/python3.13/timeit.py": {
+      "input": "modules",
+      "size": 13463,
+      "used": 13463,
+      "sha256": "5b435689a08f8319ea4109f3f76b530a2d24c4b2a378943cfc72d123cb481b8d"
+    },
+    "/usr/lib/python3.13/token.py": {
+      "input": "modules",
+      "size": 2489,
+      "used": 2489,
+      "sha256": "1d2ab814992e6afbd6f1e5323edcddd681f65f7679ad1eb87fe1357a433a5bdf"
+    },
+    "/usr/lib/python3.13/tokenize.py": {
+      "input": "modules",
+      "size": 21568,
+      "used": 21568,
+      "sha256": "1369f7f9e57c722d1627333b705aabfaf943c24680920942e773fd4e1776be2e"
+    },
+    "/usr/lib/python3.13/trace.py": {
+      "input": "modules",
+      "size": 29714,
+      "used": 29714,
+      "sha256": "cffa0f72c64ef1e43d1f554d2f9232348dc666b158ada56c27f943d7fa7e4160"
+    },
+    "/usr/lib/python3.13/traceback.py": {
+      "input": "modules",
+      "size": 66524,
+      "used": 66524,
+      "sha256": "af5a1c04c4257c2f91318a60480e52c4d906242a7e7b8c593db39d4c2464268f"
+    },
+    "/usr/lib/python3.13/tracemalloc.py": {
+      "input": "modules",
+      "size": 18047,
+      "used": 18047,
+      "sha256": "c2cc84a05b824df79840c98729a0e94ef8909b11c528a1b2c5a00aa436b97b25"
+    },
+    "/usr/lib/python3.13/tty.py": {
+      "input": "modules",
+      "size": 2035,
+      "used": 2035,
+      "sha256": "1ab5e5e047130b310355e907a3306178299b9f2044fb526ac63bd116e9a16d2b"
+    },
+    "/usr/lib/python3.13/turtle.py": {
+      "input": "modules",
+      "size": 145327,
+      "used": 103363,
+      "sha256": "00e951aa4e45c59a54424263b68e18f2351f34765dab3439b8e375b66a2df1d1"
+    },
+    "/usr/bin/bash": {
+      "input": "executables",
+      "size": 1412096,
+      "used": 1412096,
+      "sha256": "ccbd5106945d1095474e5ee47317266f5918aa37fc671829192a007918b1413a"
+    },
+    "/usr/bin/git": {
+      "input": "executables",
+      "size": 4081272,
+      "used": 4081272,
+      "sha256": "a0e562e4bd3c4c79379e91d8c07a10104b2cefe8fac966dc6bd4874a57a807f3"
+    },
+    "/usr/bin/python3.13": {
+      "input": "executables",
+      "size": 6673736,
+      "used": 1846664,
+      "sha256": "bd241b38381974ae27d7d5098a6d0e6dda0a744b5e9fdd6fe3a1ae632588961e"
+    }
+  },
+  "inputs": {
+    "manuals": {
+      "sha256": "0968e7adece205cbaafdc343597c290efdd887399007f2206638a4e459c8da8e",
+      "size": 1775931
+    },
+    "modules": {
+      "sha256": "bce20c90010d028ccb7ce56f0c900b800525f07d1aea305caab42e2ef5679dc3",
+      "size": 4194304
+    },
+    "executables": {
+      "sha256": "b29b164bd6778945ef14dcc12fd11afc22f2cd61655ddc59e94ca8f423f94727",
+      "size": 7340032
+    },
+    "samples": {
+      "sha256": "b34d026b494759409affc61c43bc655e4959abccf57cc9fed2e6b9acd1f96d5a",
+      "size": 800000
+    },
+    "records.tar": {
+      "sha256": "c482a7383a8a69d98ad2b3d1ca5aa60bb5bb9a24c86d44b1884c707e1463486e",
+      "size": 3788800
+    }
+  }
+}

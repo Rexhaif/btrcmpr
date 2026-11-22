@@ -1,0 +1,13 @@
+level,corpus,files,size_win,encode_win,decode_win,decode_within_5pct,pass_5pct,strict_win
+1,Canterbury Corpus,11,1,0,2,5,0,0
+1,Silesia Corpus,10,2,5,6,7,0,0
+1,Snappy,4,2,0,1,1,0,0
+3,Canterbury Corpus,11,2,0,4,4,0,0
+3,Silesia Corpus,10,6,7,7,9,4,3
+3,Snappy,4,3,0,0,0,0,0
+10,Canterbury Corpus,11,0,0,3,5,0,0
+10,Silesia Corpus,10,2,2,7,9,0,0
+10,Snappy,4,2,0,0,0,0,0
+22,Canterbury Corpus,11,0,5,7,7,0,0
+22,Silesia Corpus,10,2,4,8,8,0,0
+22,Snappy,4,0,3,1,1,0,0

@@ -1,0 +1,233 @@
+{
+  "squash_website": "https://quixdb.github.io/squash-benchmark/",
+  "catalog": "https://quixdb.github.io/squash-benchmark/squash-benchmark.js",
+  "git_revision": "37ee14532dea32ffd6145eec5ab5a4ed85896f4f",
+  "data_directory": "bench/data/squash-extra",
+  "files": [
+    {
+      "file": "alice29.txt",
+      "corpus": "Canterbury Corpus",
+      "description": "English text",
+      "raw_bytes": 152089,
+      "raw_sha256": "7467306ee0feed4971260f3c87421154a05be571d944e9cb021a5713700c38f0",
+      "xz_git_blob": "f3a009e231f2e5fca6b57cd45d75b3b1974b1a45",
+      "source_url": "https://raw.githubusercontent.com/quixdb/squash-benchmark/37ee14532dea32ffd6145eec5ab5a4ed85896f4f/alice29.txt.xz"
+    },
+    {
+      "file": "asyoulik.txt",
+      "corpus": "Canterbury Corpus",
+      "description": "Shakespeare",
+      "raw_bytes": 125179,
+      "raw_sha256": "eaa3526fe53859f34ecdf255712f9ecf0b2c903451d4755b2edaa2e2599cb0fc",
+      "xz_git_blob": "fe56a73cbb440e554117af4e5cc325a634322053",
+      "source_url": "https://raw.githubusercontent.com/quixdb/squash-benchmark/37ee14532dea32ffd6145eec5ab5a4ed85896f4f/asyoulik.txt.xz"
+    },
+    {
+      "file": "cp.html",
+      "corpus": "Canterbury Corpus",
+      "description": "HTML source",
+      "raw_bytes": 24603,
+      "raw_sha256": "e0cd21cef5b6c4069461e949be100080c3ce887de6f1dd8626c480528efaaf61",
+      "xz_git_blob": "ef0bc7fb7fa5fc1652e6a0c9e1163d4730acc00c",
+      "source_url": "https://raw.githubusercontent.com/quixdb/squash-benchmark/37ee14532dea32ffd6145eec5ab5a4ed85896f4f/cp.html.xz"
+    },
+    {
+      "file": "dickens",
+      "corpus": "Silesia Corpus",
+      "description": "Collected works of Charles Dickens",
+      "raw_bytes": 10192446,
+      "raw_sha256": "b24c37886142e11d0ee687db6ab06f936207aa7f2ea1fd1d9a36763c7a507e6a",
+      "xz_git_blob": "0744279595aaeb20bf5ca779b031a253d5193194",
+      "source_url": "https://raw.githubusercontent.com/quixdb/squash-benchmark/37ee14532dea32ffd6145eec5ab5a4ed85896f4f/dickens.xz"
+    },
+    {
+      "file": "fields.c",
+      "corpus": "Canterbury Corpus",
+      "description": "C source",
+      "raw_bytes": 11150,
+      "raw_sha256": "85d73e354cc50cec76cb5a50537cf8dc035f8cbb8480f9e1cbe2f7d6c23393c7",
+      "xz_git_blob": "349891e28f9b0e96a3bac5155cefd0650e18f7ee",
+      "source_url": "https://raw.githubusercontent.com/quixdb/squash-benchmark/37ee14532dea32ffd6145eec5ab5a4ed85896f4f/fields.c.xz"
+    },
+    {
+      "file": "fireworks.jpeg",
+      "corpus": "Snappy",
+      "description": "A JPEG image",
+      "raw_bytes": 123093,
+      "raw_sha256": "93b986ce7d7e361f0d3840f9d531b5f40fb6ca8c14d6d74364150e255f126512",
+      "xz_git_blob": "4d27b3d2e8267c1a680c6e9c8683725b175206ad",
+      "source_url": "https://raw.githubusercontent.com/quixdb/squash-benchmark/37ee14532dea32ffd6145eec5ab5a4ed85896f4f/fireworks.jpeg.xz"
+    },
+    {
+      "file": "geo.protodata",
+      "corpus": "Snappy",
+      "description": "A set of Protocol Buffer data",
+      "raw_bytes": 118588,
+      "raw_sha256": "7c2875cd6d06c954240ba644618d1e1f2a167e4541731f019de5b4c1f8080f24",
+      "xz_git_blob": "988e6c5591996259eb2b372821147c51272e79e7",
+      "source_url": "https://raw.githubusercontent.com/quixdb/squash-benchmark/37ee14532dea32ffd6145eec5ab5a4ed85896f4f/geo.protodata.xz"
+    },
+    {
+      "file": "grammar.lsp",
+      "corpus": "Canterbury Corpus",
+      "description": "LISP source",
+      "raw_bytes": 3721,
+      "raw_sha256": "1b0805dfc0ae706b35aac2bb4e15f02485efd24dda5dbd29de7b2f84d1a88c15",
+      "xz_git_blob": "f3d6bbe1a07ddfdbae4a6098c2a4c58ab9b651ba",
+      "source_url": "https://raw.githubusercontent.com/quixdb/squash-benchmark/37ee14532dea32ffd6145eec5ab5a4ed85896f4f/grammar.lsp.xz"
+    },
+    {
+      "file": "kennedy.xls",
+      "corpus": "Canterbury Corpus",
+      "description": "Excel Spreadsheet",
+      "raw_bytes": 1029744,
+      "raw_sha256": "9af47239ca29dfe20e633f80bbbb9a4cc9783d0803d7b2b5626f42e4c3790420",
+      "xz_git_blob": "94b837534155e0dfad5472029a5d8cb2bb612df1",
+      "source_url": "https://raw.githubusercontent.com/quixdb/squash-benchmark/37ee14532dea32ffd6145eec5ab5a4ed85896f4f/kennedy.xls.xz"
+    },
+    {
+      "file": "lcet10.txt",
+      "corpus": "Canterbury Corpus",
+      "description": "Technical writing",
+      "raw_bytes": 426754,
+      "raw_sha256": "5314ba1dbb03f471df88bec6cd120a938ef60d0fd3511c5c1dce61bf7463245f",
+      "xz_git_blob": "02df1b20c78dda04b23ce5e320b4d7bef46b69b5",
+      "source_url": "https://raw.githubusercontent.com/quixdb/squash-benchmark/37ee14532dea32ffd6145eec5ab5a4ed85896f4f/lcet10.txt.xz"
+    },
+    {
+      "file": "mr",
+      "corpus": "Silesia Corpus",
+      "description": "Medical magnetic resonanse image",
+      "raw_bytes": 9970564,
+      "raw_sha256": "68637ed52e3e4860174ed2dc0840ac77d5f1a60abbcb13770d5754e3774d53e6",
+      "xz_git_blob": "4094237a6bf0417a3b8dcabb80fa08720288e9d5",
+      "source_url": "https://raw.githubusercontent.com/quixdb/squash-benchmark/37ee14532dea32ffd6145eec5ab5a4ed85896f4f/mr.xz"
+    },
+    {
+      "file": "nci",
+      "corpus": "Silesia Corpus",
+      "description": "Chemical database of structures",
+      "raw_bytes": 33553445,
+      "raw_sha256": "fc63a31770947b8c2062d3b19ca94c00485a232bb91b502021948fee983e1635",
+      "xz_git_blob": "c17b54617ec561a01ad424917199d72bb6a27f54",
+      "source_url": "https://raw.githubusercontent.com/quixdb/squash-benchmark/37ee14532dea32ffd6145eec5ab5a4ed85896f4f/nci.xz"
+    },
+    {
+      "file": "ooffice",
+      "corpus": "Silesia Corpus",
+      "description": "A dll from Open Office.org 1.01",
+      "raw_bytes": 6152192,
+      "raw_sha256": "e7ee013880d34dd5208283d0d3d91b07f442e067454276095ded14f322a656eb",
+      "xz_git_blob": "a022ae5d3e2ff4818496990bd7ba77ff69881a53",
+      "source_url": "https://raw.githubusercontent.com/quixdb/squash-benchmark/37ee14532dea32ffd6145eec5ab5a4ed85896f4f/ooffice.xz"
+    },
+    {
+      "file": "osdb",
+      "corpus": "Silesia Corpus",
+      "description": "Sample database in MySQL format from Open Source Database Benchmark",
+      "raw_bytes": 10085684,
+      "raw_sha256": "60f027179302ca3ad87c58ac90b6be72ec23588aaa7a3b7fe8ecc0f11def3fa3",
+      "xz_git_blob": "4442d949d6c3d6562b3579014f56b71ab45557b3",
+      "source_url": "https://raw.githubusercontent.com/quixdb/squash-benchmark/37ee14532dea32ffd6145eec5ab5a4ed85896f4f/osdb.xz"
+    },
+    {
+      "file": "paper-100k.pdf",
+      "corpus": "Snappy",
+      "description": "A PDF",
+      "raw_bytes": 102400,
+      "raw_sha256": "60f73a051b7ca35bfec44734b2eed7736cb5c0b7f728beb7b97ade6c5e44849b",
+      "xz_git_blob": "acabb9b7720d6260bfa9cbce60aea46b73ff396e",
+      "source_url": "https://raw.githubusercontent.com/quixdb/squash-benchmark/37ee14532dea32ffd6145eec5ab5a4ed85896f4f/paper-100k.pdf.xz"
+    },
+    {
+      "file": "plrabn12.txt",
+      "corpus": "Canterbury Corpus",
+      "description": "Poetry",
+      "raw_bytes": 481861,
+      "raw_sha256": "07e2e0b461af78c7c647cb53dab39de560198e16f799b4516eccf0fbd69f764c",
+      "xz_git_blob": "2ed4347aec6e1855ba0aa531b2128ba09239cea7",
+      "source_url": "https://raw.githubusercontent.com/quixdb/squash-benchmark/37ee14532dea32ffd6145eec5ab5a4ed85896f4f/plrabn12.txt.xz"
+    },
+    {
+      "file": "ptt5",
+      "corpus": "Canterbury Corpus",
+      "description": "CCITT test set",
+      "raw_bytes": 513216,
+      "raw_sha256": "0ec3a75089bb52342813496b17e51377bc9eba3cb519a444d67025354841d650",
+      "xz_git_blob": "b10a5aa5461580784a5efd7a6da05bb90bdf9481",
+      "source_url": "https://raw.githubusercontent.com/quixdb/squash-benchmark/37ee14532dea32ffd6145eec5ab5a4ed85896f4f/ptt5.xz"
+    },
+    {
+      "file": "reymont",
+      "corpus": "Silesia Corpus",
+      "description": "Text of the book Ch\u0142opi by W\u0142adys\u0142aw Reymont",
+      "raw_bytes": 6627202,
+      "raw_sha256": "0eac0114a3dfe6e2ee1f345a0f79d653cb26c3bc9f0ed79238af4933422b7578",
+      "xz_git_blob": "20a123be6b67651aa119b4fc9ddeedf5012fe54e",
+      "source_url": "https://raw.githubusercontent.com/quixdb/squash-benchmark/37ee14532dea32ffd6145eec5ab5a4ed85896f4f/reymont.xz"
+    },
+    {
+      "file": "samba",
+      "corpus": "Silesia Corpus",
+      "description": "Tarred source code of Samba 2-2.3 ",
+      "raw_bytes": 21606400,
+      "raw_sha256": "93ba07bc44d8267789c1d911992f40b089ffa2140b4a160fac11ccae9a40e7b2",
+      "xz_git_blob": "7c4297674118aecfd9b2fc628086f91473dae64e",
+      "source_url": "https://raw.githubusercontent.com/quixdb/squash-benchmark/37ee14532dea32ffd6145eec5ab5a4ed85896f4f/samba.xz"
+    },
+    {
+      "file": "sao",
+      "corpus": "Silesia Corpus",
+      "description": "The SAO star catalog",
+      "raw_bytes": 7251944,
+      "raw_sha256": "c2d0ea2cc59d4c21b7fe43a71499342a00cbe530a1d5548770e91ecd6214adcc",
+      "xz_git_blob": "e6766fcf4e7d9a20881917ba9a84d07e0fa7cf41",
+      "source_url": "https://raw.githubusercontent.com/quixdb/squash-benchmark/37ee14532dea32ffd6145eec5ab5a4ed85896f4f/sao.xz"
+    },
+    {
+      "file": "sum",
+      "corpus": "Canterbury Corpus",
+      "description": "SPARC Executable",
+      "raw_bytes": 38240,
+      "raw_sha256": "ee5733cd76ecc2f9d8ff156adc3c02a7a851051dcf43a2d56ff4ee4ff606bdb3",
+      "xz_git_blob": "1dc77e5c8d0b4c388845437e1941c7effc2cf843",
+      "source_url": "https://raw.githubusercontent.com/quixdb/squash-benchmark/37ee14532dea32ffd6145eec5ab5a4ed85896f4f/sum.xz"
+    },
+    {
+      "file": "urls.10K",
+      "corpus": "Snappy",
+      "description": "List of 10000 URLs",
+      "raw_bytes": 702087,
+      "raw_sha256": "0319ce7fe1f51b14eace3de879fe7da15418d1525d3176c2b26c5985943a3cad",
+      "xz_git_blob": "d05c9edfbe715e4504797c7b4e563490c59d99fd",
+      "source_url": "https://raw.githubusercontent.com/quixdb/squash-benchmark/37ee14532dea32ffd6145eec5ab5a4ed85896f4f/urls.10K.xz"
+    },
+    {
+      "file": "xargs.1",
+      "corpus": "Canterbury Corpus",
+      "description": "GNU manual page",
+      "raw_bytes": 4227,
+      "raw_sha256": "c58aeb5d2d1e12751d47e7412b45784405fc30a5671b03d480fa05776e183619",
+      "xz_git_blob": "48469c87251fa78b76ce33b6dcde1751b049fd60",
+      "source_url": "https://raw.githubusercontent.com/quixdb/squash-benchmark/37ee14532dea32ffd6145eec5ab5a4ed85896f4f/xargs.1.xz"
+    },
+    {
+      "file": "webster",
+      "corpus": "Silesia Corpus",
+      "description": "The 1913 Webster Unabridged Dictionary",
+      "raw_bytes": 41458703,
+      "raw_sha256": "6a68f69b26daf09f9dd84f7470368553194a0b294fcfa80f1604efb11143a383",
+      "xz_git_blob": "adbdc46013f9afb9ff282e2f1ad67ee30e56bb4d",
+      "source_url": "https://raw.githubusercontent.com/quixdb/squash-benchmark/37ee14532dea32ffd6145eec5ab5a4ed85896f4f/webster.xz"
+    },
+    {
+      "file": "xml",
+      "corpus": "Silesia Corpus",
+      "description": "Collected XML files",
+      "raw_bytes": 5345280,
+      "raw_sha256": "0e82e54e695c1938e4193448022543845b33020c8be6bf3bf3ead2224903e08c",
+      "xz_git_blob": "a2acdb7631e0a384f1f9b5f477393137b263fe38",
+      "source_url": "https://raw.githubusercontent.com/quixdb/squash-benchmark/37ee14532dea32ffd6145eec5ab5a4ed85896f4f/xml.xz"
+    }
+  ]
+}

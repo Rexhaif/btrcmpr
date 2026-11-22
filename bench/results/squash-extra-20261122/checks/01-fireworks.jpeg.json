@@ -1,0 +1,10 @@
+{
+  "file": "fireworks.jpeg",
+  "level": 1,
+  "archive_sha256": "46b7ca54053db47bcad5d30e0606ed8fe07a576b7d9355bd08bd8d84833fbbed",
+  "archive_bytes": 123118,
+  "raw_and_restored_sha256": "93b986ce7d7e361f0d3840f9d531b5f40fb6ca8c14d6d74364150e255f126512",
+  "trial_sha256": "73d6d459abdf5e6861bfcbd61134ad03f978252e5bfb55d4fdc089c80aed880f",
+  "started_utc": "2026-11-22T18:55:12.973814+00:00",
+  "completed_utc": "2026-11-22T18:55:12.996305+00:00"
+}
