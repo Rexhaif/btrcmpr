@@ -1,6 +1,5 @@
-// Every accepted candidate already has one full word at either end. Count
-// short copies on both sides with straight-line word comparisons before the
-// slow path. Confirmed endpoints and all emitted bytes remain unchanged.
+// Both candidate positions have eight readable bytes. Compare up to two words
+// before extending a longer forward match.
 use super::{common, word};
 #[inline(always)]
 pub(super) fn forward(s: &[u8], q: usize, i: usize, d: u64) -> usize {

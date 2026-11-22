@@ -574,7 +574,7 @@ impl<'a> Commands<'a> {
 mod tests {
     use super::*;
 
-    // Produced by the archived release, not by the encoder during this test.
+    // Tag 43, mode 1 fixture from the archived encoder.
     #[test]
     fn historical_phrase_block_matches_the_supported_wire_mode() {
         let plain =

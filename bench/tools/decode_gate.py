@@ -1,4 +1,4 @@
-"""Compare median uncompressed throughput on the same input. Preserve strict wins at 0%."""
+"""Apply size and throughput thresholds to paired medians."""
 
 import csv
 import os
@@ -24,8 +24,7 @@ def columns(p):
 
 def qualifies(costs, p):
     (size, enc, dec), (refsize, refenc, refdec) = costs
-    # Times are unrounded medians on identical input. A 5% throughput loss
-    # permits time up to 1/0.95 times the reference, not merely 1.05.
+    # At 95% of reference throughput, the time limit is refdec / 0.95.
     dec_ok = dec < refdec if p == 0 else 100 * refdec >= (100 - p) * dec
     return size < refsize and enc < refenc and dec_ok
 

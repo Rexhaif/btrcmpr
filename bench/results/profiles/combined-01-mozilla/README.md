@@ -1,6 +1,6 @@
-# Level 1, mozilla: hardware counters on the combined build
+# Hardware counters: Mozilla, level 1
 
-Four Cortex-A76 workers on each side. The [paired wall-time trials](../../presets/native-combined-1/level-01-mozilla.csv) used a separate comparator from the same [native build](../../presets/native-combined-1/codegen.json). Each counter run checked the paired archive size and original contents. Counters cover the measured operation only; each value is summed over all workers and divided by the number of uncompressed bytes processed.
+Counts are summed across four Cortex-A76 workers and divided by uncompressed bytes.
 
 | Operation | Event per input byte | Rust | zstd | zstd / Rust |
 |---|---|---:|---:|---:|
@@ -15,4 +15,4 @@ Four Cortex-A76 workers on each side. The [paired wall-time trials](../../preset
 | Decode | L1 data cache refills | 0.021 | 0.030 | 1.46× |
 | Decode | L2 data cache refills | 0.007 | 0.005 | 0.73× |
 
-Raw perf output and executable identities: [encode](c/manifest.json), [decode](d/manifest.json).
+[Encode counters](c/manifest.json) · [Decode counters](d/manifest.json) · [Paired timings](../../presets/native-combined-1/level-01-mozilla.csv) · [Build](../../presets/native-combined-1/codegen.json)

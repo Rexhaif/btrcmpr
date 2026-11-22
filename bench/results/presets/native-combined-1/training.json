@@ -1,5 +1,5 @@
 {
-  "kind": "compiler branch counts only; no model or dictionary read by the codec",
+  "kind": "LLVM profile training inputs",
   "seed": 22627,
   "sources": {
     "/usr/share/doc/git/RelNotes/1.5.0.1.txt": {

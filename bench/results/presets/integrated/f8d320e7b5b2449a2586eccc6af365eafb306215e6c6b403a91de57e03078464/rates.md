@@ -1,8 +1,8 @@
-# Matched zstd rates per file
+# Compression ratios and throughput
 
-Comparator `f8d320e7b5b2449a2586eccc6af365eafb306215e6c6b403a91de57e03078464`, four workers per codec in each direction. Every numeric pair is **Rust / zstd**. Ratio is original bytes divided by archive bytes. Speeds are original decimal MB per second. A dash means the paired run and standalone round trip have not both been verified yet. [Relative throughput and bytes saved](preset-ladder.md). [Variation between individual pairs](paired-rounds.md).
+Each pair is btrcmpr / zstd, four workers each. Ratio is input bytes divided by archive bytes. Throughput is decimal MB/s of input. [Relative rates](preset-ladder.md) · [Paired rounds](paired-rounds.md)
 
-The zstd size includes 36 bytes of outer framing (20-byte header and four lengths). Concatenating the very same four zstd frames would omit those bytes. The smallest size margin against that concatenation is **+1,799 bytes** (zstd minus Rust, enwik8 level 6). This calculation does not estimate a different single-stream zstd compression.
+The four zstd frames include a 36-byte directory. Excluding it leaves btrcmpr’s smallest advantage at 1,799 bytes (enwik8, level 6).
 
 ## enwik8
 

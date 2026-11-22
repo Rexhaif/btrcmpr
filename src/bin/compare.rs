@@ -1,4 +1,3 @@
-// Only this optional benchmark binary links with the system zstd.
 use btrcmpr::{
     Frame, Preset, Result, block_size, compress_preset, compress_with_block, decompress,
     decompress_with,

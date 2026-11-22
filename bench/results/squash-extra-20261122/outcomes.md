@@ -1,6 +1,6 @@
-# Which file passed at each preset?
+# Squash results by file and preset
 
-**Pass** means the Rust archive was smaller, encode was faster, and decode reached at least 95% of zstd. Otherwise **S** = size failed, **E** = encode failed, **D** = decode fell below 95%. A dash means the cell is pending. Click a cell to see the five original pairs. [Absolute measurements and aggregate totals](README.md).
+**Pass**: smaller archive, faster encode, decode at least 95% as fast as zstd. Letters mark missed targets: **S** size, **E** encode, **D** decode. Each entry links to its five paired timings. [Absolute rates and totals](README.md).
 
 | Dataset | Source | -1 | -3 | -10 | -22 |
 |---|---|---:|---:|---:|---:|

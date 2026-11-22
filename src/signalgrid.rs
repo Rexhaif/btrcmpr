@@ -10,9 +10,7 @@ pub(crate) struct Plan {
     reach: usize,
 }
 pub(crate) fn plan(level: u8) -> Option<Plan> {
-    // Small jobs limit the serial row recurrence on the fast presets.
-    // Larger jobs amortize raw row seeds; extra search is reserved for
-    // presets at which encode throughput has room for a longer pilot.
+    // Short jobs parallelize the row recurrence. Larger jobs amortize row seeds.
     let (kib, effort, reach) = match level {
         2 => (512, 1, 2048),
         3..=4 => (1024, 2, 4096),

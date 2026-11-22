@@ -1,5 +1,4 @@
-// Independent, differently sized text jobs. The grammar jobs produce denser
-// archives but take longer to decode per input byte than the byte-oriented jobs.
+// Split level-16 text between phrase and LZ jobs.
 use crate::{Frame, Result, bad, layout::Layout, parallel};
 use std::borrow::Cow;
 #[derive(Clone, Copy)]
@@ -14,8 +13,6 @@ struct Plan {
     weight: u8,
 }
 pub(crate) fn preset(data: &[u8], threads: usize, lv: u8) -> Result<Frame<'static>> {
-    // Reserve some tasks for denser token-domain coding. The byte-oriented
-    // workers restore the remaining spans and can share split jobs dynamically.
     let t = threads.clamp(2, 256);
     let (g, share, plain, parts) = match lv {
         16 => (1, 220, 16, 1),

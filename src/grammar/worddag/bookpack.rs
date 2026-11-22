@@ -1,5 +1,4 @@
-// Repack the dictionary fields without changing a single root token. Same-width
-// child ranks often stay close while lexically sorted spellings are written.
+// Pack dictionary fields separately. Same-width child ranks often have small deltas.
 use super::{Fields, Numbers, legacy_fields, numbers};
 use crate::{Result, ans, bad, take, u32in, wordbase::plain};
 use std::borrow::Cow;

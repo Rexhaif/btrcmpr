@@ -1,5 +1,4 @@
-// Find additional phrases after the local job vocabularies have been unified.
-// Counts span the group, but replacements cannot cross a job's decoded extent.
+// Count adjacent token pairs across jobs. Each replacement stays within one job.
 use super::super::super::{Term, hash};
 use std::collections::{HashMap, hash_map::Entry};
 #[derive(Clone, Copy, Default)]

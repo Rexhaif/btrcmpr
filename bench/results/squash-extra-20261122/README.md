@@ -1,12 +1,12 @@
-# Complete comparison on the other 25 Squash files
+# Squash benchmarks: 25 files
 
-The [Squash Benchmark](https://quixdb.github.io/squash-benchmark/) lists 28 files. These are all 25 outside the three original tuning inputs (enwik8, x-ray and Mozilla). **100/100 independently verified comparisons** for presets `-1`, `-3`, `-10`, `-22`. The published corpus used here totals 156,100,812 uncompressed bytes.
+These 25 [Squash Benchmark](https://quixdb.github.io/squash-benchmark/) files total 156,100,812 bytes. The [three tuning inputs](../presets/native-combined-1/release.md) were measured separately.
 
-The frozen codec passed all three requirements in **4/100** comparisons with the decode allowance (**3/100** with strictly faster decode). 4 of the 25 files passed at any tested level: mr, ooffice, osdb, webster. [Final verification](verification.json).
+At levels 1, 3, 10 and 22, btrcmpr passed 4 of 100 comparisons, on mr, ooffice, osdb and webster. Three also decoded faster than zstd.
 
-[At-a-glance outcomes for all 25 files](outcomes.md) · [All measured ratios, absolute MB/s, sizes, and speedups](comparisons.csv) · [Aggregate data](by-level.csv) · [Input provenance and hashes](datasets.json) · [Frozen benchmark settings](method.json) · [Raw paired trials](raw/) · [Standalone archive and restoration checks](checks/).
+[Per-file outcomes](outcomes.md) · [Rates and sizes](comparisons.csv) · [Totals](by-level.csv) · [Input hashes](datasets.json) · [Settings](method.json) · [Raw pairs](raw/) · [Archive checks](checks/)
 
-Each count is the number of files where the frozen Rust codec beats matched zstd. Size and encode require strict wins; decode may be up to 5% slower in the “all, 5%” column. “All strict” also requires strictly faster decode.
+Each column counts files. A pass requires a smaller archive, faster encode and decode at least 95% as fast as zstd. “All strict” also requires faster decode.
 
 | Preset | Files | Smaller | Faster encode | Faster decode | Decode ≥95% | All, 5% | All strict |
 |---:|---:|---:|---:|---:|---:|---:|---:|
@@ -15,7 +15,7 @@ Each count is the number of files where the frozen Rust codec beats matched zstd
 | 10 | 25 | 4 | 2 | 10 | 14 | 0 | 0 |
 | 22 | 25 | 2 | 12 | 16 | 16 | 0 | 0 |
 
-The next table treats each file as a separate compression operation: compression ratio is total raw bytes divided by total archive bytes, and throughput divides total raw bytes by the sum of file median times. Larger files carry more weight. The files were never concatenated. Each pair is **Rust / zstd**.
+Totals across separately compressed files, btrcmpr / zstd. Ratio is total input bytes divided by total archive bytes; throughput is total input bytes divided by the sum of per-file median times.
 
 | Preset | Ratio (×) | Encode MB/s | Decode MB/s |
 |---:|---:|---:|---:|
@@ -24,7 +24,7 @@ The next table treats each file as a separate compression operation: compression
 | 10 | 3.9424 / 4.0926 | 15.36 / 19.24 | 1185.45 / 1101.31 |
 | 22 | 4.2881 / 4.4923 | 3.53 / 3.61 | 1063.18 / 1035.86 |
 
-Passing comparisons by source corpus. Each entry counts files passing all three requirements with the 5% decode allowance. [Counts by metric and source](by-corpus.csv).
+Files passing by corpus ([counts by metric](by-corpus.csv)):
 
 | Preset | Canterbury | Silesia | Snappy |
 |---:|---:|---:|---:|
@@ -35,7 +35,7 @@ Passing comparisons by source corpus. Each entry counts files passing all three 
 
 ## Per-file results
 
-Ratios are original bytes divided by archived bytes (higher is better). Speeds use decimal MB/s of original data. Each row is **Rust / zstd**; the last column names failed requirements. A compressed file may be larger than its input. On the smallest inputs, worker startup and scheduling can dominate.
+Pairs are btrcmpr / zstd. Ratio is input bytes divided by archive bytes; throughput is decimal MB/s of input.
 
 ### Preset 1
 
@@ -159,13 +159,13 @@ Ratios are original bytes divided by archived bytes (higher is better). Speeds u
 
 ## Method
 
-On the four-core Cortex-A76 Raspberry Pi 5, both encoders and both decoders received a worker count of four. The pinned comparator and standalone Rust CLI are the same files as in the [original release](../presets/native-combined-1/release.md). The reference was libzstd 1.5.7 with a separate full quarter-file frame per worker so decoding can use all four workers; all framing, including the outer directory, counts toward size. This measures that baseline, not the stock single-stream CLI. Each file had one warmup pair and five alternating measured pairs per level, with seven decodes per timing. The median encode and decode times were taken separately for each codec. Each timed pair verified exact decoded bytes, and the standalone CLI independently matched the archive size and restored the original SHA-256. The timings exclude disk I/O. Inputs were decoded from the Squash project’s pinned XZ files, verified against Git blob IDs and the website’s original-byte sizes; no input slicing or content changes were used.
+The [release benchmark](../presets/native-combined-1/release.md) and this run used the same binaries. On a Raspberry Pi 5, four workers per codec ran one warmup pair, then five alternating pairs with seven decodes per timing. Rates use median in-memory times. The standalone CLI matched the measured archive sizes and [restored the input hashes](verification.json).
 
-To repeat one measurement with the existing binary, from the repository root:
+To benchmark one file with the current build:
 
 ```sh
-BTR_LEVEL=3 ZSTD_LEVEL=3 ZSTD_WIDE=1 WARMUP=1 DEC_ITERS=7 TRIALS_CSV=/tmp/squash-pairs.csv \
-  bench/local/preset-binaries/f8d320e7b5b2449a2586eccc6af365eafb306215e6c6b403a91de57e03078464 4 5 both bench/data/squash-extra/dickens
+scripts/fetch-data.sh --extra
+python3 scripts/preset-matrix.py --selected --corpus extra --levels 3 --files dickens --out bench/local/dickens-3
 ```
 
-The zstd size includes a 36-byte outer directory (one 20-byte header and four lengths) for each input. Simply concatenating the same four zstd frames would omit it. Removing those 36 bytes changes the size verdict on paper-100k.pdf at -10 (Rust saved 14 B with the directory). It would also change 0 combined verdict(s). This adjustment does not estimate single-frame zstd.
+The zstd baseline uses four independent frames and a 36-byte directory. Omitting the directory changes one size result: at level 10, btrcmpr saved 14 bytes on paper-100k.pdf with the directory and was 22 bytes larger without it. The overall pass count stays at four.

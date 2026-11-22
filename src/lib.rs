@@ -70,7 +70,7 @@ pub fn block_size(size: usize, threads: usize) -> usize {
     if size == 0 {
         return 1;
     }
-    // Equal waves avoid leaving three cores idle for the final fraction of an image.
+    // Round the block count to a multiple of the worker count.
     let blocks = size
         .div_ceil(MAX_BLOCK)
         .next_multiple_of(threads.clamp(1, 256));
@@ -184,8 +184,8 @@ pub fn compress_with(
     let block = block_size(data.len(), threads);
     compress_with_block(data, threads, block, f)
 }
-/// Run independent jobs of a specified size. Benchmark codecs may use their
-/// own frame sizes; only native archives are read by `Frame::read`.
+/// Compress independent blocks of `block` bytes with `f`.
+/// Custom encoders may use block sizes outside the limits of `Frame::read`.
 pub fn compress_with_block(
     data: &[u8],
     threads: usize,
@@ -253,8 +253,7 @@ pub fn decompress(frame: &Frame, threads: usize, dst: &mut [u8]) -> Result<()> {
         if dst.len() != frame.size || dst.len().div_ceil(frame.block) != frame.blocks.len() {
             return Err(bad());
         }
-        // The first stream declares the number of LZ commands. It is only a
-        // scheduling hint: decode still validates every block independently.
+        // Use the declared LZ command count to schedule expensive blocks first.
         let mut jobs: Vec<_> = frame
             .blocks
             .iter()
@@ -297,8 +296,7 @@ pub fn compress_preset(data: &[u8], threads: usize, preset: Preset) -> Result<Fr
             if let Ok(frame) = grammar::worddag::shared::compress(data, threads, plan) {
                 return Ok(frame);
             }
-            // A dictionary can exceed its first block on unusual inputs. The
-            // ordinary independent encoders always have a raw-block fallback.
+            // Fall back to independent blocks if the shared dictionary will not fit.
             if lv == 16 {
                 return mixed::preset(data, threads, lv);
             }
@@ -346,7 +344,6 @@ pub fn compress_preset(data: &[u8], threads: usize, preset: Preset) -> Result<Fr
             .max(1)
             .next_multiple_of(64)
             .min(limit);
-        // Large level-one jobs reuse distance and literal models within each region.
         #[cfg(target_arch = "aarch64")]
         if lv == 1 && data.len() >= 1 << 20 && !pixel::detect(data) {
             return lz::sharedentropy::compress_per(data, threads, block, 6, 128, false);

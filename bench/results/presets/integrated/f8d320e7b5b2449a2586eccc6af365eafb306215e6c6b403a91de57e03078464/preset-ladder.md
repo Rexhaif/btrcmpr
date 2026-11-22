@@ -1,6 +1,6 @@
-# Presets on the exact executable
+# Per-preset margins against zstd
 
-Comparator `f8d320e7b5b2449a2586eccc6af365eafb306215e6c6b403a91de57e03078464`, four workers, matched zstd for each file and level. Each cell links to the individual alternating rounds and shows **archive bytes saved / encode throughput × zstd / decode throughput × zstd**. Pass requires positive bytes saved, encode above 1.0 and decode at least 0.95. A dash is unmeasured. The [absolute ratios, speeds and archive hashes](verified-cells.csv) come from these same runs.
+Each entry links to its five timed pairs: **bytes saved / relative encode throughput / relative decode throughput**. A pass requires positive savings, encode above 1.0× and decode at least 0.95×. [Absolute rates and archive hashes](verified-cells.csv).
 
 | Level | enwik8 | x-ray | Mozilla |
 |---:|---:|---:|---:|
@@ -33,8 +33,4 @@ Comparator `f8d320e7b5b2449a2586eccc6af365eafb306215e6c6b403a91de57e03078464`, f
 | Lowest encode rate relative to zstd | [mozilla, 1](../../native-combined-1/level-01-mozilla.csv) | 1.0183× |
 | Lowest decode rate relative to zstd | [enwik8, 9](l09/level-09-enwik8.csv) | 0.9686× |
 
-| File | Distinct archive sizes so far | Verified adjacent level increases |
-|---|---:|---|
-| enwik8 | 22 of 22 measured levels | None observed |
-| x-ray | 5 of 22 measured levels | None observed |
-| mozilla | 22 of 22 measured levels | None observed |
+Archive size never increased between successive presets. Counts of distinct sizes: 22 for enwik8, 5 for x-ray, 22 for Mozilla.

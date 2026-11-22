@@ -1,3 +1,5 @@
-# Frozen release
+# Release build
 
-See the [file-by-file release comparison](release.md) and [measurement manifest](release.json). The compiler profile in this directory belongs to the historical source snapshot; train again for the current source with `scripts/build-profiled.py --selected`.
+[Benchmark results](release.md) · [Executable and archive hashes](release.json) · [Compiler settings](codegen.json)
+
+`compiler.profdata` contains the LLVM profile used for this build. To train a new profile: `python3 scripts/build-profiled.py --selected`.

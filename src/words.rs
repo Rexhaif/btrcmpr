@@ -1,5 +1,4 @@
-// A block-local phrase alphabet. Every dictionary entry is literally present
-// in this input; the stream carries the dictionary and needs no corpus model.
+// Each block stores its own dictionary of phrases drawn from the input.
 use crate::{Result, ans, bad, lz, take, u32in};
 const DIRECT: usize = 64;
 const LIMIT: usize = DIRECT + 64 * 256;

@@ -30,7 +30,7 @@ pub(super) fn width(values: &[u32; N], n: usize) -> (usize, usize, usize) {
     best
 }
 
-// Preserve the tie rule (prefer a base) and byte order of the generic writer.
+// On equal costs, prefer a base, as in the generic writer.
 pub(super) fn constant(x: u32, prev: u32, out: &mut Vec<u8>) {
     if x == 0 {
         out.extend([0, 0]);

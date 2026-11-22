@@ -1,6 +1,6 @@
 # Level-1 candidates
 
-Rates on enwik8 are Rust / matched four-worker zstd, in MB/s; ratios are original bytes divided by archive bytes. “Files passing” applies the 5% decode allowance on all three original files. The combined build is the measured release.
+Rates and ratios are for enwik8: btrcmpr / zstd, four workers each. The last column counts tuning files with a smaller archive, faster encode and at least 95% of zstd decode throughput.
 
 | Candidate | Ratio, Rust / zstd | Encode MB/s, Rust / zstd | Decode MB/s, Rust / zstd | Files passing |
 |---|---:|---:|---:|---:|
@@ -10,4 +10,4 @@ Rates on enwik8 are Rust / matched four-worker zstd, in MB/s; ratios are origina
 | Combined build, same level-one archive | 2.4683 / 2.4588 | 647.42 / 626.61 | 1566.64 / 1607.52 | 3/3 |
 | Combined build with reusable object buffers | 2.4683 / 2.4588 | 651.38 / 630.38 | 1535.04 / 1630.62 | 2/3 |
 
-The reusable-buffer build improved Mozilla encoding, but its enwik8 decode was 5.86% below zstd. The combined build passed the same cell. The [measured release](native-combined-1/release.md) includes all presets. The [development summary and archive](../../../docs/design-notes.md) preserve the complete set of alternatives, repeated measurements and exact source.
+Reusable object buffers improved Mozilla encode throughput but put enwik8 decode 5.86% below zstd. The [release](native-combined-1/release.md) used the combined build without those buffers.

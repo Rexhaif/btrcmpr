@@ -1,5 +1,4 @@
-// Offsets emitted by the native parser depend only on the previous three
-// *absolute* offsets. Classify in parallel without changing the wire format.
+// Each offset code depends on the previous three absolute offsets.
 use super::{Streams, lenout, quicktwo};
 use std::arch::aarch64::*;
 

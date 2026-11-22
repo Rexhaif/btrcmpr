@@ -85,7 +85,7 @@ pub fn put(data: &[u8], counts: &[u32; 256], out: &mut Vec<u8>, ideal: f64) -> b
         .zip(counts)
         .map(|(&l, &c)| l as usize * c as usize)
         .sum();
-    // rANS wins decisively for sharply skewed streams.
+    // Use rANS when rounded Huffman lengths cost too many bits.
     if nbits as f64 > ideal * 1.06 + 1200. || nbits / 8 + 176 >= data.len() {
         return false;
     }

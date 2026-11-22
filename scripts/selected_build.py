@@ -1,4 +1,4 @@
-"""Pin the standalone CLI and the comparator built with the selected release options."""
+"""Cache the profiled binaries by SHA-256."""
 
 import hashlib
 import json
@@ -45,7 +45,7 @@ def freeze(root, source_hashes):
         or not re.fullmatch("[a-f0-9]{64}", build.get("profile_data_sha256", ""))
     ):
         raise SystemExit(
-            "The profiled build is stale or has different options. Run python3 scripts/build-profiled.py --selected."
+            "profiled build mismatch; rebuild with: python3 scripts/build-profiled.py --selected"
         )
     cache = root / "bench/local/preset-binaries"
     cache.mkdir(parents=True, exist_ok=True)
@@ -56,7 +56,7 @@ def freeze(root, source_hashes):
     ]:
         digest, src = build[field], target / "release" / name
         if not re.fullmatch("[a-f0-9]{64}", digest) or sha(src) != digest:
-            raise SystemExit(f"The profiled {name} does not match its build manifest.")
+            raise SystemExit(f"{name}: build manifest hash mismatch")
         dst = cache / (prefix + digest)
         if not dst.exists():
             with tempfile.NamedTemporaryFile(dir=cache, delete=False) as tmp:
@@ -69,7 +69,7 @@ def freeze(root, source_hashes):
             finally:
                 staged.unlink(missing_ok=True)
         if sha(dst) != digest:
-            raise SystemExit(f"The frozen {name} does not match its SHA-256.")
+            raise SystemExit(f"{name}: cached binary hash mismatch")
     stamp = {
         k: build[k]
         for k in (
@@ -88,20 +88,16 @@ def verify(root, meta):
     if stamp["comparator_sha256"] != meta["benchmark_sha256"] or not re.fullmatch(
         "[a-f0-9]{64}", stamp["cli_sha256"]
     ):
-        raise ValueError(
-            "the selected pair of executables does not match the timing manifest"
-        )
+        raise ValueError("binary hashes disagree with the timing manifest")
     cli = root / "bench/local/preset-binaries" / ("cli-" + stamp["cli_sha256"])
     if sha(cli) != stamp["cli_sha256"] or "libzstd" in subprocess.check_output(
         ["ldd", cli], text=True
     ):
-        raise ValueError("changed selected CLI or unexpected zstd dependency")
+        raise ValueError("CLI hash mismatch or unexpected libzstd dependency")
     from corpus import INPUTS
 
     if any(meta["input_sha256"].get(n) != INPUTS[n].digest for n in meta["files"]):
-        raise ValueError(
-            "benchmark input differs from the published corpus; fetch the inputs again"
-        )
+        raise ValueError("input hash mismatch; fetch the corpus again")
     return cli
 
 
@@ -113,7 +109,7 @@ if __name__ == "__main__":
         "--profile",
         action="store_true",
         required=True,
-        help="print the pinned profile executable for perf",
+        help="print the path to the perf driver",
     )
     p.parse_args()
     root = Path(__file__).resolve().parents[1]

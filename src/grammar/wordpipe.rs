@@ -1,5 +1,4 @@
-// Interleave future dictionary hints with independent current loads. The byte
-// representation is unchanged; short stores can overlap until the last tile.
+// Prefetch dictionary entries for the next tile. Short stores may overlap within a tile.
 use crate::{Result, bad};
 #[inline(always)]
 fn hint(p: *const u8) {

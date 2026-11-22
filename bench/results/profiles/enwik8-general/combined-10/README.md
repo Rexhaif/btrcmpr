@@ -1,6 +1,6 @@
-# Level 10, enwik8: hardware counters on the combined build
+# Hardware counters: enwik8, level 10
 
-Four Cortex-A76 workers on each side. The [paired wall-time trials](../../../presets/integrated/f8d320e7b5b2449a2586eccc6af365eafb306215e6c6b403a91de57e03078464/l10/level-10-enwik8.csv) used a separate comparator from the same [native build](../../../presets/native-combined-1/codegen.json). Each counter run checked the paired archive size and original contents. Counters cover the measured operation only; each value is summed over all workers and divided by the number of uncompressed bytes processed.
+Counts are summed across four Cortex-A76 workers and divided by uncompressed bytes.
 
 | Operation | Event per input byte | Rust | zstd | zstd / Rust |
 |---|---|---:|---:|---:|
@@ -15,4 +15,4 @@ Four Cortex-A76 workers on each side. The [paired wall-time trials](../../../pre
 | Decode | L1 data cache refills | 0.036 | 0.093 | 2.57× |
 | Decode | L2 data cache refills | 0.061 | 0.052 | 0.84× |
 
-Raw perf output and executable identities: [encode](c/manifest.json), [decode](d/manifest.json).
+[Encode counters](c/manifest.json) · [Decode counters](d/manifest.json) · [Paired timings](../../../presets/integrated/f8d320e7b5b2449a2586eccc6af365eafb306215e6c6b403a91de57e03078464/l10/level-10-enwik8.csv) · [Build](../../../presets/native-combined-1/codegen.json)

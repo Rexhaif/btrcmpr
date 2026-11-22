@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Give absolute median rates and ratios for a verified preset matrix."""
+"""Calculate compression ratios and median throughput from paired trials."""
 
 import argparse
 import csv

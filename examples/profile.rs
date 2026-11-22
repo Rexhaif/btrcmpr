@@ -1,4 +1,3 @@
-// PERF_CTL and PERF_ACK can be connected to perf stat/record --control FIFOs.
 use btrcmpr::{Preset, Result, compress_preset, compress_with_block, decompress, decompress_with};
 #[path = "../bench/support/perf.rs"]
 mod perf;

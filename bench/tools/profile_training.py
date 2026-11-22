@@ -1,4 +1,4 @@
-"""Run the independent input schedule used to profile the native production compressor."""
+"""Collect LLVM profiles across input types and compression levels."""
 
 import hashlib
 import subprocess

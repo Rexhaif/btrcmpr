@@ -1,6 +1,5 @@
-// Approximate the power-of-two palette plan without solving all 256 possible
-// suffixes at every width and group count. A split favors the ranks that occur
-// most often. Each trial charges the exact number of output bits.
+// Choose power-of-two rank groups by splitting frequent ranks first.
+// Score each split by its exact bit cost.
 fn tail(hist: &[u8; 9], prefix: &[u32; 512], n: usize) -> usize {
     let mut at = 0;
     let mut cost = 0;

@@ -1,5 +1,4 @@
-// Share exact phrase spellings across neighboring independent workers.
-// The wire includes the union dictionary, then a separate token stream per job.
+// Neighboring jobs share one phrase dictionary and keep separate token streams.
 use super::super::{Term, merge_rules};
 use super::{EncodeBook, build_book, put_root, read_book, read_root};
 use crate::{Frame, MAX_WIDE_BLOCK, Result, bad, parallel, take, u32in};

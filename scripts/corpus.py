@@ -1,4 +1,4 @@
-"""Published inputs shared by the downloader, comparator and standalone checks."""
+"""Download locations, sizes and hashes for the Squash inputs."""
 
 import argparse
 import bz2

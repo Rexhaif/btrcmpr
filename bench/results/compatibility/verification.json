@@ -44,5 +44,5 @@
     "src/words.rs": "9b17f7757ef990eb10a4fdc1b3170aa63966443fc7cb5d4a3a825a73048c20c9"
   },
   "cargo": "cargo build --release --locked --offline --features baseline --bin btrcmpr",
-  "scope": "Archive compatibility and byte-for-byte restoration; no new throughput claim."
+  "scope": "Archive hashes and round-trip checks"
 }

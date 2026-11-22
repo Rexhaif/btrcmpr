@@ -209,21 +209,17 @@ impl Layout {
         let mut sizes = vec![];
         let mut pending = 0;
         let mut typ = 255;
-        // From level six, spend effort finding better matches while the
-        // inverse object transform still fits in a worker's private cache.
         let kib = [
             128, 128, 128, 128, 160, 112, 128, 144, 152, 160, 168, 176, 184, 192, 200, 272, 448,
             640, 656, 672, 704, 448,
         ][(level - 1) as usize];
-        // At level 17 the code and record inverses benefit from smaller
-        // private-cache jobs; plain sections can use a longer match history.
+        // Window order: ordinary sections, records, instructions.
         let defaults = if level == 1 && cfg!(target_arch = "aarch64") {
             [192, 128, 192]
         } else if level == 17 {
             [512, 128, 352]
         } else if level == 20 {
-            // Banked instruction streams keep the previous preset's window;
-            // records and ordinary sections gain the longer match history.
+            // Keep the level-19 window for instruction banks.
             [kib, kib, 656]
         } else {
             [kib; 3]

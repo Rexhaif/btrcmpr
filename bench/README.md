@@ -1,34 +1,40 @@
-# Building and benchmarking
+# Running benchmarks
 
-The standalone codec needs Rust. The tools that compare it with zstd also need system libzstd. The normal release includes the selected ARM scanner; compiler training is optional.
+The comparator needs system libzstd. To build with LLVM profile data and run all 22 levels on enwik8, x-ray and Mozilla:
 
 ```sh
-# A profiled build with separate benchmark and perf programs.
 rustup component add llvm-tools-preview
 python3 scripts/build-profiled.py --selected
-
-# Fetch the original three files, then run all 22 presets.
 scripts/fetch-data.sh
 python3 scripts/preset-matrix.py --selected --out bench/local/my-run
-
-# An interrupted run resumes using its original frozen binaries and settings.
-python3 scripts/preset-matrix.py --resume --out bench/local/my-run
 ```
 
-For a shorter run, use a fresh output directory and add e.g. `--levels 1,3 --files x-ray`. Results include five alternating pairs after warmup and seven decodes per timing. The selected CLI separately compresses and restores each input. The script records hashes, ratios, absolute throughput and the 5% decode test. A benchmark can finish correctly and exit with status 1 if the requested performance target was missed.
-
-To run the same protocol on the **other 25 Squash inputs**, use the shared downloader and matrix runner. The [input manifest](corpora/squash-extra.json) pins their download URLs, lengths and hashes. This corpus defaults to the four published presets (1, 3, 10 and 22). You can narrow it with the same `--levels` and `--files` options.
+To run levels 1, 3, 10 and 22 on the [other 25 Squash files](corpora/squash-extra.json):
 
 ```sh
 scripts/fetch-data.sh --extra
 python3 scripts/preset-matrix.py --selected --corpus extra --out bench/local/my-extra-run
 ```
 
-Both sides receive four workers. One zstd frame per quarter-file permits parallel decoding; the size includes all framing. Speeds use original decimal MB/s. In-memory timing includes worker startup but excludes file I/O. For one set of hardware counters, run:
+Use a new output directory for each run. Add `--levels 1,3 --files x-ray` to select a subset. To finish an interrupted run with the same binaries and settings:
+
+```sh
+python3 scripts/preset-matrix.py --resume --out bench/local/my-run
+```
+
+## Measurements
+
+Both codecs use four workers. Each zstd worker writes one frame so the decoder can process all four in parallel. Compressed sizes include framing. Throughput is uncompressed decimal MB per second, including worker startup and excluding disk I/O.
+
+After one warmup, the runner times five pairs, alternating which codec runs first. It measures seven decodes per observation and reports median times. The standalone CLI checks the archive size and restores the input. Exit status 1 marks a missed target: the archive must be smaller than zstd's, encode faster, and decode at least 95% as fast.
+
+## Hardware counters
 
 ```sh
 BTR_LEVEL=10 scripts/perf-stat.sh --selected c ours bench/data/enwik8 4 3
 BTR_LEVEL=10 scripts/perf-stat.sh --selected c zstd bench/data/enwik8 4 3
 ```
 
-Use `d` to profile decoding and set `PERF` if perf is not on PATH. The counter region excludes file I/O and warmup. Timing jobs share a lock with selected perf runs. [Published runs](results/README.md) are frozen observations, independent of local rebuilds.
+Use `d` for decode. The last two arguments are workers and repetitions. Set `PERF` to the perf executable if needed. Counters exclude warmup and file I/O.
+
+[Published results](results/README.md)

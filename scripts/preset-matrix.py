@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run paired, full-input benchmarks at matching levels; retain all raw trials."""
+"""Benchmark btrcmpr and zstd at matching levels."""
 
 import argparse
 import csv
@@ -20,7 +20,7 @@ sys.path.insert(0, str(ROOT / "bench/tools"))
 from corpus import CORPORA, INPUTS
 from decode_gate import DEFAULT_DECODE_LOSS_PCT, allowance, label, qualifies, write_csv
 
-p = argparse.ArgumentParser()
+p = argparse.ArgumentParser(description=__doc__)
 p.add_argument("--levels")
 p.add_argument(
     "--corpus",
@@ -34,7 +34,7 @@ p.add_argument("--decodes", type=int)
 p.add_argument(
     "--selected",
     action="store_true",
-    help="use the profiled release CLI and comparator, verify archive round trips and publish absolute rates",
+    help="use the profiled binaries, check round trips and report MB/s",
 )
 p.add_argument("--out", type=Path, required=True)
 p.add_argument("--summarize", action="store_true")
@@ -42,23 +42,23 @@ p.add_argument(
     "--allow-decode-loss-pct",
     type=allowance,
     default=DEFAULT_DECODE_LOSS_PCT,
-    help="judge the exit status at this per-file throughput loss (default: 5); matrix.csv retains the strict verdict",
+    help="maximum decode throughput loss per file (default: 5%%); matrix.csv uses 0%%",
 )
 p.add_argument(
     "--from-manifest",
     type=Path,
-    help="start new cells using an already frozen comparator and its exact source identity",
+    help="use the comparator recorded in MANIFEST",
 )
 p.add_argument(
     "--resume",
     action="store_true",
-    help="finish the original matrix with its frozen executable, inputs and libzstd",
+    help="resume with the recorded binaries, inputs and settings",
 )
 p.add_argument(
     "--screen",
     action="store_true",
     default=None,
-    help="one round without warmup, for candidate selection only",
+    help="skip warmup (requires --rounds 1)",
 )
 args = p.parse_args()
 os.chdir(ROOT)
@@ -67,21 +67,18 @@ if sum(map(bool, (args.resume, args.summarize, args.from_manifest))) > 1 or (
     args.from_manifest and args.selected
 ):
     p.error(
-        "--from-manifest, --resume and --summarize are separate operations; --selected chooses the build for a new series"
+        "choose one of --from-manifest, --resume or --summarize; --from-manifest conflicts with --selected"
     )
 from benchmark_lock import run_trial, take_directory
 
 out.mkdir(parents=True, exist_ok=True)
-# Summarization writes reports too. Retain this lock for the series lifetime;
-# any live comparator inherits it as protection if its scheduler disappears.
-series_lock = take_directory(
-    out, "another process is already using this preset output directory"
-)
+# Readers that regenerate reports also need the directory lock.
+series_lock = take_directory(out, "output directory is in use")
 saved = {}
 if args.resume or args.summarize:
     manifest = out / "manifest.json"
     if not manifest.is_file():
-        p.error("no matrix manifest in the requested output directory")
+        p.error("no matrix manifest in the output directory")
     saved = json.loads(manifest.read_text())
 if (
     args.selected
@@ -197,7 +194,7 @@ if args.resume:
 elif not args.summarize:
     if (out / "manifest.json").exists() or any(out.glob("level-*.csv")):
         sys.exit(
-            "output already contains a benchmark; use --resume or choose an empty output directory"
+            "output directory contains a benchmark; use --resume or a new directory"
         )
 
     def source_hashes():

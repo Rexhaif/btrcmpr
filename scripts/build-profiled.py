@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the scratch ARM codec using thin LTO and an independently trained LLVM profile."""
+"""Build btrcmpr with thin LTO and LLVM profile data."""
 
 import argparse
 import json
@@ -16,24 +16,22 @@ from profile_training import digest, train
 
 p = argparse.ArgumentParser(description=__doc__)
 p.add_argument("--workspace", type=Path, default=root, help="Rust source directory")
-p.add_argument(
-    "--target-dir", type=Path, help="destination for the optimized cargo artifacts"
-)
+p.add_argument("--target-dir", type=Path, help="Cargo build directory")
 p.add_argument(
     "--profile-data",
     type=Path,
-    help="use an existing llvm-profdata file rather than train",
+    help="use an existing LLVM profile",
 )
 p.add_argument("--profile-sha256", help="verify the supplied profile")
 p.add_argument(
     "--comparators",
     action="store_true",
-    help="also build the separate benchmark executables that link system libzstd",
+    help="also build the libzstd benchmark tools",
 )
 p.add_argument(
     "--selected",
     action="store_true",
-    help="build the current combined codec and its comparison tools with the measured settings",
+    help="build the CLI, comparator and perf driver",
 )
 a = p.parse_args()
 if a.selected:
@@ -126,7 +124,6 @@ else:
             src,
         )
         training_meta = json.loads((corpus / "training.json").read_text())
-        # A profile's digest is part of its name, including when Rust changes.
         model = target / ("native-" + digest(pending) + ".profdata")
         pending.replace(model)
 targets = (

@@ -194,8 +194,7 @@ fn fast_counts(data: &[u8]) -> [u32; 256] {
 }
 #[inline]
 fn fast_log(n: usize) -> f64 {
-    // Linear interpolation of log2 on sixteen subintervals. This is used
-    // only to choose a representation; all frequencies in the wire are exact.
+    // Estimate coding cost by interpolating log2 over 16 intervals.
     static LUT: std::sync::LazyLock<[f64; 17]> =
         std::sync::LazyLock::new(|| std::array::from_fn(|i| (1. + i as f64 / 16.).log2()));
     let e = (n as f64).to_bits();

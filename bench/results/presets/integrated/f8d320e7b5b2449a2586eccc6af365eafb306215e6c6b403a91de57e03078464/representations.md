@@ -1,6 +1,6 @@
-# Stored representations on the selected build
+# Archive block types
 
-Each row is based on the exact archive SHA-256 from the [standalone round trip](verified-cells.csv). The counts below describe the outermost blocks, not guesses from the file name or level. The [per-representation bytes](representation-bytes.csv) show how much input and compressed payload each kind accounts for. Header bytes plus all stored payload bytes equal the full archive. Shared dictionary bytes are already included in the payload.
+Counts are for outermost blocks in the [66 archives](verified-cells.csv). Archive size is framing plus payload; the first block’s payload includes any shared dictionary. [Bytes per block type](representation-bytes.csv).
 
 | File and level | Stored blocks (tag: count) | Framing bytes | Shared dictionary bytes | Row strides (samples: jobs) |
 |---|---|---:|---:|---|
@@ -70,8 +70,6 @@ Each row is based on the exact archive SHA-256 from the [standalone round trip](
 | [enwik8, 22](l22/level-22-enwik8.csv) | 50: 1, 51: 3 | 36 | 2,435,154 | — |
 | [mozilla, 22](l22/level-22-mozilla.csv) | 1: 41, 9: 24, 21: 53 | 14,043 | 0 | — |
 | [x-ray, 22](tracks/x-ray/level-22-x-ray.csv) | 63: 8 | 52 | 0 | 1899: 1, 1900: 7 |
-
-Archive headers available for 66 of 66 measured cells. An omitted row has no header capture here.
 
 | Tag | Stored representation |
 |---:|---|

@@ -1,6 +1,5 @@
-// Look up two neighboring positions before deciding the first one. When the
-// indices collide, the second lookup must see the just-inserted first slot.
-// A successful first match discards the speculative second lookup.
+// Probe adjacent positions together. On a hash collision the second lookup
+// sees the first insertion; a match at the first position skips the second.
 use super::{Streams, probe, word};
 #[inline(always)]
 fn keys<const PREFIX: usize, const BITS: usize, const PLAIN: bool>(w: u64) -> (usize, u32) {

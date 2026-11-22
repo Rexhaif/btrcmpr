@@ -1,6 +1,5 @@
-// One eight-byte input word contains both overlapping hash prefixes (up to
-// seven bytes each). The second full input word is only needed on a real
-// candidate. Position zero is initialized before starting at byte one.
+// Derive both overlapping hash prefixes from one eight-byte load. Read a
+// candidate’s source word after its fingerprint matches.
 use super::{MASK, word};
 #[inline(always)]
 fn index<const P: usize, const B: usize>(w: u64) -> usize {
@@ -12,9 +11,8 @@ fn check(s: &[u8], i: usize, prefix: u64, slot: u32) -> Option<(usize, u64)> {
         return None;
     }
     let q = slot as usize & MASK;
-    // The table is private to this encoder block. Old entries were read
-    // before this pair's writes, or refer to the definitely earlier first
-    // byte. Even a fresh zero entry refers to a readable word at byte zero.
+    // The slot predates this pair or points to its first byte. An empty slot
+    // points to byte zero, which also has eight readable bytes.
     debug_assert!(q < i && i + 8 <= s.len());
     let history = unsafe { s.as_ptr().add(q).cast::<u64>().read_unaligned() }.to_le();
     let x = history ^ prefix;

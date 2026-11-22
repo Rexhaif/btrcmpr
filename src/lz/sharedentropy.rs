@@ -1,5 +1,4 @@
-// A region's middle block trains the other blocks but is parsed only once.
-// No information is retained between calls and every block decodes alone.
+// The middle block supplies each region’s entropy model. Blocks decode independently.
 use super::{Streams, emitoffset};
 use crate::{Frame, Result, ans, compress_with_block, palette::fixedpalette::Model};
 use std::sync::Mutex;

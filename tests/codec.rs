@@ -72,7 +72,6 @@ fn sixteen_bit_prediction_with_outliers_and_odd_tail() {
     assert!(selected.len() <= adjacent.len());
 
     {
-        // This signal has a repeating row component as well as outliers.
         assert_eq!(selected[0], 63);
         assert!(selected.len() < adjacent.len());
     }

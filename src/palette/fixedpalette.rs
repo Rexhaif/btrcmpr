@@ -127,10 +127,9 @@ impl Model {
             h[hn - 16..].fill(MaybeUninit::new(0));
             r[tail_end..tail_end + 17].fill(MaybeUninit::new(0));
         }
-        // The head writer advances K bytes after each overlapping 8-byte
-        // store. The rank writer advances at most the byte width of its
-        // store. Every payload byte is thus initialized, as are both pads
-        // and the transmitted rank bit count. Unused capacity stays private.
+        // The head writer advances K bytes per eight-byte store; the rank writer
+        // advances at most its store width. Together with both pads and the rank
+        // bit count, these stores initialize every byte exposed by set_len.
         unsafe { out.set_len(end) };
         true
     }

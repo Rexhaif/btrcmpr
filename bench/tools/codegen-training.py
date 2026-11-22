@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build reproducible compiler-training inputs independently of the benchmark corpus."""
+"""Generate inputs for LLVM profile training."""
 
 import argparse
 import hashlib
@@ -85,7 +85,7 @@ with tarfile.open(out / "records.tar", "w", format=tarfile.USTAR_FORMAT) as t:
         e.mtime = 0
         t.addfile(e, io.BytesIO(b))
 meta = {
-    "kind": "compiler branch counts only; no model or dictionary read by the codec",
+    "kind": "LLVM profile training inputs",
     "seed": 0x5863,
     "sources": source,
     "inputs": {

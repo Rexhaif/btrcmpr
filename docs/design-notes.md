@@ -1,20 +1,21 @@
-# Design decisions and development record
+# Codec design
 
-The encoder spends more work only when the input offers structure it can use. Most changes below improve one class of files at the expense of another. All timings below describe the measured release and the four-worker zstd baseline on the Raspberry Pi 5.
+**Match search.** Level 1 reads two overlapping prefixes from one word and reuses literal and distance models across neighboring blocks. The [six-byte matcher](../bench/results/presets/level-one-candidates.md) produced a smaller enwik8 archive but encoded more slowly than zstd. Higher presets index several prefix lengths and the last match distance. Fingerprints discard candidates before the encoder reads their text.
 
-| Area explored | Decision and evidence |
-|---|---|
-| Low-level string search | The level-1 scanner derives two overlapping prefixes from one input word. Large regions share literal and distance models. An earlier six-byte matcher compressed enwik8 slightly smaller but encoded more slowly than zstd. Reusing object buffers improved Mozilla throughput but missed the enwik8 decode floor by 0.86 percentage points. [Finalists](../bench/results/presets/level-one-candidates.md). |
-| General LZ search | Multiple prefix lengths, small fingerprints, and the previous distance narrow the list of source positions. Wider tables and more probes pay off at middle presets. On enwik8 level 10, Rust used **93.26 vs 295.96 instructions/input byte**, but only encoded **1.29×** as fast: the remaining lookups retire fewer instructions per cycle. Reducing zstd’s search depth alone cut its work to 178.19 instructions/byte and grew its archive by 625,934 bytes. [Counters](../bench/results/profiles/enwik8-general/combined-10/interpretation.md). |
-| Entropy, command layout and ARM decoding | Separating tags, literals, lengths and distances lets the decoder prepare and copy commands in batches. Alternative palettes, entropy coders, short-copy policies, prefetch distances and deeper command queues were compared; several reduced instruction counts without reducing time. Mozilla level 1 illustrates this: 4.14 vs 8.71 instructions/output byte, but 4.85 vs 4.41 summed CPU cycles. [Counters](../bench/results/profiles/combined-01-mozilla/README.md). |
-| High-level text parsing | Local adjacent-token merges, then dictionaries shared across jobs, then pooled phrase learning and packing the dictionary fields. Independent, shared and mixed token streams were compared with lazy and cost-based LZ parses. All dictionary bytes count toward the archive. A costly parse does not guarantee a smaller file. |
-| Structured binary data | Checksummed tar input with recognized object sections can be reordered reversibly. Selected presets use different windows for records, instruction sections and other bytes, with fixed-width record fields decoded directly into place. Experiments on aliases, instruction banks, distance lanes and worker scratch were specific to this layout; Mozilla does not stand in for all executables. |
-| Signals | Predict neighboring 16-bit samples, then optionally infer a row stride. Longer searches, job size and residual coding mattered more on x-ray than simply increasing search depth. Only five distinct x-ray sizes appeared across the 22 presets. |
-| Compiler and measurements | Thin LTO and profile-guided compilation used training inputs separate from the benchmark files. Freeze executable, library and corpus identities; alternate five timed pairs after warmup, verify decoded bytes, and keep independent repeats separate. A contaminated enwik8 level-15 timing was excluded after a second worker pool ran concurrently; its replacement, raw evidence and rationale are in the archive. The smallest margins are sensitive to timing: a five-pair Mozilla level-1 rebuild lost 0.37% on encode, while the longer replay won 2.22%. |
-| Generalization | The original three files passed 66/66 with the 5% decode allowance; the [other 25 Squash files](../bench/results/squash-extra-20261122/README.md) passed only 4/100 at four representative settings. Large wins on predictable signals and particular object layouts do not establish a general win over zstd. |
+**ARM decoding.** Separate streams for tags, literals, lengths and distances let the decoder unpack commands in batches. On [Mozilla at level 1](../bench/results/profiles/combined-01-mozilla/README.md), btrcmpr decoded in 4.14 instructions per byte against zstd's 8.71, but used 4.85 CPU cycles per byte against 4.41. On [enwik8 at level 10](../bench/results/profiles/enwik8-general/combined-10/interpretation.md), btrcmpr's encoder used 93.26 instructions per byte against 295.96; its sparse probes retired fewer instructions per cycle.
 
-The maintained crate exposes the ordinary codec and the optional `baseline` comparison tools. The earlier `research` feature, `research_*` APIs and scanner-selection environment variables belong to the archived source. On ARM the normal build now uses the measured scanner directly, including without PGO. The CLI syntax and the released wire format are unchanged.
+**Text.** Workers merge frequent pairs of adjacent tokens. Higher levels share dictionary entries across workers, pool pair counts and compress the dictionary fields. Each job retains a separate token stream.
 
-The [development snapshot](../bench/archive/development-snapshot.tar.gz) contains the complete pre-cleanup source, tests, benchmark scripts, experiments, README files and published results at their original paths. It excludes downloaded inputs, generated build directories, local worktrees and binaries. SHA-256: `52e090550c9d8b61971e39a41fa1b1b0cc5d1f3ac1dd845fa0911390bed701d6`.
+**Object archives.** The encoder checks tar headers, groups recognized object sections, and records the layout needed to put each byte back. Instruction sections, fixed-width records and ordinary bytes have separate match windows at some presets. The decoder writes record fields directly to their original positions.
 
-To find a particular experiment, list the archive with `tar -tzf bench/archive/development-snapshot.tar.gz`. Its original index is `bench/results/presets/research/README.md`; view it without unpacking with `tar -xOzf bench/archive/development-snapshot.tar.gz bench/results/presets/research/README.md`. To reconstruct the old checkout, extract into a fresh empty directory. Local worktrees are parked in the ignored `bench/local/archive/`; the cleaned build does not use them. Removing their Cargo incremental caches discarded 9.78 GB of generated files while preserving the worktrees and benchmark outputs.
+**Signals.** The encoder predicts from adjacent 16-bit samples or estimates a row stride. Larger jobs store fewer row seeds; longer stride searches can find earlier rows. The [preset table](../PRESETS.md) lists search distances and job sizes.
+
+**Compiler.** Release benchmarks used thin LTO and LLVM profile data trained on separate inputs. The ARM build uses the two-position scanner with or without profile data.
+
+## Archived experiments
+
+The [source snapshot](../bench/archive/development-snapshot.tar.gz) contains the earlier encoders, experiments and measurements. Read its index without unpacking:
+
+```sh
+tar -xOzf bench/archive/development-snapshot.tar.gz bench/results/presets/research/README.md
+```

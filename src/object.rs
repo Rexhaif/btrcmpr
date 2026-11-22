@@ -4,8 +4,7 @@ pub(crate) fn archive_lz(src: &[u8], level: u8) -> Vec<u8> {
     let effort = crate::archive_parser(level);
 
     if level == 22 && effort >= 5 {
-        // Smaller independent jobs keep the inverse in cache. At this
-        // preset, also code streams whose savings fall below ten percent.
+        // Level 22 also encodes streams with less than 10% estimated savings.
         lz::dense::<true>(src, effort, true)
     } else {
         lz::encode_level::<true>(src, effort)
@@ -231,8 +230,7 @@ fn vint(mut v: usize, b: &mut Vec<u8>) {
     }
     b.push(v as u8);
 }
-// Estimate how many literal bytes and match references the substream needs.
-// This is only an encoder-side choice; the decoder gets one bit per bank.
+// Estimate literal and match costs to choose the encoding bit for each bank.
 fn bank_cost(s: &[u8]) -> usize {
     if s.len() < 6 {
         return s.len() * 8;
@@ -352,8 +350,7 @@ pub(crate) fn unbanked(p: &[u8], d: &mut [u8]) -> Result<()> {
     let n = d.len();
     unbanked_slices(p, n, &mut [(0, d)])
 }
-// Prefix sums are independent within each bank. After the scan, restoring
-// a word only needs its upper halfword and a single indexed lower halfword.
+// Each bank has an independent prefix sum. Pair the upper halfword with its indexed lower halfword.
 pub(crate) fn unbanked_slices(p: &[u8], n: usize, spans: &mut [(usize, &mut [u8])]) -> Result<()> {
     restore_banks::<5>(p, n, spans, None)
 }
@@ -571,8 +568,7 @@ fn write_banks_hint<const TILE: usize, const B: usize, const VEC: bool, const HI
             let mut keys = [0u16; TILE];
             #[cfg(all(target_arch = "aarch64", target_endian = "little"))]
             if VEC {
-                // The high halfwords are contiguous. Extract eight bank IDs
-                // before the indexed loads of bank cursors.
+                // Extract eight bank IDs before loading their cursors.
                 use std::arch::aarch64::*;
                 let mut j = 0;
                 while j + 8 <= k {
@@ -617,7 +613,6 @@ fn write_banks_hint<const TILE: usize, const B: usize, const VEC: bool, const HI
                 use std::arch::aarch64::*;
                 let mut low = [0u16; TILE];
                 for (v, &pos) in low[..k].iter_mut().zip(&positions[..k]) {
-                    // All offsets are even and below the validated bound.
                     *v = unsafe { t.as_ptr().add(pos as usize).cast::<u16>().read_unaligned() };
                 }
                 let full = k & !7;

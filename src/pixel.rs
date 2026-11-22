@@ -79,9 +79,8 @@ pub fn decode(mut p: &[u8], d: &mut [u8]) -> Result<()> {
     Ok(())
 }
 
-// Adjacent samples usually differ by one signed byte. Put the low bytes in
-// one contiguous plane, and pay for a 16-bit exception mask only in groups
-// that actually need one. The decoder scans eight deltas per NEON register.
+// Store low delta bytes together; only groups with exceptions carry a
+// 16-bit mask. Each NEON register holds eight deltas.
 pub fn adjacent(s: &[u8]) -> Vec<u8> {
     if s.len() < 2 {
         let mut r = vec![0];

@@ -1,10 +1,6 @@
-# Variation between paired rounds
+# Variation across five pairs
 
-The [preset acceptance table](preset-ladder.md) compares each codec’s median time. This table instead compares Rust and zstd within each alternating round: Rust must encode faster and decode at least 95% as fast. Counting individual wins helps identify comparisons that are sensitive to timing. Five pairs are too few to establish a guaranteed margin. No rows are discarded.
-
-In 63 of 66 verified file/level comparisons, Rust encoded faster in every pair; in 60, every pair met the decode allowance. [Full data, including minima, maxima and paired medians](paired-rounds.csv).
-
-The six cells with the fewest rounds passing both speed thresholds, ordered by number passing, then paired encode median. Each speed is Rust throughput divided by zstd throughput within one round.
+Each pair compares btrcmpr and zstd in one round. Across 66 file/preset combinations, btrcmpr encoded faster in all five rounds for 63 combinations and decoded at least 95% as fast in all five for 60. These six had the fewest rounds meeting both thresholds. Rates are btrcmpr / zstd. [All rounds](paired-rounds.csv) · [Median results](preset-ladder.md)
 
 | File / level | Encode wins | Decodes within 5% | Both in same round | Median paired encode | Median paired decode |
 |---|---:|---:|---:|---:|---:|

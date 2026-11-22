@@ -275,8 +275,7 @@ pub(crate) fn legacy_width<
     legacy_policy::<ARCHIVE, SHORT, LONG, TWICE, FILL, EXTRA, PB, false, 0>(s)
 }
 
-// The minimum is four. At wider distances an equal-length match can need
-// extra offset bytes and a cold history read in the decoder.
+// Distant matches need more offset bytes and can miss the decoder cache.
 #[inline(always)]
 fn history_value(len: usize, off: usize, repeat: usize) -> isize {
     if len < 4 {
@@ -324,9 +323,7 @@ pub(crate) fn legacy_policy<
     >(s)
 }
 
-// A short distant copy may cost more in both offset bytes and cache misses
-// than the literals it replaces. The table gives the largest admissible
-// distance for lengths 4..=12. Repeat distances remain eligible.
+// Maximum distance by match length (4 through 12). Repeat distances are exempt.
 #[inline(always)]
 fn remote_short<const LIMIT: u8>(len: usize, off: usize, rep: usize) -> bool {
     if LIMIT == 0 || !(4..13).contains(&len) || off == rep {
@@ -400,8 +397,7 @@ pub(crate) fn history_model<
         ((w.wrapping_mul(0x9e3779b97f4a7c15) ^ x.wrapping_mul(0xa24baed4963ee407)) >> (64 - B))
             as usize
     }
-    // The nine-byte prefix separates candidates that collide in the seven-
-    // byte table but diverge before the twelve-byte table can find a match.
+    // The nine-byte index separates seven-byte collisions that differ before byte twelve.
     #[inline(always)]
     fn nine(w: u64, ninth: u8) -> usize {
         ((w ^ (ninth as u64).wrapping_mul(0xa24baed4963ee407)).wrapping_mul(0x9e3779b97f4a7c15)
@@ -473,8 +469,7 @@ pub(crate) fn history_model<
             best = m;
             pos = q
         }
-        // The extra index is complete for the selected short-prefix buckets;
-        // history and lookahead use the same gate.
+        // History and lookahead must index the same short-prefix buckets.
         if EXTRA != 0 && k.a & ((1 << GATE) - 1) == 0 && i + 12 <= s.len() {
             let e = std::mem::replace(&mut ext[superkey::<EXTRA>(s, i, w)], here);
             let (l, q) = wide_probe::<PB>(s, i, w, e, k.sig);
@@ -630,9 +625,8 @@ pub(crate) fn eighth_text(s: &[u8]) -> Vec<u8> {
     history_model::<false, 18, 21, false, 1, 18, 25, true, 2, 1, false, true, 0, false>(s)
 }
 pub(crate) fn middle_text(s: &[u8], level: u8) -> Vec<u8> {
-    // With larger search budgets, index every 12-byte prefix and retain
-    // a second short-prefix candidate. Tags and distances use four-state
-    // entropy coding; at level 11 the excess lengths do too.
+    // Level 10 indexes all 12-byte prefixes. Level 11 retains a second short-prefix
+    // candidate and entropy-codes excess lengths.
     match level {
         9 => history_model::<false, 18, 21, false, 1, 19, 25, true, 1, 0, true, true, 3, false>(s),
         10 => history_model::<false, 19, 21, false, 1, 22, 25, true, 0, 0, true, true, 1, false>(s),
@@ -2065,8 +2059,7 @@ mod preset_tests {
     }
     #[test]
     fn far_references_and_short_matches() {
-        // The source distance exceeds the old code's largest offset. Exercise
-        // both SIMD batches and the scalar tail with the new minimum length.
+        // Cover long offsets in both SIMD batches and the scalar tail.
         let mut s = vec![0u8; 3_010_000];
         let mut rng_state = 29u32;
         for q in &mut s {
@@ -2116,8 +2109,7 @@ mod preset_tests {
             assert_eq!(counts, (8, 6));
             Ok((out, bytes.len() - far.len()))
         };
-        // The padded input takes the vector path; the unpadded input must
-        // return the same values without reading beyond its fifth byte.
+        // The unpadded scalar tail must match the padded vector path.
         let mut single = [0; 16];
         single[..5].copy_from_slice(&[0, 1, 5, 10, 42]);
         let (dense, consumed) = run(&single, 8 << 20).unwrap();

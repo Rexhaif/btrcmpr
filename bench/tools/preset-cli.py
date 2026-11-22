@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check the production CLI against sizes from one or more paired matrices."""
+"""Check CLI archive sizes and round trips against benchmark results."""
 
 import argparse
 import csv
@@ -15,10 +15,8 @@ from pathlib import Path
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument("matrix", type=Path, nargs="+")
 parser.add_argument("--out", type=Path, required=True)
-parser.add_argument(
-    "--binary", type=Path, help="use an already measured standalone encoder"
-)
-parser.add_argument("--sha256", help="required identity of --binary")
+parser.add_argument("--binary", type=Path, help="path to the standalone encoder")
+parser.add_argument("--sha256", help="expected SHA-256 of --binary")
 args = parser.parse_args()
 if bool(args.binary) != bool(args.sha256):
     parser.error("--binary and --sha256 must be supplied together")

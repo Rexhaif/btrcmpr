@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Read the framing and report the actual stored codec of each kind of block."""
+"""List archive block types, sizes and row strides."""
 
 import json
 import mmap
@@ -36,7 +36,7 @@ NAMES = {
 
 
 def inspect(path):
-    """Charge all outer headers and payloads. The real decoder validates the payloads."""
+    """Read block headers without decoding their payloads."""
     with (
         Path(path).open("rb") as fh,
         mmap.mmap(fh.fileno(), 0, access=mmap.ACCESS_READ) as data,
